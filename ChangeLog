@@ -1,0 +1,1028 @@
+2009-04-09  MIYAMUKO Katsuyuki
+
+	* hatena-haiku-mode 0.3.2 released!
+
+	* keyword が id:foo の場合、タイトルが取れなかったのを修正
+
+2009-04-08  MIYAMUKO Katsuyuki
+
+	* history を構造体で保持するようにした
+
+	* はてな ID で始まるキーワードが正しく表示できていなかった問題を修正
+	  「id:onomasayukiだけど、ネットラジオします」など
+
+	* recent ページで投稿バッファを開くときはカーソル下のキーワードをデフォルトで
+	  表示するようにした。
+
+2009-04-07  MIYAMUKO Katsuyuki
+
+	* source がない場合があるので対応 (h:keyword:emacs など)
+
+	* 1 ページ目を 2 回ロードしていたのを修正
+
+	* haiku-insert-next-keyword-page じゃなくて haiku-insert-next-entry-page だと思う
+
+	* hatena-haiku-mode 0.3.1 released!
+
+	* 関連キーワードがないページだと普通のキーワード一覧を読み込んで
+	  しまっていた問題を修正
+
+	* hatena-haiku-mode 0.3.0 released!
+
+	* 投稿バッファの高さの比率 (0-1) を指定できるようにした。
+	  デフォルトは 0.3 (= 30%)
+	  *haiku-post-buffer-height-ratio* で設定。
+
+	* (haiku-post-entry): 投稿後に自動的にリロードするようにした。
+
+	* 投稿元のクライアント (from 欄, source) を指定できるようにした。
+	  - *haiku-default-source* でデフォルトの source を指定可能
+	  - 投稿バッファで C-u C-c C-c でポスト時に source を指定可能
+	  - C-u M-x haiku-post-minibuffer でポスト時に source を指定可能
+
+	* エントリ本文の前後の無駄な空白を削除するようにした。
+
+	* 投稿元の from を表示するようにした。
+	  設定に *haiku-entry-meta-text-color* を追加
+
+	* hatena-haiku-mode 0.2.3 branch の変更を取り込み
+	  (ライセンスファイルを同梱)
+
+2009-04-01  MIYAMUKO Katsuyuki
+
+	* (haiku-star-add-star): 引数の間違いを修正
+
+2008-03-21  MIYAMUKO Katsuyuki
+
+	* (haiku-delete-current-entry): 削除の成否をメッセージに出力
+
+	* D でエントリの削除
+
+	* rks の管理は api/account.l に移動
+
+	* (and-let): and-let* と同じになっていたのを修正
+
+	* (haiku-star-add-star): hatena-star-add-star の wrapper
+
+	* rks の管理は account で行うことにした
+
+	* title => keyword
+
+	* (delete-entry-url): エントリの削除 url
+	  (new-relation-url): 関連キーワードの追加 url
+	  (delete-relation-url): 関連キーワードの削除 url
+	  (haiku-delete!): エントリの削除
+	  (haiku-relation-add!): 関連キーワードの追加
+	  (haiku-relation-delete!): 関連キーワードの削除
+
+	* require json
+
+	* (and-let, and-let*): Gauche 本から ant-let, and-let* を導入
+
+	* 謎の eval-when を削除
+
+	* (haiku-user-star-count): ユーザごとのスターが取れなくなったので削除。
+
+	* (current-entry-keyword, current-entry-encoded-keyword): remove extra key arguments
+
+2008-03-16  MIYAMUKO Katsuyuki
+
+	* encode されたキーワードの取得関数を追加。
+
+	* entry 一覧の取得で encode された keyword を取得
+
+	* if-modified-since 周りのマクロを別ファイルにした。
+
+	* サブタイトルがない場合の HTML の変更に対応
+
+2008-03-09  MIYAMUKO Katsuyuki
+
+	* hatena-haiku-mode 0.2.2 released!
+
+	* (parse-link): multiline にしたため youtube のリンク解析が失敗するようになったのを修正。
+
+	* ☆文字列の作成周りを hatena-star.ui に移動
+
+	* - ui/version.l => api/about.l
+	  - 独自の User-Agent を設定
+
+2008-03-06  MIYAMUKO Katsuyuki
+
+	* hatena-haiku-mode 0.2.1 released!
+
+	* Recent ページから Following が削除されたので対応
+	  http://d.hatena.ne.jp/hatenahaiku/20080304/1204619327
+
+	* - はてなスターの描画時にまだデータを取得できていなかったら timer を使って遅延させて
+	    待ち時間をなくした。
+	  (invoke-later): new macro to wrap start-timer.
+	  (save-current-line-column): save current-line-number and current-column.
+
+	* (current-keyword): キーワードの範囲内にカーソルがあるかチェック
+
+2008-03-05  MIYAMUKO Katsuyuki
+
+	* (parse-link): niconico の tag を除去
+
+	* (with-multiline-regexp-string): 改行を一時的に変換して処理する。
+
+2008-03-03  MIYAMUKO Katsuyuki
+
+	* (haiku-render-hot-keyword-buffer): hot keyword の取得時に If-Modified-Since をつけてなかったのを修正。
+	  (fetch-hot-keyword-list): new function.
+
+	* - キーワード一覧などで h d が動いてエラーになってしまうのをとりあえず回避。
+
+	* hatena-haiku-mode 0.2.0 released!
+
+	* - 次のページのロードが失敗していたのを修正。
+	  - render, insert 周りを整理
+
+2008-03-02  MIYAMUKO Katsuyuki
+
+        * 今の作りでは base-map に define-key しても反映されないので xxx-map の
+	  export は見送り
+
+	* - (*haiku-disable-color*): t なら色を設定しない
+	  - (haiku-set-text-attribute): set-text-attribute はコレでまとめる
+
+	* keyword-url => keyword-entries-url
+
+	* - j, k でカーソル位置を保存するのは keyword list だけ
+	  - hot keyword の C-a, C-e, C-n, C-p は virtual line で。
+
+	* - 表示時に次のページをロード
+	  - keyword のページ処理を共通関数を使うようにした。
+
+	* H に hot keyword を割り当て
+
+	* - (haiku-insert-next-keyword-page): 次のページがない場合はそれを記憶する。
+	  - (haiku-insert-keyword-page): 次のページがない場合 nil を返す。
+
+	* remove duplicated function.
+
+	* - keymap 周りを整理。
+
+	* - hatena-haiku-mode-debug が features にあれば
+	    コンパイル時に symbol の関数が存在するかチェックするようにした。
+	  - #' だとヘルプで見ると全部 Command になってしまう。
+
+	* (with-keymap): append とかせずにマクロを定義
+
+	* - (define-keymap): *haiku-debug* が t ならロードごとに毎回設定
+	  - #' にした。
+
+	* (define-keymap): 同じ処理をマクロ化
+
+	* - keybind の設定を keybind.l にまとめた
+	  - ユーザ設定は config.l にまとめた
+
+	* (haiku-star-get-entries-future): :since の制御を http.l のマクロを使って行う。
+
+	* (*http-get-no-if-modified-since*): defvar にした。
+
+	* eval when してみた。
+
+	* - entry-page => nopaging
+
+	* - hot-keyword に対応
+
+	* oops... fixed typo: croud => cloud
+
+2008-03-01  MIYAMUKO Katsuyuki
+
+	* - h d でダイアリを開く
+	  - その他 (b, q, i など) もひらける
+
+	* (join-url): encoding を忘れてた。
+
+	* 色指定を defvar 化
+
+	* - cursol-line を消した。
+	  - スター描画前に refresh-screen
+
+	* - cursol-line を消した。
+	  - fold-mark をつけた。
+
+	* - (haiku-add-star-entry): スターを一個撃った場合でもすぐにフィードバックを返す。
+
+	* (join-url): xhr::add-query-string を利用。
+
+	* (haiku-http-get): *http-get-no-if-modified-since* が t の場合は since を指定しない。
+	  デバッグ用。
+
+2008-02-24  MIYAMUKO Katsuyuki
+
+	* hatena-haiku-mode 0.1.0 released!
+
+	* haiku-star-limiter-release が動いていなかったのを修正
+
+	* location を指定しないと書き込みできなくなっていたのを修正
+
+	* Bumped version number to 0.1.0
+
+	* (haiku-frame-p): haiku フレームなら t
+	  (switch-to-last-frame): if 文の中が逆
+
+	* (haiku-buffer-p): haiku バッファなら t
+
+	* (haiku-haide, haiku-show): 異なるフレームに haiku バッファを
+	  表示していてもうまく隠すようにした。
+
+	* - (10 ("fo")) 形式のスターをそれっぽく表示するようにした
+	  - haiku-star-limiter-set: limiter のセッター関数
+
+	* haiku-star-entry => haiku-add-star-entry
+
+2008-02-23  MIYAMUKO Katsuyuki
+
+	* はてなスターに対応。
+
+	* add api/star.l
+
+	* - api で人気順に対応 (:hot t)
+	  - keyword-url => keyword-entries-url
+
+	* (take-if): 指定された関数が t を返したところまでを取得
+
+	* - http-get, http-post が xhr とかぶっていたので、haiku- prefix をつけた
+	  - hot-keyword-list で encoded-keyword に対応。
+
+	* - entry-url => new-entry-url
+	  - xml-http-request 1.0.0 のメソッドを利用
+
+	* - base-url の動的な切り替えに対応
+
+	* xml-http-request, hatena-star を require and use.
+
+	* (with-if-modified-since-last-fetch): +unix-epoch+ は消したので :epoch を指定
+
+	* ($): equal でテストするようにした。
+
+	* xml-http-request 1.0.1 に対応
+
+	* - xml-http-request を require and use
+
+2008-02-16  MIYAMUKO Katsuyuki
+
+	* (with-temporary-buffer): deleted-buffer-p には nil やバッファ以外を指定できないのでチェック
+
+2008-02-03  MIYAMUKO Katsuyuki
+
+	* 新 xml-http-request に対応
+
+	* ログインを確認するためは cache から読んでは駄目。
+
+	* (url-path): URL の path 部分を返す。
+
+2008-02-02  MIYAMUKO Katsuyuki
+
+	* - (set-hatena-haiku-base-url): remove-trail-slash して set
+	  - (*hatena-haiku-base-url*): *hatena-haiku-url* から rename
+
+	* (haiku-hide): z でボスが来た haiku-show で復帰
+	  (haiku-quit): rename from quit-hatena-haiku-mode.
+
+	* entry-count がなくてもキーワードリストを取得できるようにした。
+
+	* - エントリが取得できない場合にエラーにならないようにした。
+
+2008-01-22  MIYAMUKO Katsuyuki
+
+	* hatena-haiku-mode 0.0.3 released!
+
+	* 関連キーワード機能を追加。
+	  http://d.hatena.ne.jp/hatenahaiku/20080120/1200796608
+
+2008-01-21  MIYAMUKO Katsuyuki
+
+	* hatena-haiku-mode 0.0.2 released!
+
+	* (http-get): 取得している url を message に表示
+
+2008-01-20  MIYAMUKO Katsuyuki
+
+	* ヒストリの移動は入り口で行うべきなので、r1983, r1984 を revert
+
+2008-01-19  MIYAMUKO Katsuyuki
+
+	* エントリがないページでタイトルが表示されない問題を修正。
+
+	* (fetch-keyword-list): use safe-lv.
+
+	* Unicode の WAVE DASH 問題を回避するために URL 中からエンコードされたキーワードも取得するようにした。
+
+	* (hatena-haiku-mode-version): add new function
+
+	* (render-title): ユーザの profile ページなど subtitle がない場合に対応
+
+	* (*entry-friends-user-regexp*, *entry-friends-keyword-regexp*, *entry-friends-scrape-rule*): はてなの変更に対応。
+
+	* (load-next-pages): 体感速度の向上のため refresh-screen
+
+	* - entry ページのヒストリに対応
+	  - M-x で直接 xxx-pane を開いた場合にヒストリが聞かないので、やっぱり入り口で保存すべきか？
+
+2008-01-18  MIYAMUKO Katsuyuki
+
+	* (haiku-save-keyword-list-history): ヒストリとページ、カーソルの位置情報を保存
+	  (restore-haiku-keyword-list-pane): ヒストリから復元
+	  (haiku-search-keyword): 他のページに移動時にヒストリを保存
+	  (haiku-show-keyword-entry): ditto
+	  (haiku-keyword-list-pane): ページに入ってきたときに保存しても位置情報などは保存できない。
+
+	* (haiku-next-page-base1, haiku-next-line-base1): load タイミングが間違ってた。
+
+	* (with-current-if-modified-since): 現在の *http-get-if-modified-since* で固定。
+	  (with-force-if-modified-since): 引数の *http-get-if-modified-since* で固定。
+	  (with-no-if-modified-since): *http-get-if-modified-since* を nil で固定。
+	  (haiku-forward-page, haiku-backward-page): ヒストリの移動はキャッシュを使うようにした。
+
+	* (save-current-window-line): 現在のカーソル行を変更しない
+
+	* (haiku-next-page-base1, haiku-next-line-base1): 移動できない＆次のページをロードした場合のみ再帰
+	  (load-next-pages): 次のページをロードする関数。
+
+	* M は自分の following にした。
+
+	* C-n, C-v での自動ロードのタイミングを変更。
+	  移動した後にページの最後が見えていればロードする。
+
+	* j, k で移動するときに現在のカーソル行は移動しないようにした。
+	  いきなり recenter 1 だとカーソルが1行目以外にあった場合に驚く。
+
+	* - / による検索を全バッファで
+	  - M で自分の entries
+	  - SPC で次のページを基本に
+
+2008-01-14  MIYAMUKO Katsuyuki
+
+	* hatena-haiku-mode 0.0.1 released!
+
+	* タイトルだけで投稿できたバグを修正。
+
+	* - T で recent
+	  - L で keyword list
+
+	* (haiku-init-user-and-keyword-buffer): バッファの初期化関数
+
+	* SPC で user 一覧をスクロール
+
+	* 返信に対応
+
+	* 引数チェックとメッセージを修正
+
+	* (haiku-post-minibuffer): 引数チェック
+
+	* - (*haiku-keyword-list-map*): *haiku-keyword-map* を copy-keymap して定義
+	  - SPC で次のページ
+
+	* バッファ名間違いを修正
+
+	* エントリのキーワードページとキーワード一覧で keymap を変更
+
+	* (haiku-open-user-by-browser): ユーザページをブラウザで開く
+
+	* (haiku-post-minibuffer): ミニバッファから post する。
+
+	* (haiku-toggle-keyword-pane, haiku-toggle-user-pane): User, Keyword バッファの表示・非表示をトグル
+
+	* recent と user で entry-type がかぶってて変なことになっていたので、
+	  とりあえず entry-type のチェックをしないようにした。
+
+	* バッファ名を返す xxx-name を追加
+
+	* 関数名の変更に対応
+
+	* (delete-buffer-window): 指定されたバッファが表示しているwindow を削除
+
+	* - エントリの取得時に If-Modified-Since を付けてみた。
+	  - super-reload 時は epoch から。
+
+	* (set-lv): local-variable じゃないとエラーにした。
+
+	* - (haiku-recent-pane, haiku-user-pane): 既に表示しているので message を表示しないようにした。
+	  - (entry-type): buffer を optional に.
+
+	* user profile ページだけ post title を設定
+
+	* - (parse-hatena-id): ui/entry.base.l から api/account.l に移動
+	  - (make-hatena-id): id:xxx 記法に変換
+
+	* - (haiku-recent-pane): 共通部分をくくりだし
+	  - (haiku-switch-recent-entries, haiku-switch-recent-following): 一段はさむことにした。
+
+	* E, F, P を定義
+
+	* user ページの entries, following, profile に対応。
+
+	* (haiku-keyword-entries-pane): rename from haiku-keyword-entry-pane.
+
+	* (haiku-create-entry-pane): init-fn の呼び出しを funcall ではなく apply にした。
+
+	* (haiku-recent-entries-pane): rename from haiku-recent-pane.
+	  (haiku-recent-following-pane): Recent Following を表示する
+
+	* (haiku-show-new-entry-pane): 前置引数を指定されたら minibuffer からお題を入力。
+	  (haiku-post-title): post 時のデフォルトタイトルをバッファローカル変数から取得
+	  (haiku-keyword-entry-mode): @post-title を設定
+
+	* (save-lv): バッファローカル変数じゃなかったら nil を変えす buffer-local-variable
+
+	* (*haiku-post-description*): 8< をつけた
+
+	* (haiku-post-entry>): 引数で指定しても意味がなかったのでバッファローカル変数で callback を指定
+
+	* (update-mode-name): mode-name をすぐに更新する関数
+	  (with-mode-name): 一時的に mode-name を差し替える
+	  (haiku-post-entry): with-mode-name を使うようにした。引数に callback を指定されると最後に呼び返す。
+
+	* (haiku-show-new-entry-pane): rename from haiku-toggle-new-entry-pane. exported.
+
+	* (*haiku-post-description*): ポスト => 投稿
+
+	* (*entry-end-tag*): YouTube のリンクがあると entry の解析がうまくいかなかったのを修正
+
+	* (extract-one): inner-text-only, strip はデフォルト t
+	  (html-cleanup-filter): ^M を改行に変換
+
+	* haiku-keyword-pane => haiku-keyword-list-pane.
+
+	* haiku-keyword-pane => haiku-keyword-list-pane.
+
+	* (login-hatena): stub
+
+	* 新規ポストバッファに対応
+
+	* (goto-stream-point): stdout にバッファポイントを移動する
+
+	* エントリページの keyword リストで @search-word が定義されていなくても動くようにした。
+
+2008-01-13  MIYAMUKO Katsuyuki
+
+	* user, keyword での reload が動かなくなっていたのを修正。
+
+	* entry-count がない場合があるので mapcar の前に compact
+
+	* キーワード検索に対応
+
+	* u でユーザページ、t でキーワードページ
+
+	* user 一覧ページから user, title を開く
+
+	* (current-entry-points): エントリがひとつの場合に対応
+
+	* (haiku-my-entry-pane): 自分のエントリページを開く
+
+	* (hatena-welcome-message): username => hatena-username.
+
+	* (hatena-welcome-message): rename from welcome. exported!
+	  (hatena-username): rename from username. exported!
+	  (hatena-rkm): rename from rkm. exported!
+	  (haiku!): rkm => hatena-rkm.
+
+	* users.l => user-list.l
+
+	* users はユーザ一覧バッファなので E, F, P のキーバインドを entry/user.l に移動。
+
+	* (*keywords-regexp*): エントリページの keywords には entry-count はない。
+	  (scraper-spec-group->alist): optional な正規表現に対応
+	  (scrape): ditto.
+
+	* (current-keyword): entry-count を表示するようにしたので text-attr からキーワードを検索
+	  (haiku-insert-keywords): text-attr にキーワードを埋め込むようにした。
+	  (haiku-show-keyword-entry, haiku-reload-keyword, haiku-open-keyword-by-browser): current-keyword が nil を返した場合なにもしない
+
+	* keywords.l => keyword-list.l
+
+	* history 機能を実装。Alt-矢印, BS にキーを定義。
+
+	* (haiku-insert-keywords): use fresh-line and terpri
+
+	* (haiku-insert-keywords): entry-count を表示
+
+	* (keyword-entry-count): export
+
+	* (*keywords-regexp*): entry-count に対応
+	  (*keywords-scrape-rule*): ditto.
+	  (keyword-entry-count): ditto.
+
+2008-01-12  MIYAMUKO Katsuyuki
+
+	* キーワードページで Enter を押したらユーザページへ
+
+	* (parse-hatena-id): id:xxx 記法を parse
+	  (haiku-show-current-entry-keyword-page): id:xxx だったら user pane
+
+	* pager.l を使うようにした。
+
+	* ページ処理 (@haiku-current-page) とかを pager.l に移動。
+
+	* - (haiku-render-entry-buffer): ページを挿入した場合のみ @haiku-current-page を更新
+	  - (haiku-insert-next-entry-page):
+	    - 最後のページに達したら @haiku-current-page に :end-of-page を設定。
+	    - メッセージを表示。
+	  - (haiku-insert-entries): エントリを挿入した場合は t を返すようにした
+
+	* (haiku-next-entry1): 終端が画面に現れたら次のページをロード
+
+2008-01-05  MIYAMUKO Katsuyuki
+
+	* - set-extended-key-translate-table を使った Shift-SPACE はグローバルな状態
+	    を書き換えるのでやめた。
+	  - 関数名変更: title => keyword
+
+	* hatena-haiku.ui のみを :user から use-package
+
+	* (haiku-show-current-entry-title-page): カーソル下の keyword ページを開く
+	  (haiku-show-current-entry-user-page): カーソル下の user ページを開く
+
+	* entry/user.l を require
+
+	* (scrape-entries-friends-and-keywords): entries-only 引数が足りなかった。
+
+	* (scan-text-attribute-forward): limit は nil だし、start を早めるべき。
+
+	* - (scan-text-attribute-forward, scan-text-attribute-backward):
+	    開始点とカーソルが重なっていた場合、no-dup nil の場合はマッチしないといけないが、
+	    list-text-attributes に limit をそのまま渡していたので list されなかった。
+
+	* (current-entry-points): attribute の検索に失敗したら nil を返すようにした
+
+	* - Shift-SPACE で逆スクロール
+	  - (haiku-insert-entries): 最初に改行を入れて最後の余計な改行を入れないようにした。
+	  - (haiku-insert-new-entries-only): 最初のエントリの場所から書き始めると text-attribute を引き継いでしまうので
+	    一行前に戻る
+	  - (render-title, render-entry): アクセッサ関数と terpri を使うようにした。
+	    haiku-insert-entries で改行を入れるので最後の空行を削除。
+	  - (parse-body): テスト用にタグをいきなり削除しないようにした
+	  - (parse-link): youtube の動画貼り付けに対応
+	  - (haiku-entry-next-or-previous-page): 削除
+	  - (haiku-reload-entry): haiku-insert-new-entries-only に渡すのは entries だけじゃなくて全体。
+
+	* (http-get): とりあえず If-Modified-Since を常につけて更新があるのにキャッシュを詠んでしまう問題を回避
+
+	* (*entry-body-regexp*): youtube のリンクが張ってあると body 中にも <div> が出てくるので終了タグの検出を厳密に
+
+	* - (with-temporary-set-buffer): 保存するのは selected-buffer のみでよい。point とかは保存するな。
+	  - (with-temporary-writable): point や modified は保存する必要なし。
+
+	* Shift-SPACE を押しても SPACE に割り当てた関数は実行されないので、
+	  そこで GetKeyState しても意味がない。
+	  以下の方法を使うのが正しい遣り方。
+	  ; シフト+スペースで逆スクロール
+	  (set-extended-key-translate-table exkey-S-space #\F16)
+	  (define-key 2ch::*thread-map* #\F16 '2ch::thread-previous-page)
+	  http://d.hatena.ne.jp/playnote/20050326/p2
+
+	* - (render-entry): permalink, username を :userinfo キーの中に入れて埋め込んだ
+	  - (current-entry-permalink): absolute 引数を追加
+	  - (current-entry-username): カーソル行のエントリの username を返す
+	  - (current-entry-userinfo): カーソル行のエントリの userinfo を返す
+	  - (find-current-entry-tag-value): 指定したキーの値を返す
+	  - (current-entry-points): エントリのポイントがうまく取得できていなかったのを修正
+
+	* - (haiku-forward-text-attribute, haiku-backward-text-attribute): 他のアプリが text-attribute を設定しているかも
+	    しれないので key を car から safe-car にした
+
+	* - ($): マクロじゃなくて関数にした。
+	    item にリストを指定されたらリストで返すようにした。
+	  - (subalist): alist からしていされたキーだけの alist を作る
+	  - (mapalist): alist を map する。
+
+	* (render): tag が nil の時は text-attribute は設定しない
+
+	* @haiku-current-page が nil の場合に対応したつもり(2)。
+
+	* @haiku-current-page が nil の場合に対処したつもり。
+
+	* キーの状態を取得するユーティリティ。
+
+	* (haiku-show-keyword-entry): キーワードの表示をとりあえず実装
+
+	* - haiku-render-entry で @haiku-current-page を設定するようにした。
+	  - バグっていたときにすぐエラーになるように @haiku-current-page の初期値は 0 ではなく nil にした。
+
+	* keyword ページのエントリに対応。
+	  共通部分を base.l に追い出した。
+
+	* - (scrape): beginning-of-buffer は mark をセットして message がうざいので
+	    goto-char (point-min) で置き換え。
+
+2008-01-04  MIYAMUKO Katsuyuki
+
+	* fix provide
+
+	* page はキーワード引数
+
+	* page と entries-only 引数を追加
+	  - keyword-entries
+	  - user-entries
+	  - user-entries-following
+	  - user-entries-profile
+
+	* (with-keymap): 関数が nil だったら undefine-key するようにした。
+
+	* entry 関連のソースは ui/entry 配下に移動。
+
+	* *haiku-recent-window-flags* を削除。 *haiku-entry-window-flags* を使うようにした。
+
+	* recent.l からエントリ共通の部分を entry.l に分離
+
+	* browser は base.l で require
+
+	* (haiku-open-keyword-by-browser): ブラウザで開く
+
+	* Users バッファでのリロードに対応。
+
+	* with-keymap を使うようにした。
+
+	* recent バッファの reload, super-reload に対応
+
+	* (haiku-render-user-buffer): reset 引数を追加。
+	  (haiku-render-keyword-buffer): ditto.
+
+	* (user-text): fixed wrong key name.
+
+	* (latest-keyword): goto-char (point-min) は不要。first-keyword の中でしている。
+
+	* accessor 関数を使うようにした。
+
+	* mapcar に指定できるように、accessor を macro ではなく関数にした。
+
+	* (haiku-reset-keyword-buffer): バッファの内容をクリアする
+	  (haiku-insert-users): accessor 関数を使うようにした。
+
+	* accessor 関数を export
+
+	* alist に対する accessor を定義した。
+
+	* (subseq-if, subseq-before): 指定された関数 or item にマッチするとこまでの seq を返す。
+	  ($): macro にした。
+
+	* - (create-haiku-frame): with-set-buffer は不要。
+	    ミニバッファ表示中にエラーになるのはどうしようもない。
+	    (C-x C-f → M-x haiku-keyword-pane する)
+	    quit-recursive-edit すると抜けれるが処理を続行できない。
+
+	* (haiku-insert-keywords): pt => start.
+
+	* (haiku-keyword-pane): export した。
+
+	* (haiku-insert-users): ユーザ名を html-textize
+	  (haiku-isnert-keywords): キーワードを同上
+
+	* (html-remove-tag): ui/basel.l から util/html.l に移動。
+	  (html-textize): HTML をテキストに変換 (タグの消去、エンティティの変換)。
+
+	* escape.l を encode.l と html.l に分割。
+
+	* (html-unescape): &lt; とかを元に戻す
+
+	* (gsub): string-substitute の豪華版
+
+	* - (*haiku-keyword-map*): with-keymap マクロを使うようにした。
+	    reload 系は F5, S-F5 にした。
+
+	* utils.l を whitespace.l, escape.l, sequence.l に分割
+
+	* (with-keymap): define-key を簡単にするマクロ
+
+	* 引数名を変更: page => name.
+
+	* - (*haiku-recent-window-flags*): カーソル行に下線を表示
+	  - (haiku-next-entry1, haiku-previous-entry1): recenter 1
+
+	* C-v でカーソル行のエントリをブラウザで開く機能を実装。
+	  (entry-permalink): permalink を作って返す関数。
+	  (haiku-open-current-entry-by-browser): カーソル行のエントリのブラウザで開く
+	  (with-current-entry): カーソル行のエントリを narrowing して body を実行
+	  (current-entry-permalink): カーソル行のエントリの permalink を返す
+	  (narrow-to-current-entry): カーソル行のエントリを narrowing
+	  (current-entry-points): カーソル行のエントリの開始・終了 point を返す
+	  (open-browser): ブラウザで url を開く関数
+
+	* (goto-text-attribute): 戻り値をリストではなく多値で返すようにした。
+
+	* (D, D0): added debug macro
+
+2008-01-03  MIYAMUKO Katsuyuki
+
+	* (goto-text-attribute): 移動した場合は text-attribute を返すようにした。
+
+	* (make-lv): make-local-variable and set
+	  (haiku-init-keyword-buffer, haiku-keyword-mode): keyword のリロード関数を指定できるようにした
+	  (haiku-recent-pane): keyword のリロード関数を指定 (未実装)
+	  (haiku-reload-buffer): 指定された keyword のリロード関数を実行
+	  (haiku-super-reload-buffer): ditto.
+
+	* keyword の reload と super-reload を実装
+	  - (haiku-reload-keyword): 最新のキーワードを取得して更新
+	  - (haiku-super-reload-keyword): 完全な更新
+	  - (save-current-point): 現在のカーソル行とスクロールを保存。
+	    save-excursion, save-window-excursion ではバッファの内容が完全に消えると
+	    保存してくれない
+	  - (haiku-reset-keyword-buffer): バッファの内容をクリアする
+	  - (haiku-insert-keywords): 挿入場所を指定可能にしｔが
+	  - (haiku-first-keyword): 最初のキーワードに移動
+	  - (latest-keyword): 一番最初のキーワードを取得
+	  - (current-keyword): カーソル化のキーワードを取得
+	  - (haiku-forward-text-attribute): no-dup を指定できるようにした。
+	  - (haiku-backward-text-attribute): ditto
+
+	* 以下の関数を追加。
+	    - buffer-line-string
+	    - line-point-values
+	    - line-points
+	    - beginning-of-line-point
+	    - end-of-line-point
+
+	* (haiku-next-keyword1): haiku-paging-p が t の場合のみ次のページを読みこむ。
+
+	* (haiku-next-keyword1): 次のページを自動的に読み込むようにした。
+	  (haiku-next-entry1): ditto.
+
+	* 前置引数周りが動かなかったのを修正。
+
+	* (haiku-previous-entry, haiku-next-entry): haiku-backward-text-attribute を使って実装。
+
+	* - (scan-text-attribute): scan-buffer + find-text-attribute みたいな関数。
+	    find-text-attribute は逆方向への検索ができないので list-text-attribute を使って自作。
+
+	* Users バッファの表示。
+
+	* (haiku-next-page-base1, haiku-next-line-base1): define-prefix-argument-command を使うようにした。
+
+	* (define-prefix-argument-command): 前置引数に対応した関数を作るマクロ。
+
+	* - C-v, C-n で前置引数に対応
+	  - recent のキーワードバッファの名前を Hot Keywords にした。
+
+	* buffer 作成関数名の変更に対応
+
+	* バッファの微妙な違いを page 引数で指定可能にした。
+
+	* should ignore *.lc and XTAGS
+
+	* - copyright を 2008 に更新。
+	  - README に todo を追加。
+
+	* (haiku-create-buffer): set-buffer-fold-width t (ウィンドウ幅で折り返す)
+
+	* - keyword バッファに色をつけた
+	  - local-window-flags の設定がうまくいっていなかったのを修正
+
+	* (setup-local-window-flags): 引数名を変更。
+
+	* (render, remove-tag): recent.l から base.l に移動。
+
+	* (parse-link): リンクをてきとうに処理するようにした。
+
+2008-01-01  MIYAMUKO Katsuyuki
+
+	* (with-set-text-attribute): removed.
+	  (with-stdout-point-start-end): form 実行前後の stdout の point を返す。
+	  (render): stdout に出力すると同時に text-attribute を設定する。
+	  (render-entry, render-title): render を使うようにした。
+
+	* (render-title, render-entry): タイトルとエントリに色を付けてみた。
+
+	* (with-set-text-attribute): body を実行して出力された部分に set-text-attribute する。
+
+	* (haiku-entry-next-page, haiku-keyword-next-page): 共通部分を haiku-next-page-base に追い出した。
+	  (haiku-entry-next-line, haiku-keyword-next-line): 共通部分を haiku-next-line-base に追い出した。
+
+	* - (haiku-entry-next-or-previous-page): SPACE, Shift SPACE で移動。
+	    GetKeyState で Shift の状態を調べる必要がある。
+
+	* (html->txt, parse-br, parse-reply-to): 本文の HTML を少し解析。
+
+	* insert-entries => haiku-insert-entries.
+
+	* C-v, C-n で次のページを取得するようにした。
+
+	* 関数の並びを変更。
+
+	* (with-temporary-writable): 一時的に read-only をはずすマクロ。cvs.l から流用。
+	  (with-append-to-buffer): point-max に with-output-to-buffer するマクロ。
+
+	* (recent-entries, recent-entries-following): page 引数と entries-only 引数を取るようにした。
+	  (scrape-entries-users-and-keywords): entries-only が t の場合 user, keyword は解析しない。
+
+2007-12-31  MIYAMUKO Katsuyuki
+
+	* (hot-keyword-list-url): *hot-keyword-list-url* を直接使うのをやめた。
+
+	* エントリページの url に :page 引数を追加。
+
+	* - keybind stub
+	  - new post window
+	  - 一部の関数を util/window.l に移動
+
+	* window 関連のユーティリティ。
+	    - setup-local-window-flags
+	    - split-window-left
+	    - split-window-right
+	    - split-window-top
+	    - split-window-bottom
+	    - split-window-to
+	    - neighbour-windows
+	    - top-windows
+	    - bottom-windows
+	    - find-neighbour-windows
+
+	* (extract): maxscan 引数を追加。
+	  (extract-one): :maxscan 1 を指定。
+
+	* (map-scan-buffer): gmaxscan だけで制御するようにした。
+
+	* (scrape-one): :maxscan 1 を指定して余計な scan を防止。
+	  (map-scan-buffer): maxscan 引数を取るようにした。指定された数だけ集まったら scan を中止する。
+
+	* (scrape-entries): parse-entries 関数を抽出
+
+	* entry のタイトルとサブタイトルを表示するようにした。
+
+	* - (*entry-scrape-rule*): 正規表現をパラメータ化
+	    *entry-username-regexp*
+	    *entry-permalink-and-timestamp-regexp*
+	    *entry-title-regexp*
+	    *entry-body-regexp*
+	    *entry-scrape-rule*
+
+2007-12-30  MIYAMUKO Katsuyuki
+
+	* (delete-haiku-frame): select-pseudo-frame は削除したときのみ実行する。
+
+	* 以下の関数を ui/window.l から util/window.l に移動。
+	  split-window-and-set-buffer
+	  show-buffer
+	  one-window-p
+	  find-buffer-window-from
+	  all-buffer-has-window-p
+	  buffer-has-window-p
+
+	* split window 関連を追加。
+	  - haiku-split-left
+	  - haiku-split-right
+	  - haiku-split-bottom
+
+	* Window 関連のユーティリティを追加。
+	    - left-windows
+	    - right-windows
+	    - neighbour-windows
+	    - select-windows
+	    - sort-by-window-distance
+	    - euclid-distance
+	    - calc-center
+	    - window-top-center
+	    - window-bottom-center
+	    - window-left-center
+	    - window-right-center
+
+	* (split-window-and-set-buffer): direction をキーワードで指定するようにした。
+
+	* (split-window-and-set-buffer): split する部分を分割
+
+	* (render-entry): entry の描画を render-entry 関数に追い出した。
+
+	* - (split-window-and-set-buffer): すべての window から全体の width を計算するようにし、
+	    そこから split する幅を求めるようにした。
+	    すべての window から幅を求めているので refresh-screen しないと window-width が
+	    おかしい問題は回避できる。
+	    ちらつきはかなり抑えることができたけど、まだ一瞬ちらつく。
+
+	* window 関連のユーティリティ。
+
+	* recent ページをとりあえず作成。
+
+	* (*entry-scrape-rule*): エントリのタイトルも取得するようにした。
+
+	* (lv, set-lv): add buffer utility.
+
+	* (create-haiku-frame): minibuffer 表示中は new-pseudo-frame が失敗するので with-set-buffer する。
+
+	* haiku-create-keywords-buffer => haiku-keywords-buffer
+
+2007-12-29  MIYAMUKO Katsuyuki
+
+	* C-v, C-n をためしに定義
+
+	* (keyword-list-url): page が nil または 1 以下なら 1 ページ目の url を返す。
+	  (keyword-list): page を引数にとるようにした。
+
+	* (with-temporary-buffer): save-excursion, save-window-excursion するようにした。
+
+	* keyword 一覧をとりあえず表示。
+
+	* (setup-buffer): main-window-buffer は常に show-buffer
+	  (split-window-and-set-buffer): frame を変えた場合も refresh-screen しないといけないから常に refresh-screen してみる。
+	  (show-buffer): with-set-buffer を使うようにした。
+
+2007-12-24  MIYAMUKO Katsuyuki
+
+	* add scratch
+
+	* add $
+
+	* 新規投稿を動くようにした。
+
+	* (recent-entries, recent-entries-following): 動くようにした。
+
+	* 新規投稿まわりを追加。未テスト。
+
+	* - (entry-url): /entry を追加
+	  - uri => url
+
+	* - recent-entries, recent-entries-following を追加
+	  - 関数名をいろいろ変更
+
+	* exports.
+	    - keyword-entries
+	    - user-entries
+	    - user-following-entries
+	    - user-profile-entries
+
+	* hotkeywords => hot-keywords.
+
+	* xxx-keywords => xxx-keyword-list.
+
+	* url を作る関数を endpoint.l に移動。
+
+	* ユーザページ、お題ページの scrape ができた
+
+	* (force): 評価後の結果を closure に閉じ込めるようにした。
+
+	* (scrape-entries): url ではなく内容を引数に取るようにした
+
+	* (parse-entry): no need to delay.
+
+	* - (extract): open, end にリストを指定できるようにした。
+	  - (preprocess-regexp): 不正な keyword は type-error。
+
+	* - (define-scraper): scrape の正規表現にリストを指定可能にした。
+	  - (preprocess-regexp): リスト中の :sp を [ \t\r\f\n]+ に置換するようにした。
+
+	* - keyword-entries を entry.l から keyword.l に移動。
+	  - entry.l は keywords.l, user.l などから使われるユーティリティ
+
+	* - url はキーワードから求めることができるので scrape しないようにした。
+	  - remove debug code.
+
+	* (with-multiline-regexp-buffer-if): restore 引数を keyword 引数にした。
+
+	* main.l を keywords.l, endpoint.l entry.l に分割
+
+	* - array が意味がなかった
+	  - hash-table をやめて alist をマージするようにした
+
+	* exports.
+	    - with-gensyms
+	    - with-temporary-buffer
+	    - with-temporary-set-buffer
+	    - with-point-zero
+	    - save-match-data
+	    - map-scan-buffer
+
+	* (with-multiline-regexp-buffer-if): 常に multiline mode になっていたバグを修正
+
+	* (force): should return forced enclosure.
+
+	* fixed wrong group index
+
+	* 正規表現や rule を defparameter 化した
+
+	* (scrape): 正規表現ごとにバッファの先頭に移動すべき。
+
+2007-12-23  MIYAMUKO Katsuyuki
+
+	* hatena haiku frame
+
+	* - アナフォリックマクロの it は export しないと違うパッケージで使えない。
+	  - it を _it_ にした。
+
+	* アナフォリックマクロ
+
+	* パッケージ名変更: hatena-haiku-mode.* => hatena-haiku.*
+
+	* パッケージを分割
+
+2007-12-22  MIYAMUKO Katsuyuki
+
+	* (define-scraper): scrape ルールを構造体と DSL で定義するようにした。
+
+	* (multiline-match-string): should save match data.
+	  (save-match-data): wrapper macro for match-data/store-match-data.
+
+	* performance tuning.
+
+	* (extract): extract now return list of string, not assoc
+
+	* refactoring.
+
+2007-12-19  MIYAMUKO Katsuyuki
+
+	* とりあえず scrape するとこだけ。
+
+	* hatena-haiku-mode 作成開始
+

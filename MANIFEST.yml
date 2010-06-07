@@ -1,0 +1,31 @@
+package: hatena-haiku-mode
+version: 0.3.2
+
+depends:
+  - json
+  - xml-http-request
+  - hatena-star
+
+sources:
+  include:
+    - site-lisp/hatena-haiku-mode/**/*.l
+  exclude:
+    - site-lisp/hatena-haiku-mode/**/tests/*.l
+    - site-lisp/hatena-haiku-mode/**/examples/*.l
+
+document:
+  - site-lisp/hatena-haiku-mode/docs/README.rd
+
+files:
+  include:
+    - site-lisp/**/*.l
+    - site-lisp/**/*.lc
+    - site-lisp/hatena-haiku-mode/lib/*.dll
+    - site-lisp/hatena-haiku-mode/examples/**/*.*
+    - site-lisp/hatena-haiku-mode/docs/**/*
+    - site-lisp/hatena-haiku-mode/docs/**/*.*
+    - site-lisp/hatena-haiku-mode/docs/**/*
+    - site-lisp/hatena-haiku-mode/src/**/*.*
+  exclude:
+    - site-lisp/hatena-haiku-mode-scratch.l
+    - site-lisp/hatena-haiku-mode/tests/*.*
