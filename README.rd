@@ -1,211 +1,211 @@
-= hatena-haiku-mode - �͂Ăȃn�C�N��p�u���E�U
+= hatena-haiku-mode - はてなハイク専用ブラウザ
 
-  * Author: �݂�ނ� ���䂫 ((<URL:mailto:miyamuko@gmail.com>))
+  * Author: みやむこ かつゆき ((<URL:mailto:miyamuko@gmail.com>))
   * Home URL: ((<URL:http://miyamuko.s56.xrea.com/xyzzy/hatena-haiku-mode/intro.htm>))
   * Version: 0.3.2
 
 
 == SYNOPSIS
 
-  M-x haiku-recent-entries-pane       ; �ŋ߂� Entries
+  M-x haiku-recent-entries-pane       ; 最近の Entries
 
-  M-x haiku-my-entries-pane           ; ������ Entries
-  M-x haiku-my-following-pane         ; ������ Following
-  M-x haiku-my-profile-pane           ; ������ Profile
+  M-x haiku-my-entries-pane           ; 自分の Entries
+  M-x haiku-my-following-pane         ; 自分の Following
+  M-x haiku-my-profile-pane           ; 自分の Profile
 
-  M-x haiku-user-entries-pane         ; ���郆�[�U�� Entries
-  M-x haiku-user-following-pane       ; ���郆�[�U�� Following
-  M-x haiku-user-profile-pane         ; ���郆�[�U�� Profile
+  M-x haiku-user-entries-pane         ; あるユーザの Entries
+  M-x haiku-user-following-pane       ; あるユーザの Following
+  M-x haiku-user-profile-pane         ; あるユーザの Profile
 
-  M-x haiku-keyword-entries-pane      ; ����L�[���[�h�� Entries
+  M-x haiku-keyword-entries-pane      ; あるキーワードの Entries
 
-  M-x haiku-keyword-list-pane         ; �L�[���[�h�̈ꗗ
+  M-x haiku-keyword-list-pane         ; キーワードの一覧
 
-  M-x haiku-show-new-entry-pane       ; �o�b�t�@���J���ē��e
-  M-x haiku-post-minibuffer           ; �~�j�o�b�t�@���瓊�e
-  C-u M-x haiku-post-minibuffer       ; ���e���̃N���C�A���g (from) ���w�肵�ă~�j�o�b�t�@���瓊�e
+  M-x haiku-show-new-entry-pane       ; バッファを開いて投稿
+  M-x haiku-post-minibuffer           ; ミニバッファから投稿
+  C-u M-x haiku-post-minibuffer       ; 投稿元のクライアント (from) を指定してミニバッファから投稿
 
-  M-x haiku-show                      ; z �ňꎞ�I�ɉB�����n�C�N�o�b�t�@���ĕ\��
+  M-x haiku-show                      ; z で一時的に隠したハイクバッファを再表示
 
 
 == DESCRIPTION
 
-hatena-haiku-mode �� ((<"�͂Ăȃn�C�N"|URL:http://h.hatena.ne.jp/>)) ��
-xyzzy ��ŉ{���E���e���邽�߂̐�p�u���E�U�ł��B
+hatena-haiku-mode は ((<"はてなハイク"|URL:http://h.hatena.ne.jp/>)) を
+xyzzy 上で閲覧・投稿するための専用ブラウザです。
 
-�ȉ��̂��Ƃ��ł��܂��B
+以下のことができます。
 
-  * �ŋ߂̃G���g���̕\��
-  * ���[�U�G���g���̕\��
-  * �L�[���[�h�G���g���̕\��
-  * �L�[���[�h�ꗗ�̕\��
-  * �L�[���[�h�̌���
-  * �V�K���e
-  * �ԐM
-  * �u���E�U�̗����݂����ɖ߂�E�i��
-  * �X�V
-  * �͂ĂȃX�^�[
-  * �z�b�g�L�[���[�h
-  * �G���g���̍폜
-  * ���e���̃N���C�A���g�̕ύX (�f�t�H���g�� hatena-haiku-mode)
+  * 最近のエントリの表示
+  * ユーザエントリの表示
+  * キーワードエントリの表示
+  * キーワード一覧の表示
+  * キーワードの検索
+  * 新規投稿
+  * 返信
+  * ブラウザの履歴みたいに戻る・進む
+  * 更新
+  * はてなスター
+  * ホットキーワード
+  * エントリの削除
+  * 投稿元のクライアントの変更 (デフォルトは hatena-haiku-mode)
 
-�ȉ��͂܂��ł��܂���B
+以下はまだできません。
 
-  * �ԐM��W�J
-  * ���̑����낢��...
+  * 返信を展開
+  * その他いろいろ...
 
 
 == INSTALL
 
-((<NetInstaller|URL:http://www7a.biglobe.ne.jp/~hat/xyzzy/ni.html>)) �ŃC���X�g�[�������ꍇ�� 3 �ȍ~���A
-NetInstaller + ni-autoload ���g���Ă���l�� 4 �ȍ~�� OK �ł��B
+((<NetInstaller|URL:http://www7a.biglobe.ne.jp/~hat/xyzzy/ni.html>)) でインストールした場合は 3 以降を、
+NetInstaller + ni-autoload を使っている人は 4 以降で OK です。
 
-(1) �A�[�J�C�u���_�E�����[�h���܂��B
+(1) アーカイブをダウンロードします。
 
     ((<URL:http://miyamuko.s56.xrea.com/xyzzy/archives/hatena-haiku-mode.zip>))
 
-(2) �A�[�J�C�u��W�J���āA$XYZZY/site-lisp �z���Ƀt�@�C�����R�s�[���܂��B
+(2) アーカイブを展開して、$XYZZY/site-lisp 配下にファイルをコピーします。
 
-(3) ~/.xyzzy �܂��� $XYZZY/site-lisp/siteinit.l �Ɉȉ��̃R�[�h��ǉ����܂��B
+(3) ~/.xyzzy または $XYZZY/site-lisp/siteinit.l に以下のコードを追加します。
 
         ;; hatena-haiku-mode
         (require "hatena-haiku-mode")
 
-(4) �ݒ�𔽉f�����邽�� xyzzy ���ċN�����Ă��������B
+(4) 設定を反映させるため xyzzy を再起動してください。
 
-    ��siteinit.l �ɋL�q�����ꍇ�ɂ͍ă_���v���K�v�ł��B
+    ※siteinit.l に記述した場合には再ダンプが必要です。
 
-(5) M-x haiku-recent-entries-pane �ŋN�����܂��B
+(5) M-x haiku-recent-entries-pane で起動します。
 
 
 == DEPENDS
 
-hatena-haiku-mode �͈ȉ��̃��C�u�����Ɉˑ����Ă��܂��B
+hatena-haiku-mode は以下のライブラリに依存しています。
 
   * ((<"xml-http-request"|URL:http://miyamuko.s56.xrea.com/xyzzy/xml-http-request/intro.htm>))
-    1.1.1 �ȏ�
+    1.1.1 以上
   * ((<"hatena-star"|URL:http://miyamuko.s56.xrea.com/xyzzy/hatena-star/intro.htm>))
-    1.1.0 �ȏ�
+    1.1.0 以上
   * ((<"json"|URL:http://miyamuko.s56.xrea.com/xyzzy/json/intro.htm>))
-    0.1.1 �ȏ�
+    0.1.1 以上
 
 
 == KEYBIND
 
-=== �o�b�t�@���� (���e�o�b�t�@������)
+=== バッファ共通 (投稿バッファを除く)
 
-  /                   �L�[���[�h�̌���
-  q                   �͂Ăȃn�C�N���[�h���I��
-  z                   �n�C�N�o�b�t�@���ꎞ�I�ɉB�� (�{�X������)
+  /                   キーワードの検索
+  q                   はてなハイクモードを終了
+  z                   ハイクバッファを一時的に隠す (ボスが来た)
 
-  T                   �ŐV�G���g���[ (Recent Entries) ��\��
-  M                   ������ Following �y�[�W��\��
-  L                   �L�[���[�h���X�g��\��
-  H                   �z�b�g�L�[���[�h��\��
+  T                   最新エントリー (Recent Entries) を表示
+  M                   自分の Following ページを表示
+  L                   キーワードリストを表示
+  H                   ホットキーワードを表示
 
-  SPC                 ���̃y�[�W�ֈړ� (�y�[�W�����ǂݍ��ݕt��)
+  SPC                 次のページへ移動 (ページ自動読み込み付き)
 
-  C-h                 �߂� (BackSpace)
-  ESC Left            �߂� (Alt ��)
-  ESC Right           �i�� (Alt ��)
+  C-h                 戻る (BackSpace)
+  ESC Left            戻る (Alt ←)
+  ESC Right           進む (Alt →)
 
-  F5                  �ŐV�ɍX�V
-  S-F5                �S�X�V
+  F5                  最新に更新
+  S-F5                全更新
 
-=== �L�[���[�h���X�g�o�b�t�@
+=== キーワードリストバッファ
 
-  j                   ���̃L�[���[�h�ֈړ� (�y�[�W�����ǂݍ��ݕt��)
-  k                   �O�̃L�[���[�h�ֈړ� (�y�[�W�����ǂݍ��ݕt��)
-  C-n                 ���̍s�ֈړ� (�y�[�W�����ǂݍ��ݕt��)
-  C-v                 ���̃y�[�W�ֈړ� (�y�[�W�����ǂݍ��ݕt��)
+  j                   次のキーワードへ移動 (ページ自動読み込み付き)
+  k                   前のキーワードへ移動 (ページ自動読み込み付き)
+  C-n                 次の行へ移動 (ページ自動読み込み付き)
+  C-v                 次のページへ移動 (ページ自動読み込み付き)
 
-  RET                 �J�[�\�����̃L�[���[�h��\��
-  t                   ����
-  v                   �J�[�\�����̃L�[���[�h���u���E�U�ŕ\��
+  RET                 カーソル下のキーワードを表示
+  t                   同上
+  v                   カーソル下のキーワードをブラウザで表示
 
-=== �G���g���ꗗ�o�b�t�@
+=== エントリ一覧バッファ
 
-  E                   Entries �y�[�W��\�� (���[�U�G���g���̂�)
-  F                   Following �y�[�W��\�� (���[�U�G���g���̂�)
-  P                   Profile �y�[�W��\�� (���[�U�G���g���̂�)
+  E                   Entries ページを表示 (ユーザエントリのみ)
+  F                   Following ページを表示 (ユーザエントリのみ)
+  P                   Profile ページを表示 (ユーザエントリのみ)
 
-  K                   �G���g���̃L�[���[�h�̈ꗗ�̕\���E��\�����g�O��
-  U                   �G���g���̃��[�U�̈ꗗ�̕\���E��\�����g�O��
+  K                   エントリのキーワードの一覧の表示・非表示をトグル
+  U                   エントリのユーザの一覧の表示・非表示をトグル
 
-  N                   �V�K���e�o�b�t�@���J��
-  R                   �J�[�\�����̃G���g���ւ̕ԐM�o�b�t�@���J��
-  S                   �J�[�\�����̃G���g���Ɂ���t����
-  D                   �J�[�\�����̃G���g�����폜
+  N                   新規投稿バッファを開く
+  R                   カーソル下のエントリへの返信バッファを開く
+  S                   カーソル下のエントリに☆を付ける
+  D                   カーソル下のエントリを削除
 
-  j                   ���̃G���g���ֈړ� (�y�[�W�����ǂݍ��ݕt��)
-  k                   �O�̃G���g���ֈړ� (�y�[�W�����ǂݍ��ݕt��)
-  C-n                 ���̍s�ֈړ� (�y�[�W�����ǂݍ��ݕt��)
-  C-v                 ���̃y�[�W�ֈړ� (�y�[�W�����ǂݍ��ݕt��)
+  j                   次のエントリへ移動 (ページ自動読み込み付き)
+  k                   前のエントリへ移動 (ページ自動読み込み付き)
+  C-n                 次の行へ移動 (ページ自動読み込み付き)
+  C-v                 次のページへ移動 (ページ自動読み込み付き)
 
-  RET                 �J�[�\�����̃G���g���̃L�[���[�h��\��
-  t                   ����
-  u                   �J�[�\�����̃G���g���̃��[�U��\��
-  v                   �J�[�\�����̃G���g�����u���E�U�ŕ\��
+  RET                 カーソル下のエントリのキーワードを表示
+  t                   同上
+  u                   カーソル下のエントリのユーザを表示
+  v                   カーソル下のエントリをブラウザで表示
 
-  h G                 �J�[�\�����̃��[�U�̂͂ĂȃO���t��\��
-  h a                 ���͂ĂȃA���e�i
-  h b                 ���͂Ăȃu�b�N�}�[�N
-  h d                 ���͂Ăȃ_�C�A��
-  h f                 ���͂Ăȃt�H�g���C�t
-  h g                 ���͂ĂȃO���[�v
-  h h                 ���͂Ăȃn�C�N
-  h i                 ���͂ĂȃA�C�f�A
-  h m                 ���͂Ăȃ}�b�v
-  h q                 ���͂ĂȃN�G�X�`����
-  h r                 ���͂Ă� RSS
-  h s                 ���͂ĂȃX�^�[
-  h w                 ���͂Ăȃ��[���h
+  h G                 カーソル下のユーザのはてなグラフを表示
+  h a                 同はてなアンテナ
+  h b                 同はてなブックマーク
+  h d                 同はてなダイアリ
+  h f                 同はてなフォトライフ
+  h g                 同はてなグループ
+  h h                 同はてなハイク
+  h i                 同はてなアイデア
+  h m                 同はてなマップ
+  h q                 同はてなクエスチョン
+  h r                 同はてな RSS
+  h s                 同はてなスター
+  h w                 同はてなワールド
 
-=== �G���g���̃��[�U�ꗗ�o�b�t�@
+=== エントリのユーザ一覧バッファ
 
-  j                   ���̃��[�U�ֈړ�
-  k                   �O�̃��[�U�ֈړ�
+  j                   次のユーザへ移動
+  k                   前のユーザへ移動
 
-  RET                 �J�[�\�����̃G���g���̃��[�U��\��
-  u                   ����
-  t                   �J�[�\�����̃G���g���̃L�[���[�h��\�� (�L�[���[�h�y�[�W�̂�)
-  v                   �J�[�\�����̃G���g���̃��[�U���u���E�U�ŕ\��
+  RET                 カーソル下のエントリのユーザを表示
+  u                   同上
+  t                   カーソル下のエントリのキーワードを表示 (キーワードページのみ)
+  v                   カーソル下のエントリのユーザをブラウザで表示
 
-  h G                 �J�[�\�����̃��[�U�̂͂ĂȃO���t��\��
-  h a                 ���͂ĂȃA���e�i
-  h b                 ���͂Ăȃu�b�N�}�[�N
-  h d                 ���͂Ăȃ_�C�A��
-  h f                 ���͂Ăȃt�H�g���C�t
-  h g                 ���͂ĂȃO���[�v
-  h h                 ���͂Ăȃn�C�N
-  h i                 ���͂ĂȃA�C�f�A
-  h m                 ���͂Ăȃ}�b�v
-  h q                 ���͂ĂȃN�G�X�`����
-  h r                 ���͂Ă� RSS
-  h s                 ���͂ĂȃX�^�[
-  h w                 ���͂Ăȃ��[���h
+  h G                 カーソル下のユーザのはてなグラフを表示
+  h a                 同はてなアンテナ
+  h b                 同はてなブックマーク
+  h d                 同はてなダイアリ
+  h f                 同はてなフォトライフ
+  h g                 同はてなグループ
+  h h                 同はてなハイク
+  h i                 同はてなアイデア
+  h m                 同はてなマップ
+  h q                 同はてなクエスチョン
+  h r                 同はてな RSS
+  h s                 同はてなスター
+  h w                 同はてなワールド
 
-=== �G���g���̃L�[���[�h�ꗗ�o�b�t�@
+=== エントリのキーワード一覧バッファ
 
-  j                   ���̃L�[���[�h�ֈړ�
-  k                   �O�̃L�[���[�h�ֈړ�
+  j                   次のキーワードへ移動
+  k                   前のキーワードへ移動
 
-  RET                 �J�[�\�����̃G���g���̃L�[���[�h��\��
-  t                   ����
-  v                   �J�[�\�����̃G���g���̃L�[���[�h���u���E�U�ŕ\��
+  RET                 カーソル下のエントリのキーワードを表示
+  t                   同上
+  v                   カーソル下のエントリのキーワードをブラウザで表示
 
-=== �V�K���e�E�ԐM�o�b�t�@
+=== 新規投稿・返信バッファ
 
-  C-c C-c            ���e����
-  C-u C-c C-c        ���e���̃N���C�A���g (from) ���w�肵�ē��e����
-  C-x k              ����
+  C-c C-c            投稿する
+  C-u C-c C-c        投稿元のクライアント (from) を指定して投稿する
+  C-x k              閉じる
 
 
 == MODULE
 
 === PACKAGE
 
-hatena-haiku-mode �͈ȉ��̃p�b�P�[�W�𗘗p���Ă��܂��B
+hatena-haiku-mode は以下のパッケージを利用しています。
 
   * hatena-haiku.util
   * hatena-haiku.api
@@ -213,221 +213,221 @@ hatena-haiku-mode �͈ȉ��̃p�b�P�[�W�𗘗p���Ă��܂��B
 
 === EXPORT
 
-hatena-haiku-mode �͈ȉ��̃V���{���� export ���Ă��܂��B
+hatena-haiku-mode は以下のシンボルを export しています。
 
-  * hatena-haiku.ui �p�b�P�[�W
+  * hatena-haiku.ui パッケージ
 
-    * SYNOPSIS ����
+    * SYNOPSIS 見て
 
-  * hatena-haiku.api �p�b�P�[�W
+  * hatena-haiku.api パッケージ
 
-    * ���낢��
+    * いろいろ
 
-  * hatena-haiku.util �p�b�P�[�W
+  * hatena-haiku.util パッケージ
 
-    * �����p�b�P�[�W�Ȃ̂ŏȗ�
+    * 内部パッケージなので省略
 
 
 === VARIABLE
 
 --- *haiku-default-source*
 
-    ���e���̃N���C�A���g (from ��) ��ݒ肵�܂��B
-    �f�t�H���g�� hatena-haiku-mode �ł��B
+    投稿元のクライアント (from 欄) を設定します。
+    デフォルトは hatena-haiku-mode です。
 
-    �O�u�������w�肷�邱�Ƃœ��e���ɂ��ύX�ł��܂� (C-u C-c C-c)�B
+    前置引数を指定することで投稿時にも変更できます (C-u C-c C-c)。
 
 --- *haiku-post-buffer-height-ratio*
 
-    ���e�o�b�t�@�̍����̔䗦�� 0 �` 1 �Ŏw�肵�܂��B
-    �f�t�H���g�� 0.3 (= �S�̂� 30% �̍���) �ł��B
+    投稿バッファの高さの比率を 0 〜 1 で指定します。
+    デフォルトは 0.3 (= 全体の 30% の高さ) です。
 
 --- *haiku-disable-color*
 
-    non-nil �Ȃ�F�Â�����؂��܂���B
+    non-nil なら色づけを一切しません。
 
 --- *haiku-page-title-color*
 
-    �G���g���y�[�W�̃^�C�g���̐F���w�肵�܂��B
-    �F�̎w����@�� set-text-attribute �̃��t�@�����X���Q�Ƃ��Ă��������B
+    エントリページのタイトルの色を指定します。
+    色の指定方法は set-text-attribute のリファレンスを参照してください。
 
-      ;; ���]
+      ;; 青反転
       (setf *haiku-page-title-color* '(:bold t :foreground 7 :background 12))
 
 --- *haiku-page-subtitle-color*
 
-    �G���g���y�[�W�̃T�u�^�C�g���̐F���w�肵�܂��B
+    エントリページのサブタイトルの色を指定します。
 
 --- *haiku-entry-title-color*
 
-    �G���g���̃^�C�g���̐F���w�肵�܂��B
+    エントリのタイトルの色を指定します。
 
 --- *haiku-entry-meta-color*
 
-    �G���g���̃��[�U���Ȃǂ̐F���w�肵�܂��B
+    エントリのユーザ情報などの色を指定します。
 
 --- *haiku-entry-meta-text-color*
 
-    �G���g���̃��[�U��񕔕��̃e�L�X�g�̐F���w�肵�܂��B
+    エントリのユーザ情報部分のテキストの色を指定します。
 
 --- *haiku-star-color*
 
-    ���̐F���w�肵�܂��B
+    ☆の色を指定します。
 
 --- *haiku-keyword-color*
 
-    �L�[���[�h�ꗗ�ł̃L�[���[�h�̐F���w�肵�܂��B
+    キーワード一覧でのキーワードの色を指定します。
 
 --- *haiku-user-color*
 
-    ���[�U�ꗗ�ł̃��[�U���̐F���w�肵�܂��B
+    ユーザ一覧でのユーザ名の色を指定します。
 
 --- *haiku-post-title-color*
 
-    ���e�o�b�t�@�ł̃^�C�g���̐F���w�肵�܂��B
+    投稿バッファでのタイトルの色を指定します。
 
 --- *haiku-post-description-color*
 
-    ���e�o�b�t�@�ł̐����̐F���w�肵�܂��B
+    投稿バッファでの説明の色を指定します。
 
 --- *haiku-hot-keyword-color-list*
 
-    hot keyword �̐F�����X�g�Ŏw�肵�܂��B
+    hot keyword の色をリストで指定します。
 
-    hot keyword �̓L�[���[�h�̃z�b�g�x(?)�ɉ����� 1 �` 7 �̐��l�������Ă��܂��B
-    7 ����ԃz�b�g�ȃL�[���[�h�ł��B
+    hot keyword はキーワードのホット度(?)に応じて 1 〜 7 の数値を持っています。
+    7 が一番ホットなキーワードです。
 
-    *haiku-hot-keyword-color-list* �ɂ�
-    �z�b�g�x�ɑΉ�����F�� 1 �` 7 �̏��Ɏw�肵�܂��B
+    *haiku-hot-keyword-color-list* には
+    ホット度に対応する色を 1 〜 7 の順に指定します。
 
         (setf *haiku-hot-keyword-color-list*
-          '((:foreground 15)                      ; �z�b�g�x�� 1 (�N�[���Șb��)
-            (:foreground 14)                      ; �z�b�g�x�� 2
-            (:foreground 10)                      ; �z�b�g�x�� 3
-            (:foreground 10)                      ; �z�b�g�x�� 4
-            (:foreground 10 :bold t)              ; �z�b�g�x�� 5
-            (:foreground 10 :bold t)              ; �z�b�g�x�� 6
-            (:foreground 10 :bold t :underline t) ; �z�b�g�x�� 7 (��ԔM���b��)
+          '((:foreground 15)                      ; ホット度が 1 (クールな話題)
+            (:foreground 14)                      ; ホット度が 2
+            (:foreground 10)                      ; ホット度が 3
+            (:foreground 10)                      ; ホット度が 4
+            (:foreground 10 :bold t)              ; ホット度が 5
+            (:foreground 10 :bold t)              ; ホット度が 6
+            (:foreground 10 :bold t :underline t) ; ホット度が 7 (一番熱い話題)
             ))
 
-    �ʂɐݒ肵�����ꍇ��
+    個別に設定したい場合は
     ((<haiku-set-hot-keyword-color|hatena-haiku.ui:haiku-set-hot-keyword-color CLOUD &REST COLOR>))
-    �𗘗p���܂��B
+    を利用します。
 
 
 === COMMAND
 
-���ƂłˁB
+あとでね。
 
 
 === FUNCTION
 
 --- hatena-haiku.ui:haiku-set-hot-keyword-color CLOUD &REST COLOR
 
-    �z�b�g�L�[���[�h�̐F���z�b�g�x���Ƃɐݒ肵�܂��B
-    �ȉ��Őݒ肵�����ꍇ��((<*haiku-hot-keyword-color-list*>)) �ɒ��ڐݒ肵�Ă��������B
+    ホットキーワードの色をホット度ごとに設定します。
+    以下で設定したい場合は((<*haiku-hot-keyword-color-list*>)) に直接設定してください。
 
-        ;; ��ԃz�b�g�Șb��͗Δ��]�ɂ���
+        ;; 一番ホットな話題は緑反転にする
         (haiku-set-hot-keyword-color 7 :bold t :foreground 7 :background 10)
 
 --- hatena-haiku.api:hatena-haiku-mode-version
 
-    hatena-haiku-mode �̃o�[�W������Ԃ��܂��B
+    hatena-haiku-mode のバージョンを返します。
 
 
 == TODO
 
-* �͂����o�b�t�@���B���o�b�t�@�ɂ���ݒ�
-* �V����
-* �l�C��
-* �q�X�g���ɑS���ۑ�
+* はいくバッファを隠しバッファにする設定
+* 新着順
+* 人気順
+* ヒストリに全部保存
 * login
-* Reply �W�J
+* Reply 展開
 * reply link
 * auto reload
 * star
   * popup star comment
   * star comment view
-* �񓯊�
-  * �ʐM���� modeline �̕\��
+* 非同期
+  * 通信中の modeline の表示
 * buffer-modified
-  * F5 ����� modified
-  * �ǂނ� not modified
+  * F5 すると modified
+  * 読むと not modified
 * hook
-  * �G���g���̃t�B���^hook
+  * エントリのフィルタhook
     * NG user, NG word
-  * �e�o�b�t�@�� hook
-* ���[�h�����̌�����
-  * keyword-list, entry �ł̏����̓���
-  * �J�[�\���ړ��n���ׂĂŃ��[�h
-  * �񓯊�
-  * �d���̔r��
-* �G���g�����R�s�[, kill
-* ���v���
-  * �ǂ񂾃L�[���[�h��
-  * ����
-    * 1���ԑ��삪����������^�C�}��~
-    * csv �o��
+  * 各バッファの hook
+* ロード処理の見直し
+  * keyword-list, entry での処理の統一
+  * カーソル移動系すべてでロード
+  * 非同期
+  * 重複の排除
+* エントリをコピー, kill
+* 統計情報
+  * 読んだキーワード数
+  * 時間
+    * 1分間操作が無かったらタイマ停止
+    * csv 出力
     * hatena graph
-  * �쐬�����L�[���[�h
-  * ���e�����L�[���[�h
-* keyword-list �ꗗ API �ō��������擾
-* ���e
-  * id:�����̃y�[�W�Ƀ���
-  * ����̃y�[�W�Ƀ���
-  * �L�[���[�h�y�[�W�ȊO�ł͓��e���ɃJ�[�\�����̃G���g���̃^�C�g���������}��
-  * �����I�ɋ�s�ɃX�y�[�X��������
+  * 作成したキーワード
+  * 投稿したキーワード
+* keyword-list 一覧 API で根こそぎ取得
+* 投稿
+  * id:自分のページにメモ
+  * 特定のページにメモ
+  * キーワードページ以外では投稿時にカーソル下のエントリのタイトルを自動挿入
+  * 自動的に空行にスペースを一個入れる
 
-* �����N�̃v���r���[
-  * JaneStyle �݂�����
-  * �摜�AYouTube
-* �A�C�R���v���r���[
-* �͂ĂȋL�@�����N
-* ���G����
-* ���ǔ���
+* リンクのプレビュー
+  * JaneStyle みたいに
+  * 画像、YouTube
+* アイコンプレビュー
+* はてな記法リンク
+* お絵かき
+* 既読判定
   * qdbm? sexp?
-* �V���ʒm
+* 新着通知
   * dialog
-  * menu (livedoor-reader-notifier �̂悤��)
+  * menu (livedoor-reader-notifier のように)
   * niconico
 * offline mode
-* ���C�ɓ���
-  * �X���b�h�E����
-  * ����
-* �_�C�A�����J��
-* �c�u���łȂ���n�C�N���[�h
-  * �������[�h
-* �}�E�X�N���b�N
-* �t���\��(�����V����)
-  * �y�[�W���̓L�[���[�h�ꗗ���番����
-  * �_�C���N�g�ŕ\�����ꂽ�獢��
-* �͂Ăȁ��y�[�W�ɂ���悤�ȁu��������̃T�C�g�ꗗ�v
+* お気に入り
+  * スレッド・発言
+  * 巡回
+* ダイアリを開く
+* 縦置きでながらハイクモード
+  * 自動ロード
+* マウスクリック
+* 逆順表示(下が新しい)
+  * ページ数はキーワード一覧から分かる
+  * ダイレクトで表示されたら困る
+* はてな☆ページにあるような「◯◯さんのサイト一覧」
 * permalink
   * pin
   * tumblr
   * hatebu
-  * plaggable �ɂ���
+  * plaggable にする
 
 
 == KNOWN BUGS
 
-* F5 �ōX�V������Ɏ��̃y�[�W�����[�h����ƃG���g�����d�����邩��
+* F5 で更新した後に次のページをロードするとエントリが重複するかも
 
 
 == AUTHOR
 
-�݂�ނ� ���䂫 (((<URL:mailto:miyamuko@gmail.com>)))
+みやむこ かつゆき (((<URL:mailto:miyamuko@gmail.com>)))
 
 
 == SEE ALSO
 
-  : �͂Ăȃn�C�N
+  : はてなハイク
         ((<URL:http://h.hatena.ne.jp/>))
 
 
 == COPYRIGHT
 
-hatena-haiku-mode �� MIT/X ���C�Z���X�ɏ]���Ė{�\�t�g�E�F�A���g�p�A�Ĕz�z���邱�Ƃ��ł��܂��B
+hatena-haiku-mode は MIT/X ライセンスに従って本ソフトウェアを使用、再配布することができます。
 
 See hatena-haiku-mode/docs/MIT-LICENSE for full license.
 

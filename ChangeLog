@@ -1,491 +1,491 @@
 2010-06-10  MIYAMUKO Katsuyuki
 
-	* š‚Ìã‚Éƒ}ƒEƒXƒJ[ƒ\ƒ‹‚ğ‡‚í‚¹‚é‚Æ‚Í‚Ä‚ÈƒXƒ^[‚Ìî•ñ‚ğ
-	•\¦‚·‚é‚æ‚¤‚É‚µ‚½B
+	* â˜…ã®ä¸Šã«ãƒã‚¦ã‚¹ã‚«ãƒ¼ã‚½ãƒ«ã‚’åˆã‚ã›ã‚‹ã¨ã¯ã¦ãªã‚¹ã‚¿ãƒ¼ã®æƒ…å ±ã‚’
+	è¡¨ç¤ºã™ã‚‹ã‚ˆã†ã«ã—ãŸã€‚
 
 2009-07-02  MIYAMUKO Katsuyuki
 
-	* http://img.f.hatena.ne.jp/images/fotolife/x/xxx ‚Æ‚¢‚¤ URL ‚É‘Î‰
+	* http://img.f.hatena.ne.jp/images/fotolife/x/xxx ã¨ã„ã† URL ã«å¯¾å¿œ
 
 2009-04-23  MIYAMUKO Katsuyuki
 
-	* ƒJƒ‰[ƒXƒ^[‚É‘Î‰B
-	  š‚ÌƒŒƒ“ƒ_ƒŠƒ“ƒO‚ğ hatena-star.ui ‚ğg‚Á‚Äs‚¤‚æ‚¤‚É‚µ‚½B
-	  hatena-star 1.2.0 ˆÈã‚ª•K—vB
+	* ã‚«ãƒ©ãƒ¼ã‚¹ã‚¿ãƒ¼ã«å¯¾å¿œã€‚
+	  â˜…ã®ãƒ¬ãƒ³ãƒ€ãƒªãƒ³ã‚°ã‚’ hatena-star.ui ã‚’ä½¿ã£ã¦è¡Œã†ã‚ˆã†ã«ã—ãŸã€‚
+	  hatena-star 1.2.0 ä»¥ä¸ŠãŒå¿…è¦ã€‚
 
 	* (mapalist): remove debug code
 
 2009-04-20  MIYAMUKO Katsuyuki
 
-	* fotolife ‚Ì‰æ‘œ‚ğ’¼ƒŠƒ“‚µ‚È‚¢‚æ‚¤‚É‚µ‚½B
+	* fotolife ã®ç”»åƒã‚’ç›´ãƒªãƒ³ã—ãªã„ã‚ˆã†ã«ã—ãŸã€‚
 
-	* ƒjƒRƒjƒR“®‰æ‚Ì–„‚ß‚İ HTML ‚ª•\¦‚³‚ê‚Ä‚¢‚½‚Ì‚ğC³
+	* ãƒ‹ã‚³ãƒ‹ã‚³å‹•ç”»ã®åŸ‹ã‚è¾¼ã¿ HTML ãŒè¡¨ç¤ºã•ã‚Œã¦ã„ãŸã®ã‚’ä¿®æ­£
 
-	* ‰¹º‚Ì–„‚ß‚İ HTML ‚ª•\¦‚³‚ê‚Ä‚¢‚½‚Ì‚ğC³
+	* éŸ³å£°ã®åŸ‹ã‚è¾¼ã¿ HTML ãŒè¡¨ç¤ºã•ã‚Œã¦ã„ãŸã®ã‚’ä¿®æ­£
 
 2009-04-14  MIYAMUKO Katsuyuki
 
-	* (haiku-star-done): haiku-star-add-star ‚Ì callback ‚É‚ÍƒXƒ^[‚ªw’è‚³‚ê‚é‚Ì‚Åˆø”‚ğ’Ç‰Á
+	* (haiku-star-done): haiku-star-add-star ã® callback ã«ã¯ã‚¹ã‚¿ãƒ¼ãŒæŒ‡å®šã•ã‚Œã‚‹ã®ã§å¼•æ•°ã‚’è¿½åŠ 
 
 2009-04-12  MIYAMUKO Katsuyuki
 
-	* (haiku-add-star-entry): compose ‚ğg‚¤‚æ‚¤‚É‚µ‚½B
-	  ƒXƒ^[’†‚É‚à‚¤ˆê“x S ‚ğ‰Ÿ‚·‚ÆAi’»ƒƒbƒZ[ƒW‚ğ•\¦‚·‚é‚æ‚¤‚É‚µ‚½
+	* (haiku-add-star-entry): compose ã‚’ä½¿ã†ã‚ˆã†ã«ã—ãŸã€‚
+	  ã‚¹ã‚¿ãƒ¼ä¸­ã«ã‚‚ã†ä¸€åº¦ S ã‚’æŠ¼ã™ã¨ã€é€²æ—ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã‚’è¡¨ç¤ºã™ã‚‹ã‚ˆã†ã«ã—ãŸ
 
-	* (last1, compose): on lisp ‚©‚çƒ†[ƒeƒBƒŠƒeƒB‚ğ’Ç‰Á
+	* (last1, compose): on lisp ã‹ã‚‰ãƒ¦ãƒ¼ãƒ†ã‚£ãƒªãƒ†ã‚£ã‚’è¿½åŠ 
 
 2009-04-10  MIYAMUKO Katsuyuki
 
-	* haiku! ‚ğ’¼Úg‚Á‚½ê‡‚Å‚à source ‚ª–¢İ’è‚Ìê‡‚Í
-	  "hatena-haiku-mode" ‚ğİ’è‚·‚é‚æ‚¤‚É‚µ‚½B
+	* haiku! ã‚’ç›´æ¥ä½¿ã£ãŸå ´åˆã§ã‚‚ source ãŒæœªè¨­å®šã®å ´åˆã¯
+	  "hatena-haiku-mode" ã‚’è¨­å®šã™ã‚‹ã‚ˆã†ã«ã—ãŸã€‚
 
 2009-04-09  MIYAMUKO Katsuyuki
 
 	* hatena-haiku-mode 0.3.2 released!
 
-	* keyword ‚ª id:foo ‚Ìê‡Aƒ^ƒCƒgƒ‹‚ªæ‚ê‚È‚©‚Á‚½‚Ì‚ğC³
+	* keyword ãŒ id:foo ã®å ´åˆã€ã‚¿ã‚¤ãƒˆãƒ«ãŒå–ã‚Œãªã‹ã£ãŸã®ã‚’ä¿®æ­£
 
 2009-04-08  MIYAMUKO Katsuyuki
 
-	* history ‚ğ\‘¢‘Ì‚Å•Û‚·‚é‚æ‚¤‚É‚µ‚½
+	* history ã‚’æ§‹é€ ä½“ã§ä¿æŒã™ã‚‹ã‚ˆã†ã«ã—ãŸ
 
-	* ‚Í‚Ä‚È ID ‚Ån‚Ü‚éƒL[ƒ[ƒh‚ª³‚µ‚­•\¦‚Å‚«‚Ä‚¢‚È‚©‚Á‚½–â‘è‚ğC³
-	  uid:onomasayuki‚¾‚¯‚ÇAƒlƒbƒgƒ‰ƒWƒI‚µ‚Ü‚·v‚È‚Ç
+	* ã¯ã¦ãª ID ã§å§‹ã¾ã‚‹ã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰ãŒæ­£ã—ãè¡¨ç¤ºã§ãã¦ã„ãªã‹ã£ãŸå•é¡Œã‚’ä¿®æ­£
+	  ã€Œid:onomasayukiã ã‘ã©ã€ãƒãƒƒãƒˆãƒ©ã‚¸ã‚ªã—ã¾ã™ã€ãªã©
 
-	* recent ƒy[ƒW‚Å“Šeƒoƒbƒtƒ@‚ğŠJ‚­‚Æ‚«‚ÍƒJ[ƒ\ƒ‹‰º‚ÌƒL[ƒ[ƒh‚ğƒfƒtƒHƒ‹ƒg‚Å
-	  •\¦‚·‚é‚æ‚¤‚É‚µ‚½B
+	* recent ãƒšãƒ¼ã‚¸ã§æŠ•ç¨¿ãƒãƒƒãƒ•ã‚¡ã‚’é–‹ãã¨ãã¯ã‚«ãƒ¼ã‚½ãƒ«ä¸‹ã®ã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰ã‚’ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã§
+	  è¡¨ç¤ºã™ã‚‹ã‚ˆã†ã«ã—ãŸã€‚
 
 2009-04-07  MIYAMUKO Katsuyuki
 
-	* source ‚ª‚È‚¢ê‡‚ª‚ ‚é‚Ì‚Å‘Î‰ (h:keyword:emacs ‚È‚Ç)
+	* source ãŒãªã„å ´åˆãŒã‚ã‚‹ã®ã§å¯¾å¿œ (h:keyword:emacs ãªã©)
 
-	* 1 ƒy[ƒW–Ú‚ğ 2 ‰ñƒ[ƒh‚µ‚Ä‚¢‚½‚Ì‚ğC³
+	* 1 ãƒšãƒ¼ã‚¸ç›®ã‚’ 2 å›ãƒ­ãƒ¼ãƒ‰ã—ã¦ã„ãŸã®ã‚’ä¿®æ­£
 
-	* haiku-insert-next-keyword-page ‚¶‚á‚È‚­‚Ä haiku-insert-next-entry-page ‚¾‚Æv‚¤
+	* haiku-insert-next-keyword-page ã˜ã‚ƒãªãã¦ haiku-insert-next-entry-page ã ã¨æ€ã†
 
 	* hatena-haiku-mode 0.3.1 released!
 
-	* ŠÖ˜AƒL[ƒ[ƒh‚ª‚È‚¢ƒy[ƒW‚¾‚Æ•’Ê‚ÌƒL[ƒ[ƒhˆê——‚ğ“Ç‚İ‚ñ‚Å
-	  ‚µ‚Ü‚Á‚Ä‚¢‚½–â‘è‚ğC³
+	* é–¢é€£ã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰ãŒãªã„ãƒšãƒ¼ã‚¸ã ã¨æ™®é€šã®ã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰ä¸€è¦§ã‚’èª­ã¿è¾¼ã‚“ã§
+	  ã—ã¾ã£ã¦ã„ãŸå•é¡Œã‚’ä¿®æ­£
 
 	* hatena-haiku-mode 0.3.0 released!
 
-	* “Šeƒoƒbƒtƒ@‚Ì‚‚³‚Ì”ä—¦ (0-1) ‚ğw’è‚Å‚«‚é‚æ‚¤‚É‚µ‚½B
-	  ƒfƒtƒHƒ‹ƒg‚Í 0.3 (= 30%)
-	  *haiku-post-buffer-height-ratio* ‚Åİ’èB
+	* æŠ•ç¨¿ãƒãƒƒãƒ•ã‚¡ã®é«˜ã•ã®æ¯”ç‡ (0-1) ã‚’æŒ‡å®šã§ãã‚‹ã‚ˆã†ã«ã—ãŸã€‚
+	  ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã¯ 0.3 (= 30%)
+	  *haiku-post-buffer-height-ratio* ã§è¨­å®šã€‚
 
-	* (haiku-post-entry): “ŠeŒã‚É©“®“I‚ÉƒŠƒ[ƒh‚·‚é‚æ‚¤‚É‚µ‚½B
+	* (haiku-post-entry): æŠ•ç¨¿å¾Œã«è‡ªå‹•çš„ã«ãƒªãƒ­ãƒ¼ãƒ‰ã™ã‚‹ã‚ˆã†ã«ã—ãŸã€‚
 
-	* “ŠeŒ³‚ÌƒNƒ‰ƒCƒAƒ“ƒg (from —“, source) ‚ğw’è‚Å‚«‚é‚æ‚¤‚É‚µ‚½B
-	  - *haiku-default-source* ‚ÅƒfƒtƒHƒ‹ƒg‚Ì source ‚ğw’è‰Â”\
-	  - “Šeƒoƒbƒtƒ@‚Å C-u C-c C-c ‚Åƒ|ƒXƒg‚É source ‚ğw’è‰Â”\
-	  - C-u M-x haiku-post-minibuffer ‚Åƒ|ƒXƒg‚É source ‚ğw’è‰Â”\
+	* æŠ•ç¨¿å…ƒã®ã‚¯ãƒ©ã‚¤ã‚¢ãƒ³ãƒˆ (from æ¬„, source) ã‚’æŒ‡å®šã§ãã‚‹ã‚ˆã†ã«ã—ãŸã€‚
+	  - *haiku-default-source* ã§ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã® source ã‚’æŒ‡å®šå¯èƒ½
+	  - æŠ•ç¨¿ãƒãƒƒãƒ•ã‚¡ã§ C-u C-c C-c ã§ãƒã‚¹ãƒˆæ™‚ã« source ã‚’æŒ‡å®šå¯èƒ½
+	  - C-u M-x haiku-post-minibuffer ã§ãƒã‚¹ãƒˆæ™‚ã« source ã‚’æŒ‡å®šå¯èƒ½
 
-	* ƒGƒ“ƒgƒŠ–{•¶‚Ì‘OŒã‚Ì–³‘Ê‚È‹ó”’‚ğíœ‚·‚é‚æ‚¤‚É‚µ‚½B
+	* ã‚¨ãƒ³ãƒˆãƒªæœ¬æ–‡ã®å‰å¾Œã®ç„¡é§„ãªç©ºç™½ã‚’å‰Šé™¤ã™ã‚‹ã‚ˆã†ã«ã—ãŸã€‚
 
-	* “ŠeŒ³‚Ì from ‚ğ•\¦‚·‚é‚æ‚¤‚É‚µ‚½B
-	  İ’è‚É *haiku-entry-meta-text-color* ‚ğ’Ç‰Á
+	* æŠ•ç¨¿å…ƒã® from ã‚’è¡¨ç¤ºã™ã‚‹ã‚ˆã†ã«ã—ãŸã€‚
+	  è¨­å®šã« *haiku-entry-meta-text-color* ã‚’è¿½åŠ 
 
-	* hatena-haiku-mode 0.2.3 branch ‚Ì•ÏX‚ğæ‚è‚İ
-	  (ƒ‰ƒCƒZƒ“ƒXƒtƒ@ƒCƒ‹‚ğ“¯«)
+	* hatena-haiku-mode 0.2.3 branch ã®å¤‰æ›´ã‚’å–ã‚Šè¾¼ã¿
+	  (ãƒ©ã‚¤ã‚»ãƒ³ã‚¹ãƒ•ã‚¡ã‚¤ãƒ«ã‚’åŒæ¢±)
 
 2009-04-01  MIYAMUKO Katsuyuki
 
-	* (haiku-star-add-star): ˆø”‚ÌŠÔˆá‚¢‚ğC³
+	* (haiku-star-add-star): å¼•æ•°ã®é–“é•ã„ã‚’ä¿®æ­£
 
 2008-03-21  MIYAMUKO Katsuyuki
 
-	* (haiku-delete-current-entry): íœ‚Ì¬”Û‚ğƒƒbƒZ[ƒW‚Éo—Í
+	* (haiku-delete-current-entry): å‰Šé™¤ã®æˆå¦ã‚’ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã«å‡ºåŠ›
 
-	* D ‚ÅƒGƒ“ƒgƒŠ‚Ìíœ
+	* D ã§ã‚¨ãƒ³ãƒˆãƒªã®å‰Šé™¤
 
-	* rks ‚ÌŠÇ—‚Í api/account.l ‚ÉˆÚ“®
+	* rks ã®ç®¡ç†ã¯ api/account.l ã«ç§»å‹•
 
-	* (and-let): and-let* ‚Æ“¯‚¶‚É‚È‚Á‚Ä‚¢‚½‚Ì‚ğC³
+	* (and-let): and-let* ã¨åŒã˜ã«ãªã£ã¦ã„ãŸã®ã‚’ä¿®æ­£
 
-	* (haiku-star-add-star): hatena-star-add-star ‚Ì wrapper
+	* (haiku-star-add-star): hatena-star-add-star ã® wrapper
 
-	* rks ‚ÌŠÇ—‚Í account ‚Ås‚¤‚±‚Æ‚É‚µ‚½
+	* rks ã®ç®¡ç†ã¯ account ã§è¡Œã†ã“ã¨ã«ã—ãŸ
 
 	* title => keyword
 
-	* (delete-entry-url): ƒGƒ“ƒgƒŠ‚Ìíœ url
-	  (new-relation-url): ŠÖ˜AƒL[ƒ[ƒh‚Ì’Ç‰Á url
-	  (delete-relation-url): ŠÖ˜AƒL[ƒ[ƒh‚Ìíœ url
-	  (haiku-delete!): ƒGƒ“ƒgƒŠ‚Ìíœ
-	  (haiku-relation-add!): ŠÖ˜AƒL[ƒ[ƒh‚Ì’Ç‰Á
-	  (haiku-relation-delete!): ŠÖ˜AƒL[ƒ[ƒh‚Ìíœ
+	* (delete-entry-url): ã‚¨ãƒ³ãƒˆãƒªã®å‰Šé™¤ url
+	  (new-relation-url): é–¢é€£ã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰ã®è¿½åŠ  url
+	  (delete-relation-url): é–¢é€£ã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰ã®å‰Šé™¤ url
+	  (haiku-delete!): ã‚¨ãƒ³ãƒˆãƒªã®å‰Šé™¤
+	  (haiku-relation-add!): é–¢é€£ã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰ã®è¿½åŠ 
+	  (haiku-relation-delete!): é–¢é€£ã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰ã®å‰Šé™¤
 
 	* require json
 
-	* (and-let, and-let*): Gauche –{‚©‚ç ant-let, and-let* ‚ğ“±“ü
+	* (and-let, and-let*): Gauche æœ¬ã‹ã‚‰ ant-let, and-let* ã‚’å°å…¥
 
-	* “ä‚Ì eval-when ‚ğíœ
+	* è¬ã® eval-when ã‚’å‰Šé™¤
 
-	* (haiku-user-star-count): ƒ†[ƒU‚²‚Æ‚ÌƒXƒ^[‚ªæ‚ê‚È‚­‚È‚Á‚½‚Ì‚ÅíœB
+	* (haiku-user-star-count): ãƒ¦ãƒ¼ã‚¶ã”ã¨ã®ã‚¹ã‚¿ãƒ¼ãŒå–ã‚Œãªããªã£ãŸã®ã§å‰Šé™¤ã€‚
 
 	* (current-entry-keyword, current-entry-encoded-keyword): remove extra key arguments
 
 2008-03-16  MIYAMUKO Katsuyuki
 
-	* encode ‚³‚ê‚½ƒL[ƒ[ƒh‚Ìæ“¾ŠÖ”‚ğ’Ç‰ÁB
+	* encode ã•ã‚ŒãŸã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰ã®å–å¾—é–¢æ•°ã‚’è¿½åŠ ã€‚
 
-	* entry ˆê——‚Ìæ“¾‚Å encode ‚³‚ê‚½ keyword ‚ğæ“¾
+	* entry ä¸€è¦§ã®å–å¾—ã§ encode ã•ã‚ŒãŸ keyword ã‚’å–å¾—
 
-	* if-modified-since ü‚è‚Ìƒ}ƒNƒ‚ğ•Êƒtƒ@ƒCƒ‹‚É‚µ‚½B
+	* if-modified-since å‘¨ã‚Šã®ãƒã‚¯ãƒ­ã‚’åˆ¥ãƒ•ã‚¡ã‚¤ãƒ«ã«ã—ãŸã€‚
 
-	* ƒTƒuƒ^ƒCƒgƒ‹‚ª‚È‚¢ê‡‚Ì HTML ‚Ì•ÏX‚É‘Î‰
+	* ã‚µãƒ–ã‚¿ã‚¤ãƒˆãƒ«ãŒãªã„å ´åˆã® HTML ã®å¤‰æ›´ã«å¯¾å¿œ
 
 2008-03-09  MIYAMUKO Katsuyuki
 
 	* hatena-haiku-mode 0.2.2 released!
 
-	* (parse-link): multiline ‚É‚µ‚½‚½‚ß youtube ‚ÌƒŠƒ“ƒN‰ğÍ‚ª¸”s‚·‚é‚æ‚¤‚É‚È‚Á‚½‚Ì‚ğC³B
+	* (parse-link): multiline ã«ã—ãŸãŸã‚ youtube ã®ãƒªãƒ³ã‚¯è§£æãŒå¤±æ•—ã™ã‚‹ã‚ˆã†ã«ãªã£ãŸã®ã‚’ä¿®æ­£ã€‚
 
-	* ™•¶š—ñ‚Ìì¬ü‚è‚ğ hatena-star.ui ‚ÉˆÚ“®
+	* â˜†æ–‡å­—åˆ—ã®ä½œæˆå‘¨ã‚Šã‚’ hatena-star.ui ã«ç§»å‹•
 
 	* - ui/version.l => api/about.l
-	  - “Æ©‚Ì User-Agent ‚ğİ’è
+	  - ç‹¬è‡ªã® User-Agent ã‚’è¨­å®š
 
 2008-03-06  MIYAMUKO Katsuyuki
 
 	* hatena-haiku-mode 0.2.1 released!
 
-	* Recent ƒy[ƒW‚©‚ç Following ‚ªíœ‚³‚ê‚½‚Ì‚Å‘Î‰
+	* Recent ãƒšãƒ¼ã‚¸ã‹ã‚‰ Following ãŒå‰Šé™¤ã•ã‚ŒãŸã®ã§å¯¾å¿œ
 	  http://d.hatena.ne.jp/hatenahaiku/20080304/1204619327
 
-	* - ‚Í‚Ä‚ÈƒXƒ^[‚Ì•`‰æ‚É‚Ü‚¾ƒf[ƒ^‚ğæ“¾‚Å‚«‚Ä‚¢‚È‚©‚Á‚½‚ç timer ‚ğg‚Á‚Ä’x‰„‚³‚¹‚Ä
-	    ‘Ò‚¿ŠÔ‚ğ‚È‚­‚µ‚½B
+	* - ã¯ã¦ãªã‚¹ã‚¿ãƒ¼ã®æç”»æ™‚ã«ã¾ã ãƒ‡ãƒ¼ã‚¿ã‚’å–å¾—ã§ãã¦ã„ãªã‹ã£ãŸã‚‰ timer ã‚’ä½¿ã£ã¦é…å»¶ã•ã›ã¦
+	    å¾…ã¡æ™‚é–“ã‚’ãªãã—ãŸã€‚
 	  (invoke-later): new macro to wrap start-timer.
 	  (save-current-line-column): save current-line-number and current-column.
 
-	* (current-keyword): ƒL[ƒ[ƒh‚Ì”ÍˆÍ“à‚ÉƒJ[ƒ\ƒ‹‚ª‚ ‚é‚©ƒ`ƒFƒbƒN
+	* (current-keyword): ã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰ã®ç¯„å›²å†…ã«ã‚«ãƒ¼ã‚½ãƒ«ãŒã‚ã‚‹ã‹ãƒã‚§ãƒƒã‚¯
 
 2008-03-05  MIYAMUKO Katsuyuki
 
-	* (parse-link): niconico ‚Ì tag ‚ğœ‹
+	* (parse-link): niconico ã® tag ã‚’é™¤å»
 
-	* (with-multiline-regexp-string): ‰üs‚ğˆê“I‚É•ÏŠ·‚µ‚Äˆ—‚·‚éB
+	* (with-multiline-regexp-string): æ”¹è¡Œã‚’ä¸€æ™‚çš„ã«å¤‰æ›ã—ã¦å‡¦ç†ã™ã‚‹ã€‚
 
 2008-03-03  MIYAMUKO Katsuyuki
 
-	* (haiku-render-hot-keyword-buffer): hot keyword ‚Ìæ“¾‚É If-Modified-Since ‚ğ‚Â‚¯‚Ä‚È‚©‚Á‚½‚Ì‚ğC³B
+	* (haiku-render-hot-keyword-buffer): hot keyword ã®å–å¾—æ™‚ã« If-Modified-Since ã‚’ã¤ã‘ã¦ãªã‹ã£ãŸã®ã‚’ä¿®æ­£ã€‚
 	  (fetch-hot-keyword-list): new function.
 
-	* - ƒL[ƒ[ƒhˆê——‚È‚Ç‚Å h d ‚ª“®‚¢‚ÄƒGƒ‰[‚É‚È‚Á‚Ä‚µ‚Ü‚¤‚Ì‚ğ‚Æ‚è‚ ‚¦‚¸‰ñ”ğB
+	* - ã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰ä¸€è¦§ãªã©ã§ h d ãŒå‹•ã„ã¦ã‚¨ãƒ©ãƒ¼ã«ãªã£ã¦ã—ã¾ã†ã®ã‚’ã¨ã‚Šã‚ãˆãšå›é¿ã€‚
 
 	* hatena-haiku-mode 0.2.0 released!
 
-	* - Ÿ‚Ìƒy[ƒW‚Ìƒ[ƒh‚ª¸”s‚µ‚Ä‚¢‚½‚Ì‚ğC³B
-	  - render, insert ü‚è‚ğ®—
+	* - æ¬¡ã®ãƒšãƒ¼ã‚¸ã®ãƒ­ãƒ¼ãƒ‰ãŒå¤±æ•—ã—ã¦ã„ãŸã®ã‚’ä¿®æ­£ã€‚
+	  - render, insert å‘¨ã‚Šã‚’æ•´ç†
 
 2008-03-02  MIYAMUKO Katsuyuki
 
-        * ¡‚Ìì‚è‚Å‚Í base-map ‚É define-key ‚µ‚Ä‚à”½‰f‚³‚ê‚È‚¢‚Ì‚Å xxx-map ‚Ì
-	  export ‚ÍŒ©‘—‚è
+        * ä»Šã®ä½œã‚Šã§ã¯ base-map ã« define-key ã—ã¦ã‚‚åæ˜ ã•ã‚Œãªã„ã®ã§ xxx-map ã®
+	  export ã¯è¦‹é€ã‚Š
 
-	* - (*haiku-disable-color*): t ‚È‚çF‚ğİ’è‚µ‚È‚¢
-	  - (haiku-set-text-attribute): set-text-attribute ‚ÍƒRƒŒ‚Å‚Ü‚Æ‚ß‚é
+	* - (*haiku-disable-color*): t ãªã‚‰è‰²ã‚’è¨­å®šã—ãªã„
+	  - (haiku-set-text-attribute): set-text-attribute ã¯ã‚³ãƒ¬ã§ã¾ã¨ã‚ã‚‹
 
 	* keyword-url => keyword-entries-url
 
-	* - j, k ‚ÅƒJ[ƒ\ƒ‹ˆÊ’u‚ğ•Û‘¶‚·‚é‚Ì‚Í keyword list ‚¾‚¯
-	  - hot keyword ‚Ì C-a, C-e, C-n, C-p ‚Í virtual line ‚ÅB
+	* - j, k ã§ã‚«ãƒ¼ã‚½ãƒ«ä½ç½®ã‚’ä¿å­˜ã™ã‚‹ã®ã¯ keyword list ã ã‘
+	  - hot keyword ã® C-a, C-e, C-n, C-p ã¯ virtual line ã§ã€‚
 
-	* - •\¦‚ÉŸ‚Ìƒy[ƒW‚ğƒ[ƒh
-	  - keyword ‚Ìƒy[ƒWˆ—‚ğ‹¤’ÊŠÖ”‚ğg‚¤‚æ‚¤‚É‚µ‚½B
+	* - è¡¨ç¤ºæ™‚ã«æ¬¡ã®ãƒšãƒ¼ã‚¸ã‚’ãƒ­ãƒ¼ãƒ‰
+	  - keyword ã®ãƒšãƒ¼ã‚¸å‡¦ç†ã‚’å…±é€šé–¢æ•°ã‚’ä½¿ã†ã‚ˆã†ã«ã—ãŸã€‚
 
-	* H ‚É hot keyword ‚ğŠ„‚è“–‚Ä
+	* H ã« hot keyword ã‚’å‰²ã‚Šå½“ã¦
 
-	* - (haiku-insert-next-keyword-page): Ÿ‚Ìƒy[ƒW‚ª‚È‚¢ê‡‚Í‚»‚ê‚ğ‹L‰¯‚·‚éB
-	  - (haiku-insert-keyword-page): Ÿ‚Ìƒy[ƒW‚ª‚È‚¢ê‡ nil ‚ğ•Ô‚·B
+	* - (haiku-insert-next-keyword-page): æ¬¡ã®ãƒšãƒ¼ã‚¸ãŒãªã„å ´åˆã¯ãã‚Œã‚’è¨˜æ†¶ã™ã‚‹ã€‚
+	  - (haiku-insert-keyword-page): æ¬¡ã®ãƒšãƒ¼ã‚¸ãŒãªã„å ´åˆ nil ã‚’è¿”ã™ã€‚
 
 	* remove duplicated function.
 
-	* - keymap ü‚è‚ğ®—B
+	* - keymap å‘¨ã‚Šã‚’æ•´ç†ã€‚
 
-	* - hatena-haiku-mode-debug ‚ª features ‚É‚ ‚ê‚Î
-	    ƒRƒ“ƒpƒCƒ‹‚É symbol ‚ÌŠÖ”‚ª‘¶İ‚·‚é‚©ƒ`ƒFƒbƒN‚·‚é‚æ‚¤‚É‚µ‚½B
-	  - #' ‚¾‚Æƒwƒ‹ƒv‚ÅŒ©‚é‚Æ‘S•” Command ‚É‚È‚Á‚Ä‚µ‚Ü‚¤B
+	* - hatena-haiku-mode-debug ãŒ features ã«ã‚ã‚Œã°
+	    ã‚³ãƒ³ãƒ‘ã‚¤ãƒ«æ™‚ã« symbol ã®é–¢æ•°ãŒå­˜åœ¨ã™ã‚‹ã‹ãƒã‚§ãƒƒã‚¯ã™ã‚‹ã‚ˆã†ã«ã—ãŸã€‚
+	  - #' ã ã¨ãƒ˜ãƒ«ãƒ—ã§è¦‹ã‚‹ã¨å…¨éƒ¨ Command ã«ãªã£ã¦ã—ã¾ã†ã€‚
 
-	* (with-keymap): append ‚Æ‚©‚¹‚¸‚Éƒ}ƒNƒ‚ğ’è‹`
+	* (with-keymap): append ã¨ã‹ã›ãšã«ãƒã‚¯ãƒ­ã‚’å®šç¾©
 
-	* - (define-keymap): *haiku-debug* ‚ª t ‚È‚çƒ[ƒh‚²‚Æ‚É–ˆ‰ñİ’è
-	  - #' ‚É‚µ‚½B
+	* - (define-keymap): *haiku-debug* ãŒ t ãªã‚‰ãƒ­ãƒ¼ãƒ‰ã”ã¨ã«æ¯å›è¨­å®š
+	  - #' ã«ã—ãŸã€‚
 
-	* (define-keymap): “¯‚¶ˆ—‚ğƒ}ƒNƒ‰»
+	* (define-keymap): åŒã˜å‡¦ç†ã‚’ãƒã‚¯ãƒ­åŒ–
 
-	* - keybind ‚Ìİ’è‚ğ keybind.l ‚É‚Ü‚Æ‚ß‚½
-	  - ƒ†[ƒUİ’è‚Í config.l ‚É‚Ü‚Æ‚ß‚½
+	* - keybind ã®è¨­å®šã‚’ keybind.l ã«ã¾ã¨ã‚ãŸ
+	  - ãƒ¦ãƒ¼ã‚¶è¨­å®šã¯ config.l ã«ã¾ã¨ã‚ãŸ
 
-	* (haiku-star-get-entries-future): :since ‚Ì§Œä‚ğ http.l ‚Ìƒ}ƒNƒ‚ğg‚Á‚Äs‚¤B
+	* (haiku-star-get-entries-future): :since ã®åˆ¶å¾¡ã‚’ http.l ã®ãƒã‚¯ãƒ­ã‚’ä½¿ã£ã¦è¡Œã†ã€‚
 
-	* (*http-get-no-if-modified-since*): defvar ‚É‚µ‚½B
+	* (*http-get-no-if-modified-since*): defvar ã«ã—ãŸã€‚
 
-	* eval when ‚µ‚Ä‚İ‚½B
+	* eval when ã—ã¦ã¿ãŸã€‚
 
 	* - entry-page => nopaging
 
-	* - hot-keyword ‚É‘Î‰
+	* - hot-keyword ã«å¯¾å¿œ
 
 	* oops... fixed typo: croud => cloud
 
 2008-03-01  MIYAMUKO Katsuyuki
 
-	* - h d ‚Åƒ_ƒCƒAƒŠ‚ğŠJ‚­
-	  - ‚»‚Ì‘¼ (b, q, i ‚È‚Ç) ‚à‚Ğ‚ç‚¯‚é
+	* - h d ã§ãƒ€ã‚¤ã‚¢ãƒªã‚’é–‹ã
+	  - ãã®ä»– (b, q, i ãªã©) ã‚‚ã²ã‚‰ã‘ã‚‹
 
-	* (join-url): encoding ‚ğ–Y‚ê‚Ä‚½B
+	* (join-url): encoding ã‚’å¿˜ã‚Œã¦ãŸã€‚
 
-	* Fw’è‚ğ defvar ‰»
+	* è‰²æŒ‡å®šã‚’ defvar åŒ–
 
-	* - cursol-line ‚ğÁ‚µ‚½B
-	  - ƒXƒ^[•`‰æ‘O‚É refresh-screen
+	* - cursol-line ã‚’æ¶ˆã—ãŸã€‚
+	  - ã‚¹ã‚¿ãƒ¼æç”»å‰ã« refresh-screen
 
-	* - cursol-line ‚ğÁ‚µ‚½B
-	  - fold-mark ‚ğ‚Â‚¯‚½B
+	* - cursol-line ã‚’æ¶ˆã—ãŸã€‚
+	  - fold-mark ã‚’ã¤ã‘ãŸã€‚
 
-	* - (haiku-add-star-entry): ƒXƒ^[‚ğˆêŒÂŒ‚‚Á‚½ê‡‚Å‚à‚·‚®‚ÉƒtƒB[ƒhƒoƒbƒN‚ğ•Ô‚·B
+	* - (haiku-add-star-entry): ã‚¹ã‚¿ãƒ¼ã‚’ä¸€å€‹æ’ƒã£ãŸå ´åˆã§ã‚‚ã™ãã«ãƒ•ã‚£ãƒ¼ãƒ‰ãƒãƒƒã‚¯ã‚’è¿”ã™ã€‚
 
-	* (join-url): xhr::add-query-string ‚ğ—˜—pB
+	* (join-url): xhr::add-query-string ã‚’åˆ©ç”¨ã€‚
 
-	* (haiku-http-get): *http-get-no-if-modified-since* ‚ª t ‚Ìê‡‚Í since ‚ğw’è‚µ‚È‚¢B
-	  ƒfƒoƒbƒO—pB
+	* (haiku-http-get): *http-get-no-if-modified-since* ãŒ t ã®å ´åˆã¯ since ã‚’æŒ‡å®šã—ãªã„ã€‚
+	  ãƒ‡ãƒãƒƒã‚°ç”¨ã€‚
 
 2008-02-24  MIYAMUKO Katsuyuki
 
 	* hatena-haiku-mode 0.1.0 released!
 
-	* haiku-star-limiter-release ‚ª“®‚¢‚Ä‚¢‚È‚©‚Á‚½‚Ì‚ğC³
+	* haiku-star-limiter-release ãŒå‹•ã„ã¦ã„ãªã‹ã£ãŸã®ã‚’ä¿®æ­£
 
-	* location ‚ğw’è‚µ‚È‚¢‚Æ‘‚«‚İ‚Å‚«‚È‚­‚È‚Á‚Ä‚¢‚½‚Ì‚ğC³
+	* location ã‚’æŒ‡å®šã—ãªã„ã¨æ›¸ãè¾¼ã¿ã§ããªããªã£ã¦ã„ãŸã®ã‚’ä¿®æ­£
 
 	* Bumped version number to 0.1.0
 
-	* (haiku-frame-p): haiku ƒtƒŒ[ƒ€‚È‚ç t
-	  (switch-to-last-frame): if •¶‚Ì’†‚ª‹t
+	* (haiku-frame-p): haiku ãƒ•ãƒ¬ãƒ¼ãƒ ãªã‚‰ t
+	  (switch-to-last-frame): if æ–‡ã®ä¸­ãŒé€†
 
-	* (haiku-buffer-p): haiku ƒoƒbƒtƒ@‚È‚ç t
+	* (haiku-buffer-p): haiku ãƒãƒƒãƒ•ã‚¡ãªã‚‰ t
 
-	* (haiku-haide, haiku-show): ˆÙ‚È‚éƒtƒŒ[ƒ€‚É haiku ƒoƒbƒtƒ@‚ğ
-	  •\¦‚µ‚Ä‚¢‚Ä‚à‚¤‚Ü‚­‰B‚·‚æ‚¤‚É‚µ‚½B
+	* (haiku-haide, haiku-show): ç•°ãªã‚‹ãƒ•ãƒ¬ãƒ¼ãƒ ã« haiku ãƒãƒƒãƒ•ã‚¡ã‚’
+	  è¡¨ç¤ºã—ã¦ã„ã¦ã‚‚ã†ã¾ãéš ã™ã‚ˆã†ã«ã—ãŸã€‚
 
-	* - (10 ("fo")) Œ`®‚ÌƒXƒ^[‚ğ‚»‚ê‚Á‚Û‚­•\¦‚·‚é‚æ‚¤‚É‚µ‚½
-	  - haiku-star-limiter-set: limiter ‚ÌƒZƒbƒ^[ŠÖ”
+	* - (10 ("fo")) å½¢å¼ã®ã‚¹ã‚¿ãƒ¼ã‚’ãã‚Œã£ã½ãè¡¨ç¤ºã™ã‚‹ã‚ˆã†ã«ã—ãŸ
+	  - haiku-star-limiter-set: limiter ã®ã‚»ãƒƒã‚¿ãƒ¼é–¢æ•°
 
 	* haiku-star-entry => haiku-add-star-entry
 
 2008-02-23  MIYAMUKO Katsuyuki
 
-	* ‚Í‚Ä‚ÈƒXƒ^[‚É‘Î‰B
+	* ã¯ã¦ãªã‚¹ã‚¿ãƒ¼ã«å¯¾å¿œã€‚
 
 	* add api/star.l
 
-	* - api ‚Ål‹C‡‚É‘Î‰ (:hot t)
+	* - api ã§äººæ°—é †ã«å¯¾å¿œ (:hot t)
 	  - keyword-url => keyword-entries-url
 
-	* (take-if): w’è‚³‚ê‚½ŠÖ”‚ª t ‚ğ•Ô‚µ‚½‚Æ‚±‚ë‚Ü‚Å‚ğæ“¾
+	* (take-if): æŒ‡å®šã•ã‚ŒãŸé–¢æ•°ãŒ t ã‚’è¿”ã—ãŸã¨ã“ã‚ã¾ã§ã‚’å–å¾—
 
-	* - http-get, http-post ‚ª xhr ‚Æ‚©‚Ô‚Á‚Ä‚¢‚½‚Ì‚ÅAhaiku- prefix ‚ğ‚Â‚¯‚½
-	  - hot-keyword-list ‚Å encoded-keyword ‚É‘Î‰B
+	* - http-get, http-post ãŒ xhr ã¨ã‹ã¶ã£ã¦ã„ãŸã®ã§ã€haiku- prefix ã‚’ã¤ã‘ãŸ
+	  - hot-keyword-list ã§ encoded-keyword ã«å¯¾å¿œã€‚
 
 	* - entry-url => new-entry-url
-	  - xml-http-request 1.0.0 ‚Ìƒƒ\ƒbƒh‚ğ—˜—p
+	  - xml-http-request 1.0.0 ã®ãƒ¡ã‚½ãƒƒãƒ‰ã‚’åˆ©ç”¨
 
-	* - base-url ‚Ì“®“I‚ÈØ‚è‘Ö‚¦‚É‘Î‰
+	* - base-url ã®å‹•çš„ãªåˆ‡ã‚Šæ›¿ãˆã«å¯¾å¿œ
 
-	* xml-http-request, hatena-star ‚ğ require and use.
+	* xml-http-request, hatena-star ã‚’ require and use.
 
-	* (with-if-modified-since-last-fetch): +unix-epoch+ ‚ÍÁ‚µ‚½‚Ì‚Å :epoch ‚ğw’è
+	* (with-if-modified-since-last-fetch): +unix-epoch+ ã¯æ¶ˆã—ãŸã®ã§ :epoch ã‚’æŒ‡å®š
 
-	* ($): equal ‚ÅƒeƒXƒg‚·‚é‚æ‚¤‚É‚µ‚½B
+	* ($): equal ã§ãƒ†ã‚¹ãƒˆã™ã‚‹ã‚ˆã†ã«ã—ãŸã€‚
 
-	* xml-http-request 1.0.1 ‚É‘Î‰
+	* xml-http-request 1.0.1 ã«å¯¾å¿œ
 
-	* - xml-http-request ‚ğ require and use
+	* - xml-http-request ã‚’ require and use
 
 2008-02-16  MIYAMUKO Katsuyuki
 
-	* (with-temporary-buffer): deleted-buffer-p ‚É‚Í nil ‚âƒoƒbƒtƒ@ˆÈŠO‚ğw’è‚Å‚«‚È‚¢‚Ì‚Åƒ`ƒFƒbƒN
+	* (with-temporary-buffer): deleted-buffer-p ã«ã¯ nil ã‚„ãƒãƒƒãƒ•ã‚¡ä»¥å¤–ã‚’æŒ‡å®šã§ããªã„ã®ã§ãƒã‚§ãƒƒã‚¯
 
 2008-02-03  MIYAMUKO Katsuyuki
 
-	* V xml-http-request ‚É‘Î‰
+	* æ–° xml-http-request ã«å¯¾å¿œ
 
-	* ƒƒOƒCƒ“‚ğŠm”F‚·‚é‚½‚ß‚Í cache ‚©‚ç“Ç‚ñ‚Å‚Í‘Ê–ÚB
+	* ãƒ­ã‚°ã‚¤ãƒ³ã‚’ç¢ºèªã™ã‚‹ãŸã‚ã¯ cache ã‹ã‚‰èª­ã‚“ã§ã¯é§„ç›®ã€‚
 
-	* (url-path): URL ‚Ì path •”•ª‚ğ•Ô‚·B
+	* (url-path): URL ã® path éƒ¨åˆ†ã‚’è¿”ã™ã€‚
 
 2008-02-02  MIYAMUKO Katsuyuki
 
-	* - (set-hatena-haiku-base-url): remove-trail-slash ‚µ‚Ä set
-	  - (*hatena-haiku-base-url*): *hatena-haiku-url* ‚©‚ç rename
+	* - (set-hatena-haiku-base-url): remove-trail-slash ã—ã¦ set
+	  - (*hatena-haiku-base-url*): *hatena-haiku-url* ã‹ã‚‰ rename
 
-	* (haiku-hide): z ‚Åƒ{ƒX‚ª—ˆ‚½ haiku-show ‚Å•œ‹A
+	* (haiku-hide): z ã§ãƒœã‚¹ãŒæ¥ãŸ haiku-show ã§å¾©å¸°
 	  (haiku-quit): rename from quit-hatena-haiku-mode.
 
-	* entry-count ‚ª‚È‚­‚Ä‚àƒL[ƒ[ƒhƒŠƒXƒg‚ğæ“¾‚Å‚«‚é‚æ‚¤‚É‚µ‚½B
+	* entry-count ãŒãªãã¦ã‚‚ã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰ãƒªã‚¹ãƒˆã‚’å–å¾—ã§ãã‚‹ã‚ˆã†ã«ã—ãŸã€‚
 
-	* - ƒGƒ“ƒgƒŠ‚ªæ“¾‚Å‚«‚È‚¢ê‡‚ÉƒGƒ‰[‚É‚È‚ç‚È‚¢‚æ‚¤‚É‚µ‚½B
+	* - ã‚¨ãƒ³ãƒˆãƒªãŒå–å¾—ã§ããªã„å ´åˆã«ã‚¨ãƒ©ãƒ¼ã«ãªã‚‰ãªã„ã‚ˆã†ã«ã—ãŸã€‚
 
 2008-01-22  MIYAMUKO Katsuyuki
 
 	* hatena-haiku-mode 0.0.3 released!
 
-	* ŠÖ˜AƒL[ƒ[ƒh‹@”\‚ğ’Ç‰ÁB
+	* é–¢é€£ã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰æ©Ÿèƒ½ã‚’è¿½åŠ ã€‚
 	  http://d.hatena.ne.jp/hatenahaiku/20080120/1200796608
 
 2008-01-21  MIYAMUKO Katsuyuki
 
 	* hatena-haiku-mode 0.0.2 released!
 
-	* (http-get): æ“¾‚µ‚Ä‚¢‚é url ‚ğ message ‚É•\¦
+	* (http-get): å–å¾—ã—ã¦ã„ã‚‹ url ã‚’ message ã«è¡¨ç¤º
 
 2008-01-20  MIYAMUKO Katsuyuki
 
-	* ƒqƒXƒgƒŠ‚ÌˆÚ“®‚Í“ü‚èŒû‚Ås‚¤‚×‚«‚È‚Ì‚ÅAr1983, r1984 ‚ğ revert
+	* ãƒ’ã‚¹ãƒˆãƒªã®ç§»å‹•ã¯å…¥ã‚Šå£ã§è¡Œã†ã¹ããªã®ã§ã€r1983, r1984 ã‚’ revert
 
 2008-01-19  MIYAMUKO Katsuyuki
 
-	* ƒGƒ“ƒgƒŠ‚ª‚È‚¢ƒy[ƒW‚Åƒ^ƒCƒgƒ‹‚ª•\¦‚³‚ê‚È‚¢–â‘è‚ğC³B
+	* ã‚¨ãƒ³ãƒˆãƒªãŒãªã„ãƒšãƒ¼ã‚¸ã§ã‚¿ã‚¤ãƒˆãƒ«ãŒè¡¨ç¤ºã•ã‚Œãªã„å•é¡Œã‚’ä¿®æ­£ã€‚
 
 	* (fetch-keyword-list): use safe-lv.
 
-	* Unicode ‚Ì WAVE DASH –â‘è‚ğ‰ñ”ğ‚·‚é‚½‚ß‚É URL ’†‚©‚çƒGƒ“ƒR[ƒh‚³‚ê‚½ƒL[ƒ[ƒh‚àæ“¾‚·‚é‚æ‚¤‚É‚µ‚½B
+	* Unicode ã® WAVE DASH å•é¡Œã‚’å›é¿ã™ã‚‹ãŸã‚ã« URL ä¸­ã‹ã‚‰ã‚¨ãƒ³ã‚³ãƒ¼ãƒ‰ã•ã‚ŒãŸã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰ã‚‚å–å¾—ã™ã‚‹ã‚ˆã†ã«ã—ãŸã€‚
 
 	* (hatena-haiku-mode-version): add new function
 
-	* (render-title): ƒ†[ƒU‚Ì profile ƒy[ƒW‚È‚Ç subtitle ‚ª‚È‚¢ê‡‚É‘Î‰
+	* (render-title): ãƒ¦ãƒ¼ã‚¶ã® profile ãƒšãƒ¼ã‚¸ãªã© subtitle ãŒãªã„å ´åˆã«å¯¾å¿œ
 
-	* (*entry-friends-user-regexp*, *entry-friends-keyword-regexp*, *entry-friends-scrape-rule*): ‚Í‚Ä‚È‚Ì•ÏX‚É‘Î‰B
+	* (*entry-friends-user-regexp*, *entry-friends-keyword-regexp*, *entry-friends-scrape-rule*): ã¯ã¦ãªã®å¤‰æ›´ã«å¯¾å¿œã€‚
 
-	* (load-next-pages): ‘ÌŠ´‘¬“x‚ÌŒüã‚Ì‚½‚ß refresh-screen
+	* (load-next-pages): ä½“æ„Ÿé€Ÿåº¦ã®å‘ä¸Šã®ãŸã‚ refresh-screen
 
-	* - entry ƒy[ƒW‚ÌƒqƒXƒgƒŠ‚É‘Î‰
-	  - M-x ‚Å’¼Ú xxx-pane ‚ğŠJ‚¢‚½ê‡‚ÉƒqƒXƒgƒŠ‚ª•·‚©‚È‚¢‚Ì‚ÅA‚â‚Á‚Ï‚è“ü‚èŒû‚Å•Û‘¶‚·‚×‚«‚©H
+	* - entry ãƒšãƒ¼ã‚¸ã®ãƒ’ã‚¹ãƒˆãƒªã«å¯¾å¿œ
+	  - M-x ã§ç›´æ¥ xxx-pane ã‚’é–‹ã„ãŸå ´åˆã«ãƒ’ã‚¹ãƒˆãƒªãŒèã‹ãªã„ã®ã§ã€ã‚„ã£ã±ã‚Šå…¥ã‚Šå£ã§ä¿å­˜ã™ã¹ãã‹ï¼Ÿ
 
 2008-01-18  MIYAMUKO Katsuyuki
 
-	* (haiku-save-keyword-list-history): ƒqƒXƒgƒŠ‚Æƒy[ƒWAƒJ[ƒ\ƒ‹‚ÌˆÊ’uî•ñ‚ğ•Û‘¶
-	  (restore-haiku-keyword-list-pane): ƒqƒXƒgƒŠ‚©‚ç•œŒ³
-	  (haiku-search-keyword): ‘¼‚Ìƒy[ƒW‚ÉˆÚ“®‚ÉƒqƒXƒgƒŠ‚ğ•Û‘¶
+	* (haiku-save-keyword-list-history): ãƒ’ã‚¹ãƒˆãƒªã¨ãƒšãƒ¼ã‚¸ã€ã‚«ãƒ¼ã‚½ãƒ«ã®ä½ç½®æƒ…å ±ã‚’ä¿å­˜
+	  (restore-haiku-keyword-list-pane): ãƒ’ã‚¹ãƒˆãƒªã‹ã‚‰å¾©å…ƒ
+	  (haiku-search-keyword): ä»–ã®ãƒšãƒ¼ã‚¸ã«ç§»å‹•æ™‚ã«ãƒ’ã‚¹ãƒˆãƒªã‚’ä¿å­˜
 	  (haiku-show-keyword-entry): ditto
-	  (haiku-keyword-list-pane): ƒy[ƒW‚É“ü‚Á‚Ä‚«‚½‚Æ‚«‚É•Û‘¶‚µ‚Ä‚àˆÊ’uî•ñ‚È‚Ç‚Í•Û‘¶‚Å‚«‚È‚¢B
+	  (haiku-keyword-list-pane): ãƒšãƒ¼ã‚¸ã«å…¥ã£ã¦ããŸã¨ãã«ä¿å­˜ã—ã¦ã‚‚ä½ç½®æƒ…å ±ãªã©ã¯ä¿å­˜ã§ããªã„ã€‚
 
-	* (haiku-next-page-base1, haiku-next-line-base1): load ƒ^ƒCƒ~ƒ“ƒO‚ªŠÔˆá‚Á‚Ä‚½B
+	* (haiku-next-page-base1, haiku-next-line-base1): load ã‚¿ã‚¤ãƒŸãƒ³ã‚°ãŒé–“é•ã£ã¦ãŸã€‚
 
-	* (with-current-if-modified-since): Œ»İ‚Ì *http-get-if-modified-since* ‚ÅŒÅ’èB
-	  (with-force-if-modified-since): ˆø”‚Ì *http-get-if-modified-since* ‚ÅŒÅ’èB
-	  (with-no-if-modified-since): *http-get-if-modified-since* ‚ğ nil ‚ÅŒÅ’èB
-	  (haiku-forward-page, haiku-backward-page): ƒqƒXƒgƒŠ‚ÌˆÚ“®‚ÍƒLƒƒƒbƒVƒ…‚ğg‚¤‚æ‚¤‚É‚µ‚½B
+	* (with-current-if-modified-since): ç¾åœ¨ã® *http-get-if-modified-since* ã§å›ºå®šã€‚
+	  (with-force-if-modified-since): å¼•æ•°ã® *http-get-if-modified-since* ã§å›ºå®šã€‚
+	  (with-no-if-modified-since): *http-get-if-modified-since* ã‚’ nil ã§å›ºå®šã€‚
+	  (haiku-forward-page, haiku-backward-page): ãƒ’ã‚¹ãƒˆãƒªã®ç§»å‹•ã¯ã‚­ãƒ£ãƒƒã‚·ãƒ¥ã‚’ä½¿ã†ã‚ˆã†ã«ã—ãŸã€‚
 
-	* (save-current-window-line): Œ»İ‚ÌƒJ[ƒ\ƒ‹s‚ğ•ÏX‚µ‚È‚¢
+	* (save-current-window-line): ç¾åœ¨ã®ã‚«ãƒ¼ã‚½ãƒ«è¡Œã‚’å¤‰æ›´ã—ãªã„
 
-	* (haiku-next-page-base1, haiku-next-line-base1): ˆÚ“®‚Å‚«‚È‚¢•Ÿ‚Ìƒy[ƒW‚ğƒ[ƒh‚µ‚½ê‡‚Ì‚İÄ‹A
-	  (load-next-pages): Ÿ‚Ìƒy[ƒW‚ğƒ[ƒh‚·‚éŠÖ”B
+	* (haiku-next-page-base1, haiku-next-line-base1): ç§»å‹•ã§ããªã„ï¼†æ¬¡ã®ãƒšãƒ¼ã‚¸ã‚’ãƒ­ãƒ¼ãƒ‰ã—ãŸå ´åˆã®ã¿å†å¸°
+	  (load-next-pages): æ¬¡ã®ãƒšãƒ¼ã‚¸ã‚’ãƒ­ãƒ¼ãƒ‰ã™ã‚‹é–¢æ•°ã€‚
 
-	* M ‚Í©•ª‚Ì following ‚É‚µ‚½B
+	* M ã¯è‡ªåˆ†ã® following ã«ã—ãŸã€‚
 
-	* C-n, C-v ‚Å‚Ì©“®ƒ[ƒh‚Ìƒ^ƒCƒ~ƒ“ƒO‚ğ•ÏXB
-	  ˆÚ“®‚µ‚½Œã‚Éƒy[ƒW‚ÌÅŒã‚ªŒ©‚¦‚Ä‚¢‚ê‚Îƒ[ƒh‚·‚éB
+	* C-n, C-v ã§ã®è‡ªå‹•ãƒ­ãƒ¼ãƒ‰ã®ã‚¿ã‚¤ãƒŸãƒ³ã‚°ã‚’å¤‰æ›´ã€‚
+	  ç§»å‹•ã—ãŸå¾Œã«ãƒšãƒ¼ã‚¸ã®æœ€å¾ŒãŒè¦‹ãˆã¦ã„ã‚Œã°ãƒ­ãƒ¼ãƒ‰ã™ã‚‹ã€‚
 
-	* j, k ‚ÅˆÚ“®‚·‚é‚Æ‚«‚ÉŒ»İ‚ÌƒJ[ƒ\ƒ‹s‚ÍˆÚ“®‚µ‚È‚¢‚æ‚¤‚É‚µ‚½B
-	  ‚¢‚«‚È‚è recenter 1 ‚¾‚ÆƒJ[ƒ\ƒ‹‚ª1s–ÚˆÈŠO‚É‚ ‚Á‚½ê‡‚É‹Á‚­B
+	* j, k ã§ç§»å‹•ã™ã‚‹ã¨ãã«ç¾åœ¨ã®ã‚«ãƒ¼ã‚½ãƒ«è¡Œã¯ç§»å‹•ã—ãªã„ã‚ˆã†ã«ã—ãŸã€‚
+	  ã„ããªã‚Š recenter 1 ã ã¨ã‚«ãƒ¼ã‚½ãƒ«ãŒ1è¡Œç›®ä»¥å¤–ã«ã‚ã£ãŸå ´åˆã«é©šãã€‚
 
-	* - / ‚É‚æ‚éŒŸõ‚ğ‘Sƒoƒbƒtƒ@‚Å
-	  - M ‚Å©•ª‚Ì entries
-	  - SPC ‚ÅŸ‚Ìƒy[ƒW‚ğŠî–{‚É
+	* - / ã«ã‚ˆã‚‹æ¤œç´¢ã‚’å…¨ãƒãƒƒãƒ•ã‚¡ã§
+	  - M ã§è‡ªåˆ†ã® entries
+	  - SPC ã§æ¬¡ã®ãƒšãƒ¼ã‚¸ã‚’åŸºæœ¬ã«
 
 2008-01-14  MIYAMUKO Katsuyuki
 
 	* hatena-haiku-mode 0.0.1 released!
 
-	* ƒ^ƒCƒgƒ‹‚¾‚¯‚Å“Še‚Å‚«‚½ƒoƒO‚ğC³B
+	* ã‚¿ã‚¤ãƒˆãƒ«ã ã‘ã§æŠ•ç¨¿ã§ããŸãƒã‚°ã‚’ä¿®æ­£ã€‚
 
-	* - T ‚Å recent
-	  - L ‚Å keyword list
+	* - T ã§ recent
+	  - L ã§ keyword list
 
-	* (haiku-init-user-and-keyword-buffer): ƒoƒbƒtƒ@‚Ì‰Šú‰»ŠÖ”
+	* (haiku-init-user-and-keyword-buffer): ãƒãƒƒãƒ•ã‚¡ã®åˆæœŸåŒ–é–¢æ•°
 
-	* SPC ‚Å user ˆê——‚ğƒXƒNƒ[ƒ‹
+	* SPC ã§ user ä¸€è¦§ã‚’ã‚¹ã‚¯ãƒ­ãƒ¼ãƒ«
 
-	* •ÔM‚É‘Î‰
+	* è¿”ä¿¡ã«å¯¾å¿œ
 
-	* ˆø”ƒ`ƒFƒbƒN‚ÆƒƒbƒZ[ƒW‚ğC³
+	* å¼•æ•°ãƒã‚§ãƒƒã‚¯ã¨ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã‚’ä¿®æ­£
 
-	* (haiku-post-minibuffer): ˆø”ƒ`ƒFƒbƒN
+	* (haiku-post-minibuffer): å¼•æ•°ãƒã‚§ãƒƒã‚¯
 
-	* - (*haiku-keyword-list-map*): *haiku-keyword-map* ‚ğ copy-keymap ‚µ‚Ä’è‹`
-	  - SPC ‚ÅŸ‚Ìƒy[ƒW
+	* - (*haiku-keyword-list-map*): *haiku-keyword-map* ã‚’ copy-keymap ã—ã¦å®šç¾©
+	  - SPC ã§æ¬¡ã®ãƒšãƒ¼ã‚¸
 
-	* ƒoƒbƒtƒ@–¼ŠÔˆá‚¢‚ğC³
+	* ãƒãƒƒãƒ•ã‚¡åé–“é•ã„ã‚’ä¿®æ­£
 
-	* ƒGƒ“ƒgƒŠ‚ÌƒL[ƒ[ƒhƒy[ƒW‚ÆƒL[ƒ[ƒhˆê——‚Å keymap ‚ğ•ÏX
+	* ã‚¨ãƒ³ãƒˆãƒªã®ã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰ãƒšãƒ¼ã‚¸ã¨ã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰ä¸€è¦§ã§ keymap ã‚’å¤‰æ›´
 
-	* (haiku-open-user-by-browser): ƒ†[ƒUƒy[ƒW‚ğƒuƒ‰ƒEƒU‚ÅŠJ‚­
+	* (haiku-open-user-by-browser): ãƒ¦ãƒ¼ã‚¶ãƒšãƒ¼ã‚¸ã‚’ãƒ–ãƒ©ã‚¦ã‚¶ã§é–‹ã
 
-	* (haiku-post-minibuffer): ƒ~ƒjƒoƒbƒtƒ@‚©‚ç post ‚·‚éB
+	* (haiku-post-minibuffer): ãƒŸãƒ‹ãƒãƒƒãƒ•ã‚¡ã‹ã‚‰ post ã™ã‚‹ã€‚
 
-	* (haiku-toggle-keyword-pane, haiku-toggle-user-pane): User, Keyword ƒoƒbƒtƒ@‚Ì•\¦E”ñ•\¦‚ğƒgƒOƒ‹
+	* (haiku-toggle-keyword-pane, haiku-toggle-user-pane): User, Keyword ãƒãƒƒãƒ•ã‚¡ã®è¡¨ç¤ºãƒ»éè¡¨ç¤ºã‚’ãƒˆã‚°ãƒ«
 
-	* recent ‚Æ user ‚Å entry-type ‚ª‚©‚Ô‚Á‚Ä‚Ä•Ï‚È‚±‚Æ‚É‚È‚Á‚Ä‚¢‚½‚Ì‚ÅA
-	  ‚Æ‚è‚ ‚¦‚¸ entry-type ‚Ìƒ`ƒFƒbƒN‚ğ‚µ‚È‚¢‚æ‚¤‚É‚µ‚½B
+	* recent ã¨ user ã§ entry-type ãŒã‹ã¶ã£ã¦ã¦å¤‰ãªã“ã¨ã«ãªã£ã¦ã„ãŸã®ã§ã€
+	  ã¨ã‚Šã‚ãˆãš entry-type ã®ãƒã‚§ãƒƒã‚¯ã‚’ã—ãªã„ã‚ˆã†ã«ã—ãŸã€‚
 
-	* ƒoƒbƒtƒ@–¼‚ğ•Ô‚· xxx-name ‚ğ’Ç‰Á
+	* ãƒãƒƒãƒ•ã‚¡åã‚’è¿”ã™ xxx-name ã‚’è¿½åŠ 
 
-	* ŠÖ”–¼‚Ì•ÏX‚É‘Î‰
+	* é–¢æ•°åã®å¤‰æ›´ã«å¯¾å¿œ
 
-	* (delete-buffer-window): w’è‚³‚ê‚½ƒoƒbƒtƒ@‚ª•\¦‚µ‚Ä‚¢‚éwindow ‚ğíœ
+	* (delete-buffer-window): æŒ‡å®šã•ã‚ŒãŸãƒãƒƒãƒ•ã‚¡ãŒè¡¨ç¤ºã—ã¦ã„ã‚‹window ã‚’å‰Šé™¤
 
-	* - ƒGƒ“ƒgƒŠ‚Ìæ“¾‚É If-Modified-Since ‚ğ•t‚¯‚Ä‚İ‚½B
-	  - super-reload ‚Í epoch ‚©‚çB
+	* - ã‚¨ãƒ³ãƒˆãƒªã®å–å¾—æ™‚ã« If-Modified-Since ã‚’ä»˜ã‘ã¦ã¿ãŸã€‚
+	  - super-reload æ™‚ã¯ epoch ã‹ã‚‰ã€‚
 
-	* (set-lv): local-variable ‚¶‚á‚È‚¢‚ÆƒGƒ‰[‚É‚µ‚½B
+	* (set-lv): local-variable ã˜ã‚ƒãªã„ã¨ã‚¨ãƒ©ãƒ¼ã«ã—ãŸã€‚
 
-	* - (haiku-recent-pane, haiku-user-pane): Šù‚É•\¦‚µ‚Ä‚¢‚é‚Ì‚Å message ‚ğ•\¦‚µ‚È‚¢‚æ‚¤‚É‚µ‚½B
-	  - (entry-type): buffer ‚ğ optional ‚É.
+	* - (haiku-recent-pane, haiku-user-pane): æ—¢ã«è¡¨ç¤ºã—ã¦ã„ã‚‹ã®ã§ message ã‚’è¡¨ç¤ºã—ãªã„ã‚ˆã†ã«ã—ãŸã€‚
+	  - (entry-type): buffer ã‚’ optional ã«.
 
-	* user profile ƒy[ƒW‚¾‚¯ post title ‚ğİ’è
+	* user profile ãƒšãƒ¼ã‚¸ã ã‘ post title ã‚’è¨­å®š
 
-	* - (parse-hatena-id): ui/entry.base.l ‚©‚ç api/account.l ‚ÉˆÚ“®
-	  - (make-hatena-id): id:xxx ‹L–@‚É•ÏŠ·
+	* - (parse-hatena-id): ui/entry.base.l ã‹ã‚‰ api/account.l ã«ç§»å‹•
+	  - (make-hatena-id): id:xxx è¨˜æ³•ã«å¤‰æ›
 
-	* - (haiku-recent-pane): ‹¤’Ê•”•ª‚ğ‚­‚­‚è‚¾‚µ
-	  - (haiku-switch-recent-entries, haiku-switch-recent-following): ˆê’i‚Í‚³‚Ş‚±‚Æ‚É‚µ‚½B
+	* - (haiku-recent-pane): å…±é€šéƒ¨åˆ†ã‚’ããã‚Šã ã—
+	  - (haiku-switch-recent-entries, haiku-switch-recent-following): ä¸€æ®µã¯ã•ã‚€ã“ã¨ã«ã—ãŸã€‚
 
-	* E, F, P ‚ğ’è‹`
+	* E, F, P ã‚’å®šç¾©
 
-	* user ƒy[ƒW‚Ì entries, following, profile ‚É‘Î‰B
+	* user ãƒšãƒ¼ã‚¸ã® entries, following, profile ã«å¯¾å¿œã€‚
 
 	* (haiku-keyword-entries-pane): rename from haiku-keyword-entry-pane.
 
-	* (haiku-create-entry-pane): init-fn ‚ÌŒÄ‚Ño‚µ‚ğ funcall ‚Å‚Í‚È‚­ apply ‚É‚µ‚½B
+	* (haiku-create-entry-pane): init-fn ã®å‘¼ã³å‡ºã—ã‚’ funcall ã§ã¯ãªã apply ã«ã—ãŸã€‚
 
 	* (haiku-recent-entries-pane): rename from haiku-recent-pane.
-	  (haiku-recent-following-pane): Recent Following ‚ğ•\¦‚·‚é
+	  (haiku-recent-following-pane): Recent Following ã‚’è¡¨ç¤ºã™ã‚‹
 
-	* (haiku-show-new-entry-pane): ‘O’uˆø”‚ğw’è‚³‚ê‚½‚ç minibuffer ‚©‚ç‚¨‘è‚ğ“ü—ÍB
-	  (haiku-post-title): post ‚ÌƒfƒtƒHƒ‹ƒgƒ^ƒCƒgƒ‹‚ğƒoƒbƒtƒ@ƒ[ƒJƒ‹•Ï”‚©‚çæ“¾
-	  (haiku-keyword-entry-mode): @post-title ‚ğİ’è
+	* (haiku-show-new-entry-pane): å‰ç½®å¼•æ•°ã‚’æŒ‡å®šã•ã‚ŒãŸã‚‰ minibuffer ã‹ã‚‰ãŠé¡Œã‚’å…¥åŠ›ã€‚
+	  (haiku-post-title): post æ™‚ã®ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã‚¿ã‚¤ãƒˆãƒ«ã‚’ãƒãƒƒãƒ•ã‚¡ãƒ­ãƒ¼ã‚«ãƒ«å¤‰æ•°ã‹ã‚‰å–å¾—
+	  (haiku-keyword-entry-mode): @post-title ã‚’è¨­å®š
 
-	* (save-lv): ƒoƒbƒtƒ@ƒ[ƒJƒ‹•Ï”‚¶‚á‚È‚©‚Á‚½‚ç nil ‚ğ•Ï‚¦‚· buffer-local-variable
+	* (save-lv): ãƒãƒƒãƒ•ã‚¡ãƒ­ãƒ¼ã‚«ãƒ«å¤‰æ•°ã˜ã‚ƒãªã‹ã£ãŸã‚‰ nil ã‚’å¤‰ãˆã™ buffer-local-variable
 
-	* (*haiku-post-description*): 8< ‚ğ‚Â‚¯‚½
+	* (*haiku-post-description*): 8< ã‚’ã¤ã‘ãŸ
 
-	* (haiku-post-entry>): ˆø”‚Åw’è‚µ‚Ä‚àˆÓ–¡‚ª‚È‚©‚Á‚½‚Ì‚Åƒoƒbƒtƒ@ƒ[ƒJƒ‹•Ï”‚Å callback ‚ğw’è
+	* (haiku-post-entry>): å¼•æ•°ã§æŒ‡å®šã—ã¦ã‚‚æ„å‘³ãŒãªã‹ã£ãŸã®ã§ãƒãƒƒãƒ•ã‚¡ãƒ­ãƒ¼ã‚«ãƒ«å¤‰æ•°ã§ callback ã‚’æŒ‡å®š
 
-	* (update-mode-name): mode-name ‚ğ‚·‚®‚ÉXV‚·‚éŠÖ”
-	  (with-mode-name): ˆê“I‚É mode-name ‚ğ·‚µ‘Ö‚¦‚é
-	  (haiku-post-entry): with-mode-name ‚ğg‚¤‚æ‚¤‚É‚µ‚½Bˆø”‚É callback ‚ğw’è‚³‚ê‚é‚ÆÅŒã‚ÉŒÄ‚Ñ•Ô‚·B
+	* (update-mode-name): mode-name ã‚’ã™ãã«æ›´æ–°ã™ã‚‹é–¢æ•°
+	  (with-mode-name): ä¸€æ™‚çš„ã« mode-name ã‚’å·®ã—æ›¿ãˆã‚‹
+	  (haiku-post-entry): with-mode-name ã‚’ä½¿ã†ã‚ˆã†ã«ã—ãŸã€‚å¼•æ•°ã« callback ã‚’æŒ‡å®šã•ã‚Œã‚‹ã¨æœ€å¾Œã«å‘¼ã³è¿”ã™ã€‚
 
 	* (haiku-show-new-entry-pane): rename from haiku-toggle-new-entry-pane. exported.
 
-	* (*haiku-post-description*): ƒ|ƒXƒg => “Še
+	* (*haiku-post-description*): ãƒã‚¹ãƒˆ => æŠ•ç¨¿
 
-	* (*entry-end-tag*): YouTube ‚ÌƒŠƒ“ƒN‚ª‚ ‚é‚Æ entry ‚Ì‰ğÍ‚ª‚¤‚Ü‚­‚¢‚©‚È‚©‚Á‚½‚Ì‚ğC³
+	* (*entry-end-tag*): YouTube ã®ãƒªãƒ³ã‚¯ãŒã‚ã‚‹ã¨ entry ã®è§£æãŒã†ã¾ãã„ã‹ãªã‹ã£ãŸã®ã‚’ä¿®æ­£
 
-	* (extract-one): inner-text-only, strip ‚ÍƒfƒtƒHƒ‹ƒg t
-	  (html-cleanup-filter): ^M ‚ğ‰üs‚É•ÏŠ·
+	* (extract-one): inner-text-only, strip ã¯ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆ t
+	  (html-cleanup-filter): ^M ã‚’æ”¹è¡Œã«å¤‰æ›
 
 	* haiku-keyword-pane => haiku-keyword-list-pane.
 
@@ -493,27 +493,27 @@
 
 	* (login-hatena): stub
 
-	* V‹Kƒ|ƒXƒgƒoƒbƒtƒ@‚É‘Î‰
+	* æ–°è¦ãƒã‚¹ãƒˆãƒãƒƒãƒ•ã‚¡ã«å¯¾å¿œ
 
-	* (goto-stream-point): stdout ‚Éƒoƒbƒtƒ@ƒ|ƒCƒ“ƒg‚ğˆÚ“®‚·‚é
+	* (goto-stream-point): stdout ã«ãƒãƒƒãƒ•ã‚¡ãƒã‚¤ãƒ³ãƒˆã‚’ç§»å‹•ã™ã‚‹
 
-	* ƒGƒ“ƒgƒŠƒy[ƒW‚Ì keyword ƒŠƒXƒg‚Å @search-word ‚ª’è‹`‚³‚ê‚Ä‚¢‚È‚­‚Ä‚à“®‚­‚æ‚¤‚É‚µ‚½B
+	* ã‚¨ãƒ³ãƒˆãƒªãƒšãƒ¼ã‚¸ã® keyword ãƒªã‚¹ãƒˆã§ @search-word ãŒå®šç¾©ã•ã‚Œã¦ã„ãªãã¦ã‚‚å‹•ãã‚ˆã†ã«ã—ãŸã€‚
 
 2008-01-13  MIYAMUKO Katsuyuki
 
-	* user, keyword ‚Å‚Ì reload ‚ª“®‚©‚È‚­‚È‚Á‚Ä‚¢‚½‚Ì‚ğC³B
+	* user, keyword ã§ã® reload ãŒå‹•ã‹ãªããªã£ã¦ã„ãŸã®ã‚’ä¿®æ­£ã€‚
 
-	* entry-count ‚ª‚È‚¢ê‡‚ª‚ ‚é‚Ì‚Å mapcar ‚Ì‘O‚É compact
+	* entry-count ãŒãªã„å ´åˆãŒã‚ã‚‹ã®ã§ mapcar ã®å‰ã« compact
 
-	* ƒL[ƒ[ƒhŒŸõ‚É‘Î‰
+	* ã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰æ¤œç´¢ã«å¯¾å¿œ
 
-	* u ‚Åƒ†[ƒUƒy[ƒWAt ‚ÅƒL[ƒ[ƒhƒy[ƒW
+	* u ã§ãƒ¦ãƒ¼ã‚¶ãƒšãƒ¼ã‚¸ã€t ã§ã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰ãƒšãƒ¼ã‚¸
 
-	* user ˆê——ƒy[ƒW‚©‚ç user, title ‚ğŠJ‚­
+	* user ä¸€è¦§ãƒšãƒ¼ã‚¸ã‹ã‚‰ user, title ã‚’é–‹ã
 
-	* (current-entry-points): ƒGƒ“ƒgƒŠ‚ª‚Ğ‚Æ‚Â‚Ìê‡‚É‘Î‰
+	* (current-entry-points): ã‚¨ãƒ³ãƒˆãƒªãŒã²ã¨ã¤ã®å ´åˆã«å¯¾å¿œ
 
-	* (haiku-my-entry-pane): ©•ª‚ÌƒGƒ“ƒgƒŠƒy[ƒW‚ğŠJ‚­
+	* (haiku-my-entry-pane): è‡ªåˆ†ã®ã‚¨ãƒ³ãƒˆãƒªãƒšãƒ¼ã‚¸ã‚’é–‹ã
 
 	* (hatena-welcome-message): username => hatena-username.
 
@@ -524,343 +524,343 @@
 
 	* users.l => user-list.l
 
-	* users ‚Íƒ†[ƒUˆê——ƒoƒbƒtƒ@‚È‚Ì‚Å E, F, P ‚ÌƒL[ƒoƒCƒ“ƒh‚ğ entry/user.l ‚ÉˆÚ“®B
+	* users ã¯ãƒ¦ãƒ¼ã‚¶ä¸€è¦§ãƒãƒƒãƒ•ã‚¡ãªã®ã§ E, F, P ã®ã‚­ãƒ¼ãƒã‚¤ãƒ³ãƒ‰ã‚’ entry/user.l ã«ç§»å‹•ã€‚
 
-	* (*keywords-regexp*): ƒGƒ“ƒgƒŠƒy[ƒW‚Ì keywords ‚É‚Í entry-count ‚Í‚È‚¢B
-	  (scraper-spec-group->alist): optional ‚È³‹K•\Œ»‚É‘Î‰
+	* (*keywords-regexp*): ã‚¨ãƒ³ãƒˆãƒªãƒšãƒ¼ã‚¸ã® keywords ã«ã¯ entry-count ã¯ãªã„ã€‚
+	  (scraper-spec-group->alist): optional ãªæ­£è¦è¡¨ç¾ã«å¯¾å¿œ
 	  (scrape): ditto.
 
-	* (current-keyword): entry-count ‚ğ•\¦‚·‚é‚æ‚¤‚É‚µ‚½‚Ì‚Å text-attr ‚©‚çƒL[ƒ[ƒh‚ğŒŸõ
-	  (haiku-insert-keywords): text-attr ‚ÉƒL[ƒ[ƒh‚ğ–„‚ß‚Ş‚æ‚¤‚É‚µ‚½B
-	  (haiku-show-keyword-entry, haiku-reload-keyword, haiku-open-keyword-by-browser): current-keyword ‚ª nil ‚ğ•Ô‚µ‚½ê‡‚È‚É‚à‚µ‚È‚¢
+	* (current-keyword): entry-count ã‚’è¡¨ç¤ºã™ã‚‹ã‚ˆã†ã«ã—ãŸã®ã§ text-attr ã‹ã‚‰ã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰ã‚’æ¤œç´¢
+	  (haiku-insert-keywords): text-attr ã«ã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰ã‚’åŸ‹ã‚è¾¼ã‚€ã‚ˆã†ã«ã—ãŸã€‚
+	  (haiku-show-keyword-entry, haiku-reload-keyword, haiku-open-keyword-by-browser): current-keyword ãŒ nil ã‚’è¿”ã—ãŸå ´åˆãªã«ã‚‚ã—ãªã„
 
 	* keywords.l => keyword-list.l
 
-	* history ‹@”\‚ğÀ‘•BAlt-–îˆó, BS ‚ÉƒL[‚ğ’è‹`B
+	* history æ©Ÿèƒ½ã‚’å®Ÿè£…ã€‚Alt-çŸ¢å°, BS ã«ã‚­ãƒ¼ã‚’å®šç¾©ã€‚
 
 	* (haiku-insert-keywords): use fresh-line and terpri
 
-	* (haiku-insert-keywords): entry-count ‚ğ•\¦
+	* (haiku-insert-keywords): entry-count ã‚’è¡¨ç¤º
 
 	* (keyword-entry-count): export
 
-	* (*keywords-regexp*): entry-count ‚É‘Î‰
+	* (*keywords-regexp*): entry-count ã«å¯¾å¿œ
 	  (*keywords-scrape-rule*): ditto.
 	  (keyword-entry-count): ditto.
 
 2008-01-12  MIYAMUKO Katsuyuki
 
-	* ƒL[ƒ[ƒhƒy[ƒW‚Å Enter ‚ğ‰Ÿ‚µ‚½‚çƒ†[ƒUƒy[ƒW‚Ö
+	* ã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰ãƒšãƒ¼ã‚¸ã§ Enter ã‚’æŠ¼ã—ãŸã‚‰ãƒ¦ãƒ¼ã‚¶ãƒšãƒ¼ã‚¸ã¸
 
-	* (parse-hatena-id): id:xxx ‹L–@‚ğ parse
-	  (haiku-show-current-entry-keyword-page): id:xxx ‚¾‚Á‚½‚ç user pane
+	* (parse-hatena-id): id:xxx è¨˜æ³•ã‚’ parse
+	  (haiku-show-current-entry-keyword-page): id:xxx ã ã£ãŸã‚‰ user pane
 
-	* pager.l ‚ğg‚¤‚æ‚¤‚É‚µ‚½B
+	* pager.l ã‚’ä½¿ã†ã‚ˆã†ã«ã—ãŸã€‚
 
-	* ƒy[ƒWˆ— (@haiku-current-page) ‚Æ‚©‚ğ pager.l ‚ÉˆÚ“®B
+	* ãƒšãƒ¼ã‚¸å‡¦ç† (@haiku-current-page) ã¨ã‹ã‚’ pager.l ã«ç§»å‹•ã€‚
 
-	* - (haiku-render-entry-buffer): ƒy[ƒW‚ğ‘}“ü‚µ‚½ê‡‚Ì‚İ @haiku-current-page ‚ğXV
+	* - (haiku-render-entry-buffer): ãƒšãƒ¼ã‚¸ã‚’æŒ¿å…¥ã—ãŸå ´åˆã®ã¿ @haiku-current-page ã‚’æ›´æ–°
 	  - (haiku-insert-next-entry-page):
-	    - ÅŒã‚Ìƒy[ƒW‚É’B‚µ‚½‚ç @haiku-current-page ‚É :end-of-page ‚ğİ’èB
-	    - ƒƒbƒZ[ƒW‚ğ•\¦B
-	  - (haiku-insert-entries): ƒGƒ“ƒgƒŠ‚ğ‘}“ü‚µ‚½ê‡‚Í t ‚ğ•Ô‚·‚æ‚¤‚É‚µ‚½
+	    - æœ€å¾Œã®ãƒšãƒ¼ã‚¸ã«é”ã—ãŸã‚‰ @haiku-current-page ã« :end-of-page ã‚’è¨­å®šã€‚
+	    - ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã‚’è¡¨ç¤ºã€‚
+	  - (haiku-insert-entries): ã‚¨ãƒ³ãƒˆãƒªã‚’æŒ¿å…¥ã—ãŸå ´åˆã¯ t ã‚’è¿”ã™ã‚ˆã†ã«ã—ãŸ
 
-	* (haiku-next-entry1): I’[‚ª‰æ–Ê‚ÉŒ»‚ê‚½‚çŸ‚Ìƒy[ƒW‚ğƒ[ƒh
+	* (haiku-next-entry1): çµ‚ç«¯ãŒç”»é¢ã«ç¾ã‚ŒãŸã‚‰æ¬¡ã®ãƒšãƒ¼ã‚¸ã‚’ãƒ­ãƒ¼ãƒ‰
 
 2008-01-05  MIYAMUKO Katsuyuki
 
-	* - set-extended-key-translate-table ‚ğg‚Á‚½ Shift-SPACE ‚ÍƒOƒ[ƒoƒ‹‚Èó‘Ô
-	    ‚ğ‘‚«Š·‚¦‚é‚Ì‚Å‚â‚ß‚½B
-	  - ŠÖ”–¼•ÏX: title => keyword
+	* - set-extended-key-translate-table ã‚’ä½¿ã£ãŸ Shift-SPACE ã¯ã‚°ãƒ­ãƒ¼ãƒãƒ«ãªçŠ¶æ…‹
+	    ã‚’æ›¸ãæ›ãˆã‚‹ã®ã§ã‚„ã‚ãŸã€‚
+	  - é–¢æ•°åå¤‰æ›´: title => keyword
 
-	* hatena-haiku.ui ‚Ì‚İ‚ğ :user ‚©‚ç use-package
+	* hatena-haiku.ui ã®ã¿ã‚’ :user ã‹ã‚‰ use-package
 
-	* (haiku-show-current-entry-title-page): ƒJ[ƒ\ƒ‹‰º‚Ì keyword ƒy[ƒW‚ğŠJ‚­
-	  (haiku-show-current-entry-user-page): ƒJ[ƒ\ƒ‹‰º‚Ì user ƒy[ƒW‚ğŠJ‚­
+	* (haiku-show-current-entry-title-page): ã‚«ãƒ¼ã‚½ãƒ«ä¸‹ã® keyword ãƒšãƒ¼ã‚¸ã‚’é–‹ã
+	  (haiku-show-current-entry-user-page): ã‚«ãƒ¼ã‚½ãƒ«ä¸‹ã® user ãƒšãƒ¼ã‚¸ã‚’é–‹ã
 
-	* entry/user.l ‚ğ require
+	* entry/user.l ã‚’ require
 
-	* (scrape-entries-friends-and-keywords): entries-only ˆø”‚ª‘«‚è‚È‚©‚Á‚½B
+	* (scrape-entries-friends-and-keywords): entries-only å¼•æ•°ãŒè¶³ã‚Šãªã‹ã£ãŸã€‚
 
-	* (scan-text-attribute-forward): limit ‚Í nil ‚¾‚µAstart ‚ğ‘‚ß‚é‚×‚«B
+	* (scan-text-attribute-forward): limit ã¯ nil ã ã—ã€start ã‚’æ—©ã‚ã‚‹ã¹ãã€‚
 
 	* - (scan-text-attribute-forward, scan-text-attribute-backward):
-	    ŠJn“_‚ÆƒJ[ƒ\ƒ‹‚ªd‚È‚Á‚Ä‚¢‚½ê‡Ano-dup nil ‚Ìê‡‚Íƒ}ƒbƒ`‚µ‚È‚¢‚Æ‚¢‚¯‚È‚¢‚ªA
-	    list-text-attributes ‚É limit ‚ğ‚»‚Ì‚Ü‚Ü“n‚µ‚Ä‚¢‚½‚Ì‚Å list ‚³‚ê‚È‚©‚Á‚½B
+	    é–‹å§‹ç‚¹ã¨ã‚«ãƒ¼ã‚½ãƒ«ãŒé‡ãªã£ã¦ã„ãŸå ´åˆã€no-dup nil ã®å ´åˆã¯ãƒãƒƒãƒã—ãªã„ã¨ã„ã‘ãªã„ãŒã€
+	    list-text-attributes ã« limit ã‚’ãã®ã¾ã¾æ¸¡ã—ã¦ã„ãŸã®ã§ list ã•ã‚Œãªã‹ã£ãŸã€‚
 
-	* (current-entry-points): attribute ‚ÌŒŸõ‚É¸”s‚µ‚½‚ç nil ‚ğ•Ô‚·‚æ‚¤‚É‚µ‚½
+	* (current-entry-points): attribute ã®æ¤œç´¢ã«å¤±æ•—ã—ãŸã‚‰ nil ã‚’è¿”ã™ã‚ˆã†ã«ã—ãŸ
 
-	* - Shift-SPACE ‚Å‹tƒXƒNƒ[ƒ‹
-	  - (haiku-insert-entries): Å‰‚É‰üs‚ğ“ü‚ê‚ÄÅŒã‚Ì—]Œv‚È‰üs‚ğ“ü‚ê‚È‚¢‚æ‚¤‚É‚µ‚½B
-	  - (haiku-insert-new-entries-only): Å‰‚ÌƒGƒ“ƒgƒŠ‚ÌêŠ‚©‚ç‘‚«n‚ß‚é‚Æ text-attribute ‚ğˆø‚«Œp‚¢‚Å‚µ‚Ü‚¤‚Ì‚Å
-	    ˆês‘O‚É–ß‚é
-	  - (render-title, render-entry): ƒAƒNƒZƒbƒTŠÖ”‚Æ terpri ‚ğg‚¤‚æ‚¤‚É‚µ‚½B
-	    haiku-insert-entries ‚Å‰üs‚ğ“ü‚ê‚é‚Ì‚ÅÅŒã‚Ì‹ós‚ğíœB
-	  - (parse-body): ƒeƒXƒg—p‚Éƒ^ƒO‚ğ‚¢‚«‚È‚èíœ‚µ‚È‚¢‚æ‚¤‚É‚µ‚½
-	  - (parse-link): youtube ‚Ì“®‰æ“\‚è•t‚¯‚É‘Î‰
-	  - (haiku-entry-next-or-previous-page): íœ
-	  - (haiku-reload-entry): haiku-insert-new-entries-only ‚É“n‚·‚Ì‚Í entries ‚¾‚¯‚¶‚á‚È‚­‚Ä‘S‘ÌB
+	* - Shift-SPACE ã§é€†ã‚¹ã‚¯ãƒ­ãƒ¼ãƒ«
+	  - (haiku-insert-entries): æœ€åˆã«æ”¹è¡Œã‚’å…¥ã‚Œã¦æœ€å¾Œã®ä½™è¨ˆãªæ”¹è¡Œã‚’å…¥ã‚Œãªã„ã‚ˆã†ã«ã—ãŸã€‚
+	  - (haiku-insert-new-entries-only): æœ€åˆã®ã‚¨ãƒ³ãƒˆãƒªã®å ´æ‰€ã‹ã‚‰æ›¸ãå§‹ã‚ã‚‹ã¨ text-attribute ã‚’å¼•ãç¶™ã„ã§ã—ã¾ã†ã®ã§
+	    ä¸€è¡Œå‰ã«æˆ»ã‚‹
+	  - (render-title, render-entry): ã‚¢ã‚¯ã‚»ãƒƒã‚µé–¢æ•°ã¨ terpri ã‚’ä½¿ã†ã‚ˆã†ã«ã—ãŸã€‚
+	    haiku-insert-entries ã§æ”¹è¡Œã‚’å…¥ã‚Œã‚‹ã®ã§æœ€å¾Œã®ç©ºè¡Œã‚’å‰Šé™¤ã€‚
+	  - (parse-body): ãƒ†ã‚¹ãƒˆç”¨ã«ã‚¿ã‚°ã‚’ã„ããªã‚Šå‰Šé™¤ã—ãªã„ã‚ˆã†ã«ã—ãŸ
+	  - (parse-link): youtube ã®å‹•ç”»è²¼ã‚Šä»˜ã‘ã«å¯¾å¿œ
+	  - (haiku-entry-next-or-previous-page): å‰Šé™¤
+	  - (haiku-reload-entry): haiku-insert-new-entries-only ã«æ¸¡ã™ã®ã¯ entries ã ã‘ã˜ã‚ƒãªãã¦å…¨ä½“ã€‚
 
-	* (http-get): ‚Æ‚è‚ ‚¦‚¸ If-Modified-Since ‚ğí‚É‚Â‚¯‚ÄXV‚ª‚ ‚é‚Ì‚ÉƒLƒƒƒbƒVƒ…‚ğ‰r‚ñ‚Å‚µ‚Ü‚¤–â‘è‚ğ‰ñ”ğ
+	* (http-get): ã¨ã‚Šã‚ãˆãš If-Modified-Since ã‚’å¸¸ã«ã¤ã‘ã¦æ›´æ–°ãŒã‚ã‚‹ã®ã«ã‚­ãƒ£ãƒƒã‚·ãƒ¥ã‚’è© ã‚“ã§ã—ã¾ã†å•é¡Œã‚’å›é¿
 
-	* (*entry-body-regexp*): youtube ‚ÌƒŠƒ“ƒN‚ª’£‚Á‚Ä‚ ‚é‚Æ body ’†‚É‚à <div> ‚ªo‚Ä‚­‚é‚Ì‚ÅI—¹ƒ^ƒO‚ÌŒŸo‚ğŒµ–§‚É
+	* (*entry-body-regexp*): youtube ã®ãƒªãƒ³ã‚¯ãŒå¼µã£ã¦ã‚ã‚‹ã¨ body ä¸­ã«ã‚‚ <div> ãŒå‡ºã¦ãã‚‹ã®ã§çµ‚äº†ã‚¿ã‚°ã®æ¤œå‡ºã‚’å³å¯†ã«
 
-	* - (with-temporary-set-buffer): •Û‘¶‚·‚é‚Ì‚Í selected-buffer ‚Ì‚İ‚Å‚æ‚¢Bpoint ‚Æ‚©‚Í•Û‘¶‚·‚é‚ÈB
-	  - (with-temporary-writable): point ‚â modified ‚Í•Û‘¶‚·‚é•K—v‚È‚µB
+	* - (with-temporary-set-buffer): ä¿å­˜ã™ã‚‹ã®ã¯ selected-buffer ã®ã¿ã§ã‚ˆã„ã€‚point ã¨ã‹ã¯ä¿å­˜ã™ã‚‹ãªã€‚
+	  - (with-temporary-writable): point ã‚„ modified ã¯ä¿å­˜ã™ã‚‹å¿…è¦ãªã—ã€‚
 
-	* Shift-SPACE ‚ğ‰Ÿ‚µ‚Ä‚à SPACE ‚ÉŠ„‚è“–‚Ä‚½ŠÖ”‚ÍÀs‚³‚ê‚È‚¢‚Ì‚ÅA
-	  ‚»‚±‚Å GetKeyState ‚µ‚Ä‚àˆÓ–¡‚ª‚È‚¢B
-	  ˆÈ‰º‚Ì•û–@‚ğg‚¤‚Ì‚ª³‚µ‚¢Œ­‚è•ûB
-	  ; ƒVƒtƒg+ƒXƒy[ƒX‚Å‹tƒXƒNƒ[ƒ‹
+	* Shift-SPACE ã‚’æŠ¼ã—ã¦ã‚‚ SPACE ã«å‰²ã‚Šå½“ã¦ãŸé–¢æ•°ã¯å®Ÿè¡Œã•ã‚Œãªã„ã®ã§ã€
+	  ãã“ã§ GetKeyState ã—ã¦ã‚‚æ„å‘³ãŒãªã„ã€‚
+	  ä»¥ä¸‹ã®æ–¹æ³•ã‚’ä½¿ã†ã®ãŒæ­£ã—ã„é£ã‚Šæ–¹ã€‚
+	  ; ã‚·ãƒ•ãƒˆ+ã‚¹ãƒšãƒ¼ã‚¹ã§é€†ã‚¹ã‚¯ãƒ­ãƒ¼ãƒ«
 	  (set-extended-key-translate-table exkey-S-space #\F16)
 	  (define-key 2ch::*thread-map* #\F16 '2ch::thread-previous-page)
 	  http://d.hatena.ne.jp/playnote/20050326/p2
 
-	* - (render-entry): permalink, username ‚ğ :userinfo ƒL[‚Ì’†‚É“ü‚ê‚Ä–„‚ß‚ñ‚¾
-	  - (current-entry-permalink): absolute ˆø”‚ğ’Ç‰Á
-	  - (current-entry-username): ƒJ[ƒ\ƒ‹s‚ÌƒGƒ“ƒgƒŠ‚Ì username ‚ğ•Ô‚·
-	  - (current-entry-userinfo): ƒJ[ƒ\ƒ‹s‚ÌƒGƒ“ƒgƒŠ‚Ì userinfo ‚ğ•Ô‚·
-	  - (find-current-entry-tag-value): w’è‚µ‚½ƒL[‚Ì’l‚ğ•Ô‚·
-	  - (current-entry-points): ƒGƒ“ƒgƒŠ‚Ìƒ|ƒCƒ“ƒg‚ª‚¤‚Ü‚­æ“¾‚Å‚«‚Ä‚¢‚È‚©‚Á‚½‚Ì‚ğC³
+	* - (render-entry): permalink, username ã‚’ :userinfo ã‚­ãƒ¼ã®ä¸­ã«å…¥ã‚Œã¦åŸ‹ã‚è¾¼ã‚“ã 
+	  - (current-entry-permalink): absolute å¼•æ•°ã‚’è¿½åŠ 
+	  - (current-entry-username): ã‚«ãƒ¼ã‚½ãƒ«è¡Œã®ã‚¨ãƒ³ãƒˆãƒªã® username ã‚’è¿”ã™
+	  - (current-entry-userinfo): ã‚«ãƒ¼ã‚½ãƒ«è¡Œã®ã‚¨ãƒ³ãƒˆãƒªã® userinfo ã‚’è¿”ã™
+	  - (find-current-entry-tag-value): æŒ‡å®šã—ãŸã‚­ãƒ¼ã®å€¤ã‚’è¿”ã™
+	  - (current-entry-points): ã‚¨ãƒ³ãƒˆãƒªã®ãƒã‚¤ãƒ³ãƒˆãŒã†ã¾ãå–å¾—ã§ãã¦ã„ãªã‹ã£ãŸã®ã‚’ä¿®æ­£
 
-	* - (haiku-forward-text-attribute, haiku-backward-text-attribute): ‘¼‚ÌƒAƒvƒŠ‚ª text-attribute ‚ğİ’è‚µ‚Ä‚¢‚é‚©‚à
-	    ‚µ‚ê‚È‚¢‚Ì‚Å key ‚ğ car ‚©‚ç safe-car ‚É‚µ‚½
+	* - (haiku-forward-text-attribute, haiku-backward-text-attribute): ä»–ã®ã‚¢ãƒ—ãƒªãŒ text-attribute ã‚’è¨­å®šã—ã¦ã„ã‚‹ã‹ã‚‚
+	    ã—ã‚Œãªã„ã®ã§ key ã‚’ car ã‹ã‚‰ safe-car ã«ã—ãŸ
 
-	* - ($): ƒ}ƒNƒ‚¶‚á‚È‚­‚ÄŠÖ”‚É‚µ‚½B
-	    item ‚ÉƒŠƒXƒg‚ğw’è‚³‚ê‚½‚çƒŠƒXƒg‚Å•Ô‚·‚æ‚¤‚É‚µ‚½B
-	  - (subalist): alist ‚©‚ç‚µ‚Ä‚¢‚³‚ê‚½ƒL[‚¾‚¯‚Ì alist ‚ğì‚é
-	  - (mapalist): alist ‚ğ map ‚·‚éB
+	* - ($): ãƒã‚¯ãƒ­ã˜ã‚ƒãªãã¦é–¢æ•°ã«ã—ãŸã€‚
+	    item ã«ãƒªã‚¹ãƒˆã‚’æŒ‡å®šã•ã‚ŒãŸã‚‰ãƒªã‚¹ãƒˆã§è¿”ã™ã‚ˆã†ã«ã—ãŸã€‚
+	  - (subalist): alist ã‹ã‚‰ã—ã¦ã„ã•ã‚ŒãŸã‚­ãƒ¼ã ã‘ã® alist ã‚’ä½œã‚‹
+	  - (mapalist): alist ã‚’ map ã™ã‚‹ã€‚
 
-	* (render): tag ‚ª nil ‚Ì‚Í text-attribute ‚Íİ’è‚µ‚È‚¢
+	* (render): tag ãŒ nil ã®æ™‚ã¯ text-attribute ã¯è¨­å®šã—ãªã„
 
-	* @haiku-current-page ‚ª nil ‚Ìê‡‚É‘Î‰‚µ‚½‚Â‚à‚è(2)B
+	* @haiku-current-page ãŒ nil ã®å ´åˆã«å¯¾å¿œã—ãŸã¤ã‚‚ã‚Š(2)ã€‚
 
-	* @haiku-current-page ‚ª nil ‚Ìê‡‚É‘Îˆ‚µ‚½‚Â‚à‚èB
+	* @haiku-current-page ãŒ nil ã®å ´åˆã«å¯¾å‡¦ã—ãŸã¤ã‚‚ã‚Šã€‚
 
-	* ƒL[‚Ìó‘Ô‚ğæ“¾‚·‚éƒ†[ƒeƒBƒŠƒeƒBB
+	* ã‚­ãƒ¼ã®çŠ¶æ…‹ã‚’å–å¾—ã™ã‚‹ãƒ¦ãƒ¼ãƒ†ã‚£ãƒªãƒ†ã‚£ã€‚
 
-	* (haiku-show-keyword-entry): ƒL[ƒ[ƒh‚Ì•\¦‚ğ‚Æ‚è‚ ‚¦‚¸À‘•
+	* (haiku-show-keyword-entry): ã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰ã®è¡¨ç¤ºã‚’ã¨ã‚Šã‚ãˆãšå®Ÿè£…
 
-	* - haiku-render-entry ‚Å @haiku-current-page ‚ğİ’è‚·‚é‚æ‚¤‚É‚µ‚½B
-	  - ƒoƒO‚Á‚Ä‚¢‚½‚Æ‚«‚É‚·‚®ƒGƒ‰[‚É‚È‚é‚æ‚¤‚É @haiku-current-page ‚Ì‰Šú’l‚Í 0 ‚Å‚Í‚È‚­ nil ‚É‚µ‚½B
+	* - haiku-render-entry ã§ @haiku-current-page ã‚’è¨­å®šã™ã‚‹ã‚ˆã†ã«ã—ãŸã€‚
+	  - ãƒã‚°ã£ã¦ã„ãŸã¨ãã«ã™ãã‚¨ãƒ©ãƒ¼ã«ãªã‚‹ã‚ˆã†ã« @haiku-current-page ã®åˆæœŸå€¤ã¯ 0 ã§ã¯ãªã nil ã«ã—ãŸã€‚
 
-	* keyword ƒy[ƒW‚ÌƒGƒ“ƒgƒŠ‚É‘Î‰B
-	  ‹¤’Ê•”•ª‚ğ base.l ‚É’Ç‚¢o‚µ‚½B
+	* keyword ãƒšãƒ¼ã‚¸ã®ã‚¨ãƒ³ãƒˆãƒªã«å¯¾å¿œã€‚
+	  å…±é€šéƒ¨åˆ†ã‚’ base.l ã«è¿½ã„å‡ºã—ãŸã€‚
 
-	* - (scrape): beginning-of-buffer ‚Í mark ‚ğƒZƒbƒg‚µ‚Ä message ‚ª‚¤‚´‚¢‚Ì‚Å
-	    goto-char (point-min) ‚Å’u‚«Š·‚¦B
+	* - (scrape): beginning-of-buffer ã¯ mark ã‚’ã‚»ãƒƒãƒˆã—ã¦ message ãŒã†ã–ã„ã®ã§
+	    goto-char (point-min) ã§ç½®ãæ›ãˆã€‚
 
 2008-01-04  MIYAMUKO Katsuyuki
 
 	* fix provide
 
-	* page ‚ÍƒL[ƒ[ƒhˆø”
+	* page ã¯ã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰å¼•æ•°
 
-	* page ‚Æ entries-only ˆø”‚ğ’Ç‰Á
+	* page ã¨ entries-only å¼•æ•°ã‚’è¿½åŠ 
 	  - keyword-entries
 	  - user-entries
 	  - user-entries-following
 	  - user-entries-profile
 
-	* (with-keymap): ŠÖ”‚ª nil ‚¾‚Á‚½‚ç undefine-key ‚·‚é‚æ‚¤‚É‚µ‚½B
+	* (with-keymap): é–¢æ•°ãŒ nil ã ã£ãŸã‚‰ undefine-key ã™ã‚‹ã‚ˆã†ã«ã—ãŸã€‚
 
-	* entry ŠÖ˜A‚Ìƒ\[ƒX‚Í ui/entry ”z‰º‚ÉˆÚ“®B
+	* entry é–¢é€£ã®ã‚½ãƒ¼ã‚¹ã¯ ui/entry é…ä¸‹ã«ç§»å‹•ã€‚
 
-	* *haiku-recent-window-flags* ‚ğíœB *haiku-entry-window-flags* ‚ğg‚¤‚æ‚¤‚É‚µ‚½B
+	* *haiku-recent-window-flags* ã‚’å‰Šé™¤ã€‚ *haiku-entry-window-flags* ã‚’ä½¿ã†ã‚ˆã†ã«ã—ãŸã€‚
 
-	* recent.l ‚©‚çƒGƒ“ƒgƒŠ‹¤’Ê‚Ì•”•ª‚ğ entry.l ‚É•ª—£
+	* recent.l ã‹ã‚‰ã‚¨ãƒ³ãƒˆãƒªå…±é€šã®éƒ¨åˆ†ã‚’ entry.l ã«åˆ†é›¢
 
-	* browser ‚Í base.l ‚Å require
+	* browser ã¯ base.l ã§ require
 
-	* (haiku-open-keyword-by-browser): ƒuƒ‰ƒEƒU‚ÅŠJ‚­
+	* (haiku-open-keyword-by-browser): ãƒ–ãƒ©ã‚¦ã‚¶ã§é–‹ã
 
-	* Users ƒoƒbƒtƒ@‚Å‚ÌƒŠƒ[ƒh‚É‘Î‰B
+	* Users ãƒãƒƒãƒ•ã‚¡ã§ã®ãƒªãƒ­ãƒ¼ãƒ‰ã«å¯¾å¿œã€‚
 
-	* with-keymap ‚ğg‚¤‚æ‚¤‚É‚µ‚½B
+	* with-keymap ã‚’ä½¿ã†ã‚ˆã†ã«ã—ãŸã€‚
 
-	* recent ƒoƒbƒtƒ@‚Ì reload, super-reload ‚É‘Î‰
+	* recent ãƒãƒƒãƒ•ã‚¡ã® reload, super-reload ã«å¯¾å¿œ
 
-	* (haiku-render-user-buffer): reset ˆø”‚ğ’Ç‰ÁB
+	* (haiku-render-user-buffer): reset å¼•æ•°ã‚’è¿½åŠ ã€‚
 	  (haiku-render-keyword-buffer): ditto.
 
 	* (user-text): fixed wrong key name.
 
-	* (latest-keyword): goto-char (point-min) ‚Í•s—vBfirst-keyword ‚Ì’†‚Å‚µ‚Ä‚¢‚éB
+	* (latest-keyword): goto-char (point-min) ã¯ä¸è¦ã€‚first-keyword ã®ä¸­ã§ã—ã¦ã„ã‚‹ã€‚
 
-	* accessor ŠÖ”‚ğg‚¤‚æ‚¤‚É‚µ‚½B
+	* accessor é–¢æ•°ã‚’ä½¿ã†ã‚ˆã†ã«ã—ãŸã€‚
 
-	* mapcar ‚Éw’è‚Å‚«‚é‚æ‚¤‚ÉAaccessor ‚ğ macro ‚Å‚Í‚È‚­ŠÖ”‚É‚µ‚½B
+	* mapcar ã«æŒ‡å®šã§ãã‚‹ã‚ˆã†ã«ã€accessor ã‚’ macro ã§ã¯ãªãé–¢æ•°ã«ã—ãŸã€‚
 
-	* (haiku-reset-keyword-buffer): ƒoƒbƒtƒ@‚Ì“à—e‚ğƒNƒŠƒA‚·‚é
-	  (haiku-insert-users): accessor ŠÖ”‚ğg‚¤‚æ‚¤‚É‚µ‚½B
+	* (haiku-reset-keyword-buffer): ãƒãƒƒãƒ•ã‚¡ã®å†…å®¹ã‚’ã‚¯ãƒªã‚¢ã™ã‚‹
+	  (haiku-insert-users): accessor é–¢æ•°ã‚’ä½¿ã†ã‚ˆã†ã«ã—ãŸã€‚
 
-	* accessor ŠÖ”‚ğ export
+	* accessor é–¢æ•°ã‚’ export
 
-	* alist ‚É‘Î‚·‚é accessor ‚ğ’è‹`‚µ‚½B
+	* alist ã«å¯¾ã™ã‚‹ accessor ã‚’å®šç¾©ã—ãŸã€‚
 
-	* (subseq-if, subseq-before): w’è‚³‚ê‚½ŠÖ” or item ‚Éƒ}ƒbƒ`‚·‚é‚Æ‚±‚Ü‚Å‚Ì seq ‚ğ•Ô‚·B
-	  ($): macro ‚É‚µ‚½B
+	* (subseq-if, subseq-before): æŒ‡å®šã•ã‚ŒãŸé–¢æ•° or item ã«ãƒãƒƒãƒã™ã‚‹ã¨ã“ã¾ã§ã® seq ã‚’è¿”ã™ã€‚
+	  ($): macro ã«ã—ãŸã€‚
 
-	* - (create-haiku-frame): with-set-buffer ‚Í•s—vB
-	    ƒ~ƒjƒoƒbƒtƒ@•\¦’†‚ÉƒGƒ‰[‚É‚È‚é‚Ì‚Í‚Ç‚¤‚µ‚æ‚¤‚à‚È‚¢B
-	    (C-x C-f ¨ M-x haiku-keyword-pane ‚·‚é)
-	    quit-recursive-edit ‚·‚é‚Æ”²‚¯‚ê‚é‚ªˆ—‚ğ‘±s‚Å‚«‚È‚¢B
+	* - (create-haiku-frame): with-set-buffer ã¯ä¸è¦ã€‚
+	    ãƒŸãƒ‹ãƒãƒƒãƒ•ã‚¡è¡¨ç¤ºä¸­ã«ã‚¨ãƒ©ãƒ¼ã«ãªã‚‹ã®ã¯ã©ã†ã—ã‚ˆã†ã‚‚ãªã„ã€‚
+	    (C-x C-f â†’ M-x haiku-keyword-pane ã™ã‚‹)
+	    quit-recursive-edit ã™ã‚‹ã¨æŠœã‘ã‚Œã‚‹ãŒå‡¦ç†ã‚’ç¶šè¡Œã§ããªã„ã€‚
 
 	* (haiku-insert-keywords): pt => start.
 
-	* (haiku-keyword-pane): export ‚µ‚½B
+	* (haiku-keyword-pane): export ã—ãŸã€‚
 
-	* (haiku-insert-users): ƒ†[ƒU–¼‚ğ html-textize
-	  (haiku-isnert-keywords): ƒL[ƒ[ƒh‚ğ“¯ã
+	* (haiku-insert-users): ãƒ¦ãƒ¼ã‚¶åã‚’ html-textize
+	  (haiku-isnert-keywords): ã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰ã‚’åŒä¸Š
 
-	* (html-remove-tag): ui/basel.l ‚©‚ç util/html.l ‚ÉˆÚ“®B
-	  (html-textize): HTML ‚ğƒeƒLƒXƒg‚É•ÏŠ· (ƒ^ƒO‚ÌÁ‹AƒGƒ“ƒeƒBƒeƒB‚Ì•ÏŠ·)B
+	* (html-remove-tag): ui/basel.l ã‹ã‚‰ util/html.l ã«ç§»å‹•ã€‚
+	  (html-textize): HTML ã‚’ãƒ†ã‚­ã‚¹ãƒˆã«å¤‰æ› (ã‚¿ã‚°ã®æ¶ˆå»ã€ã‚¨ãƒ³ãƒ†ã‚£ãƒ†ã‚£ã®å¤‰æ›)ã€‚
 
-	* escape.l ‚ğ encode.l ‚Æ html.l ‚É•ªŠ„B
+	* escape.l ã‚’ encode.l ã¨ html.l ã«åˆ†å‰²ã€‚
 
-	* (html-unescape): &lt; ‚Æ‚©‚ğŒ³‚É–ß‚·
+	* (html-unescape): &lt; ã¨ã‹ã‚’å…ƒã«æˆ»ã™
 
-	* (gsub): string-substitute ‚Ì‹‰Ø”Å
+	* (gsub): string-substitute ã®è±ªè¯ç‰ˆ
 
-	* - (*haiku-keyword-map*): with-keymap ƒ}ƒNƒ‚ğg‚¤‚æ‚¤‚É‚µ‚½B
-	    reload Œn‚Í F5, S-F5 ‚É‚µ‚½B
+	* - (*haiku-keyword-map*): with-keymap ãƒã‚¯ãƒ­ã‚’ä½¿ã†ã‚ˆã†ã«ã—ãŸã€‚
+	    reload ç³»ã¯ F5, S-F5 ã«ã—ãŸã€‚
 
-	* utils.l ‚ğ whitespace.l, escape.l, sequence.l ‚É•ªŠ„
+	* utils.l ã‚’ whitespace.l, escape.l, sequence.l ã«åˆ†å‰²
 
-	* (with-keymap): define-key ‚ğŠÈ’P‚É‚·‚éƒ}ƒNƒ
+	* (with-keymap): define-key ã‚’ç°¡å˜ã«ã™ã‚‹ãƒã‚¯ãƒ­
 
-	* ˆø”–¼‚ğ•ÏX: page => name.
+	* å¼•æ•°åã‚’å¤‰æ›´: page => name.
 
-	* - (*haiku-recent-window-flags*): ƒJ[ƒ\ƒ‹s‚É‰ºü‚ğ•\¦
+	* - (*haiku-recent-window-flags*): ã‚«ãƒ¼ã‚½ãƒ«è¡Œã«ä¸‹ç·šã‚’è¡¨ç¤º
 	  - (haiku-next-entry1, haiku-previous-entry1): recenter 1
 
-	* C-v ‚ÅƒJ[ƒ\ƒ‹s‚ÌƒGƒ“ƒgƒŠ‚ğƒuƒ‰ƒEƒU‚ÅŠJ‚­‹@”\‚ğÀ‘•B
-	  (entry-permalink): permalink ‚ğì‚Á‚Ä•Ô‚·ŠÖ”B
-	  (haiku-open-current-entry-by-browser): ƒJ[ƒ\ƒ‹s‚ÌƒGƒ“ƒgƒŠ‚Ìƒuƒ‰ƒEƒU‚ÅŠJ‚­
-	  (with-current-entry): ƒJ[ƒ\ƒ‹s‚ÌƒGƒ“ƒgƒŠ‚ğ narrowing ‚µ‚Ä body ‚ğÀs
-	  (current-entry-permalink): ƒJ[ƒ\ƒ‹s‚ÌƒGƒ“ƒgƒŠ‚Ì permalink ‚ğ•Ô‚·
-	  (narrow-to-current-entry): ƒJ[ƒ\ƒ‹s‚ÌƒGƒ“ƒgƒŠ‚ğ narrowing
-	  (current-entry-points): ƒJ[ƒ\ƒ‹s‚ÌƒGƒ“ƒgƒŠ‚ÌŠJnEI—¹ point ‚ğ•Ô‚·
-	  (open-browser): ƒuƒ‰ƒEƒU‚Å url ‚ğŠJ‚­ŠÖ”
+	* C-v ã§ã‚«ãƒ¼ã‚½ãƒ«è¡Œã®ã‚¨ãƒ³ãƒˆãƒªã‚’ãƒ–ãƒ©ã‚¦ã‚¶ã§é–‹ãæ©Ÿèƒ½ã‚’å®Ÿè£…ã€‚
+	  (entry-permalink): permalink ã‚’ä½œã£ã¦è¿”ã™é–¢æ•°ã€‚
+	  (haiku-open-current-entry-by-browser): ã‚«ãƒ¼ã‚½ãƒ«è¡Œã®ã‚¨ãƒ³ãƒˆãƒªã®ãƒ–ãƒ©ã‚¦ã‚¶ã§é–‹ã
+	  (with-current-entry): ã‚«ãƒ¼ã‚½ãƒ«è¡Œã®ã‚¨ãƒ³ãƒˆãƒªã‚’ narrowing ã—ã¦ body ã‚’å®Ÿè¡Œ
+	  (current-entry-permalink): ã‚«ãƒ¼ã‚½ãƒ«è¡Œã®ã‚¨ãƒ³ãƒˆãƒªã® permalink ã‚’è¿”ã™
+	  (narrow-to-current-entry): ã‚«ãƒ¼ã‚½ãƒ«è¡Œã®ã‚¨ãƒ³ãƒˆãƒªã‚’ narrowing
+	  (current-entry-points): ã‚«ãƒ¼ã‚½ãƒ«è¡Œã®ã‚¨ãƒ³ãƒˆãƒªã®é–‹å§‹ãƒ»çµ‚äº† point ã‚’è¿”ã™
+	  (open-browser): ãƒ–ãƒ©ã‚¦ã‚¶ã§ url ã‚’é–‹ãé–¢æ•°
 
-	* (goto-text-attribute): –ß‚è’l‚ğƒŠƒXƒg‚Å‚Í‚È‚­‘½’l‚Å•Ô‚·‚æ‚¤‚É‚µ‚½B
+	* (goto-text-attribute): æˆ»ã‚Šå€¤ã‚’ãƒªã‚¹ãƒˆã§ã¯ãªãå¤šå€¤ã§è¿”ã™ã‚ˆã†ã«ã—ãŸã€‚
 
 	* (D, D0): added debug macro
 
 2008-01-03  MIYAMUKO Katsuyuki
 
-	* (goto-text-attribute): ˆÚ“®‚µ‚½ê‡‚Í text-attribute ‚ğ•Ô‚·‚æ‚¤‚É‚µ‚½B
+	* (goto-text-attribute): ç§»å‹•ã—ãŸå ´åˆã¯ text-attribute ã‚’è¿”ã™ã‚ˆã†ã«ã—ãŸã€‚
 
 	* (make-lv): make-local-variable and set
-	  (haiku-init-keyword-buffer, haiku-keyword-mode): keyword ‚ÌƒŠƒ[ƒhŠÖ”‚ğw’è‚Å‚«‚é‚æ‚¤‚É‚µ‚½
-	  (haiku-recent-pane): keyword ‚ÌƒŠƒ[ƒhŠÖ”‚ğw’è (–¢À‘•)
-	  (haiku-reload-buffer): w’è‚³‚ê‚½ keyword ‚ÌƒŠƒ[ƒhŠÖ”‚ğÀs
+	  (haiku-init-keyword-buffer, haiku-keyword-mode): keyword ã®ãƒªãƒ­ãƒ¼ãƒ‰é–¢æ•°ã‚’æŒ‡å®šã§ãã‚‹ã‚ˆã†ã«ã—ãŸ
+	  (haiku-recent-pane): keyword ã®ãƒªãƒ­ãƒ¼ãƒ‰é–¢æ•°ã‚’æŒ‡å®š (æœªå®Ÿè£…)
+	  (haiku-reload-buffer): æŒ‡å®šã•ã‚ŒãŸ keyword ã®ãƒªãƒ­ãƒ¼ãƒ‰é–¢æ•°ã‚’å®Ÿè¡Œ
 	  (haiku-super-reload-buffer): ditto.
 
-	* keyword ‚Ì reload ‚Æ super-reload ‚ğÀ‘•
-	  - (haiku-reload-keyword): ÅV‚ÌƒL[ƒ[ƒh‚ğæ“¾‚µ‚ÄXV
-	  - (haiku-super-reload-keyword): Š®‘S‚ÈXV
-	  - (save-current-point): Œ»İ‚ÌƒJ[ƒ\ƒ‹s‚ÆƒXƒNƒ[ƒ‹‚ğ•Û‘¶B
-	    save-excursion, save-window-excursion ‚Å‚Íƒoƒbƒtƒ@‚Ì“à—e‚ªŠ®‘S‚ÉÁ‚¦‚é‚Æ
-	    •Û‘¶‚µ‚Ä‚­‚ê‚È‚¢
-	  - (haiku-reset-keyword-buffer): ƒoƒbƒtƒ@‚Ì“à—e‚ğƒNƒŠƒA‚·‚é
-	  - (haiku-insert-keywords): ‘}“üêŠ‚ğw’è‰Â”\‚É‚µ‚”‚ª
-	  - (haiku-first-keyword): Å‰‚ÌƒL[ƒ[ƒh‚ÉˆÚ“®
-	  - (latest-keyword): ˆê”ÔÅ‰‚ÌƒL[ƒ[ƒh‚ğæ“¾
-	  - (current-keyword): ƒJ[ƒ\ƒ‹‰»‚ÌƒL[ƒ[ƒh‚ğæ“¾
-	  - (haiku-forward-text-attribute): no-dup ‚ğw’è‚Å‚«‚é‚æ‚¤‚É‚µ‚½B
+	* keyword ã® reload ã¨ super-reload ã‚’å®Ÿè£…
+	  - (haiku-reload-keyword): æœ€æ–°ã®ã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰ã‚’å–å¾—ã—ã¦æ›´æ–°
+	  - (haiku-super-reload-keyword): å®Œå…¨ãªæ›´æ–°
+	  - (save-current-point): ç¾åœ¨ã®ã‚«ãƒ¼ã‚½ãƒ«è¡Œã¨ã‚¹ã‚¯ãƒ­ãƒ¼ãƒ«ã‚’ä¿å­˜ã€‚
+	    save-excursion, save-window-excursion ã§ã¯ãƒãƒƒãƒ•ã‚¡ã®å†…å®¹ãŒå®Œå…¨ã«æ¶ˆãˆã‚‹ã¨
+	    ä¿å­˜ã—ã¦ãã‚Œãªã„
+	  - (haiku-reset-keyword-buffer): ãƒãƒƒãƒ•ã‚¡ã®å†…å®¹ã‚’ã‚¯ãƒªã‚¢ã™ã‚‹
+	  - (haiku-insert-keywords): æŒ¿å…¥å ´æ‰€ã‚’æŒ‡å®šå¯èƒ½ã«ã—ï½”ãŒ
+	  - (haiku-first-keyword): æœ€åˆã®ã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰ã«ç§»å‹•
+	  - (latest-keyword): ä¸€ç•ªæœ€åˆã®ã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰ã‚’å–å¾—
+	  - (current-keyword): ã‚«ãƒ¼ã‚½ãƒ«åŒ–ã®ã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰ã‚’å–å¾—
+	  - (haiku-forward-text-attribute): no-dup ã‚’æŒ‡å®šã§ãã‚‹ã‚ˆã†ã«ã—ãŸã€‚
 	  - (haiku-backward-text-attribute): ditto
 
-	* ˆÈ‰º‚ÌŠÖ”‚ğ’Ç‰ÁB
+	* ä»¥ä¸‹ã®é–¢æ•°ã‚’è¿½åŠ ã€‚
 	    - buffer-line-string
 	    - line-point-values
 	    - line-points
 	    - beginning-of-line-point
 	    - end-of-line-point
 
-	* (haiku-next-keyword1): haiku-paging-p ‚ª t ‚Ìê‡‚Ì‚İŸ‚Ìƒy[ƒW‚ğ“Ç‚İ‚±‚ŞB
+	* (haiku-next-keyword1): haiku-paging-p ãŒ t ã®å ´åˆã®ã¿æ¬¡ã®ãƒšãƒ¼ã‚¸ã‚’èª­ã¿ã“ã‚€ã€‚
 
-	* (haiku-next-keyword1): Ÿ‚Ìƒy[ƒW‚ğ©“®“I‚É“Ç‚İ‚Ş‚æ‚¤‚É‚µ‚½B
+	* (haiku-next-keyword1): æ¬¡ã®ãƒšãƒ¼ã‚¸ã‚’è‡ªå‹•çš„ã«èª­ã¿è¾¼ã‚€ã‚ˆã†ã«ã—ãŸã€‚
 	  (haiku-next-entry1): ditto.
 
-	* ‘O’uˆø”ü‚è‚ª“®‚©‚È‚©‚Á‚½‚Ì‚ğC³B
+	* å‰ç½®å¼•æ•°å‘¨ã‚ŠãŒå‹•ã‹ãªã‹ã£ãŸã®ã‚’ä¿®æ­£ã€‚
 
-	* (haiku-previous-entry, haiku-next-entry): haiku-backward-text-attribute ‚ğg‚Á‚ÄÀ‘•B
+	* (haiku-previous-entry, haiku-next-entry): haiku-backward-text-attribute ã‚’ä½¿ã£ã¦å®Ÿè£…ã€‚
 
-	* - (scan-text-attribute): scan-buffer + find-text-attribute ‚İ‚½‚¢‚ÈŠÖ”B
-	    find-text-attribute ‚Í‹t•ûŒü‚Ö‚ÌŒŸõ‚ª‚Å‚«‚È‚¢‚Ì‚Å list-text-attribute ‚ğg‚Á‚Ä©ìB
+	* - (scan-text-attribute): scan-buffer + find-text-attribute ã¿ãŸã„ãªé–¢æ•°ã€‚
+	    find-text-attribute ã¯é€†æ–¹å‘ã¸ã®æ¤œç´¢ãŒã§ããªã„ã®ã§ list-text-attribute ã‚’ä½¿ã£ã¦è‡ªä½œã€‚
 
-	* Users ƒoƒbƒtƒ@‚Ì•\¦B
+	* Users ãƒãƒƒãƒ•ã‚¡ã®è¡¨ç¤ºã€‚
 
-	* (haiku-next-page-base1, haiku-next-line-base1): define-prefix-argument-command ‚ğg‚¤‚æ‚¤‚É‚µ‚½B
+	* (haiku-next-page-base1, haiku-next-line-base1): define-prefix-argument-command ã‚’ä½¿ã†ã‚ˆã†ã«ã—ãŸã€‚
 
-	* (define-prefix-argument-command): ‘O’uˆø”‚É‘Î‰‚µ‚½ŠÖ”‚ğì‚éƒ}ƒNƒB
+	* (define-prefix-argument-command): å‰ç½®å¼•æ•°ã«å¯¾å¿œã—ãŸé–¢æ•°ã‚’ä½œã‚‹ãƒã‚¯ãƒ­ã€‚
 
-	* - C-v, C-n ‚Å‘O’uˆø”‚É‘Î‰
-	  - recent ‚ÌƒL[ƒ[ƒhƒoƒbƒtƒ@‚Ì–¼‘O‚ğ Hot Keywords ‚É‚µ‚½B
+	* - C-v, C-n ã§å‰ç½®å¼•æ•°ã«å¯¾å¿œ
+	  - recent ã®ã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰ãƒãƒƒãƒ•ã‚¡ã®åå‰ã‚’ Hot Keywords ã«ã—ãŸã€‚
 
-	* buffer ì¬ŠÖ”–¼‚Ì•ÏX‚É‘Î‰
+	* buffer ä½œæˆé–¢æ•°åã®å¤‰æ›´ã«å¯¾å¿œ
 
-	* ƒoƒbƒtƒ@‚Ì”÷–­‚Èˆá‚¢‚ğ page ˆø”‚Åw’è‰Â”\‚É‚µ‚½B
+	* ãƒãƒƒãƒ•ã‚¡ã®å¾®å¦™ãªé•ã„ã‚’ page å¼•æ•°ã§æŒ‡å®šå¯èƒ½ã«ã—ãŸã€‚
 
 	* should ignore *.lc and XTAGS
 
-	* - copyright ‚ğ 2008 ‚ÉXVB
-	  - README ‚É todo ‚ğ’Ç‰ÁB
+	* - copyright ã‚’ 2008 ã«æ›´æ–°ã€‚
+	  - README ã« todo ã‚’è¿½åŠ ã€‚
 
-	* (haiku-create-buffer): set-buffer-fold-width t (ƒEƒBƒ“ƒhƒE•‚ÅÜ‚è•Ô‚·)
+	* (haiku-create-buffer): set-buffer-fold-width t (ã‚¦ã‚£ãƒ³ãƒ‰ã‚¦å¹…ã§æŠ˜ã‚Šè¿”ã™)
 
-	* - keyword ƒoƒbƒtƒ@‚ÉF‚ğ‚Â‚¯‚½
-	  - local-window-flags ‚Ìİ’è‚ª‚¤‚Ü‚­‚¢‚Á‚Ä‚¢‚È‚©‚Á‚½‚Ì‚ğC³
+	* - keyword ãƒãƒƒãƒ•ã‚¡ã«è‰²ã‚’ã¤ã‘ãŸ
+	  - local-window-flags ã®è¨­å®šãŒã†ã¾ãã„ã£ã¦ã„ãªã‹ã£ãŸã®ã‚’ä¿®æ­£
 
-	* (setup-local-window-flags): ˆø”–¼‚ğ•ÏXB
+	* (setup-local-window-flags): å¼•æ•°åã‚’å¤‰æ›´ã€‚
 
-	* (render, remove-tag): recent.l ‚©‚ç base.l ‚ÉˆÚ“®B
+	* (render, remove-tag): recent.l ã‹ã‚‰ base.l ã«ç§»å‹•ã€‚
 
-	* (parse-link): ƒŠƒ“ƒN‚ğ‚Ä‚«‚Æ‚¤‚Éˆ—‚·‚é‚æ‚¤‚É‚µ‚½B
+	* (parse-link): ãƒªãƒ³ã‚¯ã‚’ã¦ãã¨ã†ã«å‡¦ç†ã™ã‚‹ã‚ˆã†ã«ã—ãŸã€‚
 
 2008-01-01  MIYAMUKO Katsuyuki
 
 	* (with-set-text-attribute): removed.
-	  (with-stdout-point-start-end): form Às‘OŒã‚Ì stdout ‚Ì point ‚ğ•Ô‚·B
-	  (render): stdout ‚Éo—Í‚·‚é‚Æ“¯‚É text-attribute ‚ğİ’è‚·‚éB
-	  (render-entry, render-title): render ‚ğg‚¤‚æ‚¤‚É‚µ‚½B
+	  (with-stdout-point-start-end): form å®Ÿè¡Œå‰å¾Œã® stdout ã® point ã‚’è¿”ã™ã€‚
+	  (render): stdout ã«å‡ºåŠ›ã™ã‚‹ã¨åŒæ™‚ã« text-attribute ã‚’è¨­å®šã™ã‚‹ã€‚
+	  (render-entry, render-title): render ã‚’ä½¿ã†ã‚ˆã†ã«ã—ãŸã€‚
 
-	* (render-title, render-entry): ƒ^ƒCƒgƒ‹‚ÆƒGƒ“ƒgƒŠ‚ÉF‚ğ•t‚¯‚Ä‚İ‚½B
+	* (render-title, render-entry): ã‚¿ã‚¤ãƒˆãƒ«ã¨ã‚¨ãƒ³ãƒˆãƒªã«è‰²ã‚’ä»˜ã‘ã¦ã¿ãŸã€‚
 
-	* (with-set-text-attribute): body ‚ğÀs‚µ‚Äo—Í‚³‚ê‚½•”•ª‚É set-text-attribute ‚·‚éB
+	* (with-set-text-attribute): body ã‚’å®Ÿè¡Œã—ã¦å‡ºåŠ›ã•ã‚ŒãŸéƒ¨åˆ†ã« set-text-attribute ã™ã‚‹ã€‚
 
-	* (haiku-entry-next-page, haiku-keyword-next-page): ‹¤’Ê•”•ª‚ğ haiku-next-page-base ‚É’Ç‚¢o‚µ‚½B
-	  (haiku-entry-next-line, haiku-keyword-next-line): ‹¤’Ê•”•ª‚ğ haiku-next-line-base ‚É’Ç‚¢o‚µ‚½B
+	* (haiku-entry-next-page, haiku-keyword-next-page): å…±é€šéƒ¨åˆ†ã‚’ haiku-next-page-base ã«è¿½ã„å‡ºã—ãŸã€‚
+	  (haiku-entry-next-line, haiku-keyword-next-line): å…±é€šéƒ¨åˆ†ã‚’ haiku-next-line-base ã«è¿½ã„å‡ºã—ãŸã€‚
 
-	* - (haiku-entry-next-or-previous-page): SPACE, Shift SPACE ‚ÅˆÚ“®B
-	    GetKeyState ‚Å Shift ‚Ìó‘Ô‚ğ’²‚×‚é•K—v‚ª‚ ‚éB
+	* - (haiku-entry-next-or-previous-page): SPACE, Shift SPACE ã§ç§»å‹•ã€‚
+	    GetKeyState ã§ Shift ã®çŠ¶æ…‹ã‚’èª¿ã¹ã‚‹å¿…è¦ãŒã‚ã‚‹ã€‚
 
-	* (html->txt, parse-br, parse-reply-to): –{•¶‚Ì HTML ‚ğ­‚µ‰ğÍB
+	* (html->txt, parse-br, parse-reply-to): æœ¬æ–‡ã® HTML ã‚’å°‘ã—è§£æã€‚
 
 	* insert-entries => haiku-insert-entries.
 
-	* C-v, C-n ‚ÅŸ‚Ìƒy[ƒW‚ğæ“¾‚·‚é‚æ‚¤‚É‚µ‚½B
+	* C-v, C-n ã§æ¬¡ã®ãƒšãƒ¼ã‚¸ã‚’å–å¾—ã™ã‚‹ã‚ˆã†ã«ã—ãŸã€‚
 
-	* ŠÖ”‚Ì•À‚Ñ‚ğ•ÏXB
+	* é–¢æ•°ã®ä¸¦ã³ã‚’å¤‰æ›´ã€‚
 
-	* (with-temporary-writable): ˆê“I‚É read-only ‚ğ‚Í‚¸‚·ƒ}ƒNƒBcvs.l ‚©‚ç—¬—pB
-	  (with-append-to-buffer): point-max ‚É with-output-to-buffer ‚·‚éƒ}ƒNƒB
+	* (with-temporary-writable): ä¸€æ™‚çš„ã« read-only ã‚’ã¯ãšã™ãƒã‚¯ãƒ­ã€‚cvs.l ã‹ã‚‰æµç”¨ã€‚
+	  (with-append-to-buffer): point-max ã« with-output-to-buffer ã™ã‚‹ãƒã‚¯ãƒ­ã€‚
 
-	* (recent-entries, recent-entries-following): page ˆø”‚Æ entries-only ˆø”‚ğæ‚é‚æ‚¤‚É‚µ‚½B
-	  (scrape-entries-users-and-keywords): entries-only ‚ª t ‚Ìê‡ user, keyword ‚Í‰ğÍ‚µ‚È‚¢B
+	* (recent-entries, recent-entries-following): page å¼•æ•°ã¨ entries-only å¼•æ•°ã‚’å–ã‚‹ã‚ˆã†ã«ã—ãŸã€‚
+	  (scrape-entries-users-and-keywords): entries-only ãŒ t ã®å ´åˆ user, keyword ã¯è§£æã—ãªã„ã€‚
 
 2007-12-31  MIYAMUKO Katsuyuki
 
-	* (hot-keyword-list-url): *hot-keyword-list-url* ‚ğ’¼Úg‚¤‚Ì‚ğ‚â‚ß‚½B
+	* (hot-keyword-list-url): *hot-keyword-list-url* ã‚’ç›´æ¥ä½¿ã†ã®ã‚’ã‚„ã‚ãŸã€‚
 
-	* ƒGƒ“ƒgƒŠƒy[ƒW‚Ì url ‚É :page ˆø”‚ğ’Ç‰ÁB
+	* ã‚¨ãƒ³ãƒˆãƒªãƒšãƒ¼ã‚¸ã® url ã« :page å¼•æ•°ã‚’è¿½åŠ ã€‚
 
 	* - keybind stub
 	  - new post window
-	  - ˆê•”‚ÌŠÖ”‚ğ util/window.l ‚ÉˆÚ“®
+	  - ä¸€éƒ¨ã®é–¢æ•°ã‚’ util/window.l ã«ç§»å‹•
 
-	* window ŠÖ˜A‚Ìƒ†[ƒeƒBƒŠƒeƒBB
+	* window é–¢é€£ã®ãƒ¦ãƒ¼ãƒ†ã‚£ãƒªãƒ†ã‚£ã€‚
 	    - setup-local-window-flags
 	    - split-window-left
 	    - split-window-right
@@ -872,19 +872,19 @@
 	    - bottom-windows
 	    - find-neighbour-windows
 
-	* (extract): maxscan ˆø”‚ğ’Ç‰ÁB
-	  (extract-one): :maxscan 1 ‚ğw’èB
+	* (extract): maxscan å¼•æ•°ã‚’è¿½åŠ ã€‚
+	  (extract-one): :maxscan 1 ã‚’æŒ‡å®šã€‚
 
-	* (map-scan-buffer): gmaxscan ‚¾‚¯‚Å§Œä‚·‚é‚æ‚¤‚É‚µ‚½B
+	* (map-scan-buffer): gmaxscan ã ã‘ã§åˆ¶å¾¡ã™ã‚‹ã‚ˆã†ã«ã—ãŸã€‚
 
-	* (scrape-one): :maxscan 1 ‚ğw’è‚µ‚Ä—]Œv‚È scan ‚ğ–h~B
-	  (map-scan-buffer): maxscan ˆø”‚ğæ‚é‚æ‚¤‚É‚µ‚½Bw’è‚³‚ê‚½”‚¾‚¯W‚Ü‚Á‚½‚ç scan ‚ğ’†~‚·‚éB
+	* (scrape-one): :maxscan 1 ã‚’æŒ‡å®šã—ã¦ä½™è¨ˆãª scan ã‚’é˜²æ­¢ã€‚
+	  (map-scan-buffer): maxscan å¼•æ•°ã‚’å–ã‚‹ã‚ˆã†ã«ã—ãŸã€‚æŒ‡å®šã•ã‚ŒãŸæ•°ã ã‘é›†ã¾ã£ãŸã‚‰ scan ã‚’ä¸­æ­¢ã™ã‚‹ã€‚
 
-	* (scrape-entries): parse-entries ŠÖ”‚ğ’Šo
+	* (scrape-entries): parse-entries é–¢æ•°ã‚’æŠ½å‡º
 
-	* entry ‚Ìƒ^ƒCƒgƒ‹‚ÆƒTƒuƒ^ƒCƒgƒ‹‚ğ•\¦‚·‚é‚æ‚¤‚É‚µ‚½B
+	* entry ã®ã‚¿ã‚¤ãƒˆãƒ«ã¨ã‚µãƒ–ã‚¿ã‚¤ãƒˆãƒ«ã‚’è¡¨ç¤ºã™ã‚‹ã‚ˆã†ã«ã—ãŸã€‚
 
-	* - (*entry-scrape-rule*): ³‹K•\Œ»‚ğƒpƒ‰ƒ[ƒ^‰»
+	* - (*entry-scrape-rule*): æ­£è¦è¡¨ç¾ã‚’ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿åŒ–
 	    *entry-username-regexp*
 	    *entry-permalink-and-timestamp-regexp*
 	    *entry-title-regexp*
@@ -893,9 +893,9 @@
 
 2007-12-30  MIYAMUKO Katsuyuki
 
-	* (delete-haiku-frame): select-pseudo-frame ‚Ííœ‚µ‚½‚Æ‚«‚Ì‚İÀs‚·‚éB
+	* (delete-haiku-frame): select-pseudo-frame ã¯å‰Šé™¤ã—ãŸã¨ãã®ã¿å®Ÿè¡Œã™ã‚‹ã€‚
 
-	* ˆÈ‰º‚ÌŠÖ”‚ğ ui/window.l ‚©‚ç util/window.l ‚ÉˆÚ“®B
+	* ä»¥ä¸‹ã®é–¢æ•°ã‚’ ui/window.l ã‹ã‚‰ util/window.l ã«ç§»å‹•ã€‚
 	  split-window-and-set-buffer
 	  show-buffer
 	  one-window-p
@@ -903,12 +903,12 @@
 	  all-buffer-has-window-p
 	  buffer-has-window-p
 
-	* split window ŠÖ˜A‚ğ’Ç‰ÁB
+	* split window é–¢é€£ã‚’è¿½åŠ ã€‚
 	  - haiku-split-left
 	  - haiku-split-right
 	  - haiku-split-bottom
 
-	* Window ŠÖ˜A‚Ìƒ†[ƒeƒBƒŠƒeƒB‚ğ’Ç‰ÁB
+	* Window é–¢é€£ã®ãƒ¦ãƒ¼ãƒ†ã‚£ãƒªãƒ†ã‚£ã‚’è¿½åŠ ã€‚
 	    - left-windows
 	    - right-windows
 	    - neighbour-windows
@@ -921,44 +921,44 @@
 	    - window-left-center
 	    - window-right-center
 
-	* (split-window-and-set-buffer): direction ‚ğƒL[ƒ[ƒh‚Åw’è‚·‚é‚æ‚¤‚É‚µ‚½B
+	* (split-window-and-set-buffer): direction ã‚’ã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰ã§æŒ‡å®šã™ã‚‹ã‚ˆã†ã«ã—ãŸã€‚
 
-	* (split-window-and-set-buffer): split ‚·‚é•”•ª‚ğ•ªŠ„
+	* (split-window-and-set-buffer): split ã™ã‚‹éƒ¨åˆ†ã‚’åˆ†å‰²
 
-	* (render-entry): entry ‚Ì•`‰æ‚ğ render-entry ŠÖ”‚É’Ç‚¢o‚µ‚½B
+	* (render-entry): entry ã®æç”»ã‚’ render-entry é–¢æ•°ã«è¿½ã„å‡ºã—ãŸã€‚
 
-	* - (split-window-and-set-buffer): ‚·‚×‚Ä‚Ì window ‚©‚ç‘S‘Ì‚Ì width ‚ğŒvZ‚·‚é‚æ‚¤‚É‚µA
-	    ‚»‚±‚©‚ç split ‚·‚é•‚ğ‹‚ß‚é‚æ‚¤‚É‚µ‚½B
-	    ‚·‚×‚Ä‚Ì window ‚©‚ç•‚ğ‹‚ß‚Ä‚¢‚é‚Ì‚Å refresh-screen ‚µ‚È‚¢‚Æ window-width ‚ª
-	    ‚¨‚©‚µ‚¢–â‘è‚Í‰ñ”ğ‚Å‚«‚éB
-	    ‚¿‚ç‚Â‚«‚Í‚©‚È‚è—}‚¦‚é‚±‚Æ‚ª‚Å‚«‚½‚¯‚ÇA‚Ü‚¾ˆêu‚¿‚ç‚Â‚­B
+	* - (split-window-and-set-buffer): ã™ã¹ã¦ã® window ã‹ã‚‰å…¨ä½“ã® width ã‚’è¨ˆç®—ã™ã‚‹ã‚ˆã†ã«ã—ã€
+	    ãã“ã‹ã‚‰ split ã™ã‚‹å¹…ã‚’æ±‚ã‚ã‚‹ã‚ˆã†ã«ã—ãŸã€‚
+	    ã™ã¹ã¦ã® window ã‹ã‚‰å¹…ã‚’æ±‚ã‚ã¦ã„ã‚‹ã®ã§ refresh-screen ã—ãªã„ã¨ window-width ãŒ
+	    ãŠã‹ã—ã„å•é¡Œã¯å›é¿ã§ãã‚‹ã€‚
+	    ã¡ã‚‰ã¤ãã¯ã‹ãªã‚ŠæŠ‘ãˆã‚‹ã“ã¨ãŒã§ããŸã‘ã©ã€ã¾ã ä¸€ç¬ã¡ã‚‰ã¤ãã€‚
 
-	* window ŠÖ˜A‚Ìƒ†[ƒeƒBƒŠƒeƒBB
+	* window é–¢é€£ã®ãƒ¦ãƒ¼ãƒ†ã‚£ãƒªãƒ†ã‚£ã€‚
 
-	* recent ƒy[ƒW‚ğ‚Æ‚è‚ ‚¦‚¸ì¬B
+	* recent ãƒšãƒ¼ã‚¸ã‚’ã¨ã‚Šã‚ãˆãšä½œæˆã€‚
 
-	* (*entry-scrape-rule*): ƒGƒ“ƒgƒŠ‚Ìƒ^ƒCƒgƒ‹‚àæ“¾‚·‚é‚æ‚¤‚É‚µ‚½B
+	* (*entry-scrape-rule*): ã‚¨ãƒ³ãƒˆãƒªã®ã‚¿ã‚¤ãƒˆãƒ«ã‚‚å–å¾—ã™ã‚‹ã‚ˆã†ã«ã—ãŸã€‚
 
 	* (lv, set-lv): add buffer utility.
 
-	* (create-haiku-frame): minibuffer •\¦’†‚Í new-pseudo-frame ‚ª¸”s‚·‚é‚Ì‚Å with-set-buffer ‚·‚éB
+	* (create-haiku-frame): minibuffer è¡¨ç¤ºä¸­ã¯ new-pseudo-frame ãŒå¤±æ•—ã™ã‚‹ã®ã§ with-set-buffer ã™ã‚‹ã€‚
 
 	* haiku-create-keywords-buffer => haiku-keywords-buffer
 
 2007-12-29  MIYAMUKO Katsuyuki
 
-	* C-v, C-n ‚ğ‚½‚ß‚µ‚É’è‹`
+	* C-v, C-n ã‚’ãŸã‚ã—ã«å®šç¾©
 
-	* (keyword-list-url): page ‚ª nil ‚Ü‚½‚Í 1 ˆÈ‰º‚È‚ç 1 ƒy[ƒW–Ú‚Ì url ‚ğ•Ô‚·B
-	  (keyword-list): page ‚ğˆø”‚É‚Æ‚é‚æ‚¤‚É‚µ‚½B
+	* (keyword-list-url): page ãŒ nil ã¾ãŸã¯ 1 ä»¥ä¸‹ãªã‚‰ 1 ãƒšãƒ¼ã‚¸ç›®ã® url ã‚’è¿”ã™ã€‚
+	  (keyword-list): page ã‚’å¼•æ•°ã«ã¨ã‚‹ã‚ˆã†ã«ã—ãŸã€‚
 
-	* (with-temporary-buffer): save-excursion, save-window-excursion ‚·‚é‚æ‚¤‚É‚µ‚½B
+	* (with-temporary-buffer): save-excursion, save-window-excursion ã™ã‚‹ã‚ˆã†ã«ã—ãŸã€‚
 
-	* keyword ˆê——‚ğ‚Æ‚è‚ ‚¦‚¸•\¦B
+	* keyword ä¸€è¦§ã‚’ã¨ã‚Šã‚ãˆãšè¡¨ç¤ºã€‚
 
-	* (setup-buffer): main-window-buffer ‚Íí‚É show-buffer
-	  (split-window-and-set-buffer): frame ‚ğ•Ï‚¦‚½ê‡‚à refresh-screen ‚µ‚È‚¢‚Æ‚¢‚¯‚È‚¢‚©‚çí‚É refresh-screen ‚µ‚Ä‚İ‚éB
-	  (show-buffer): with-set-buffer ‚ğg‚¤‚æ‚¤‚É‚µ‚½B
+	* (setup-buffer): main-window-buffer ã¯å¸¸ã« show-buffer
+	  (split-window-and-set-buffer): frame ã‚’å¤‰ãˆãŸå ´åˆã‚‚ refresh-screen ã—ãªã„ã¨ã„ã‘ãªã„ã‹ã‚‰å¸¸ã« refresh-screen ã—ã¦ã¿ã‚‹ã€‚
+	  (show-buffer): with-set-buffer ã‚’ä½¿ã†ã‚ˆã†ã«ã—ãŸã€‚
 
 2007-12-24  MIYAMUKO Katsuyuki
 
@@ -966,17 +966,17 @@
 
 	* add $
 
-	* V‹K“Še‚ğ“®‚­‚æ‚¤‚É‚µ‚½B
+	* æ–°è¦æŠ•ç¨¿ã‚’å‹•ãã‚ˆã†ã«ã—ãŸã€‚
 
-	* (recent-entries, recent-entries-following): “®‚­‚æ‚¤‚É‚µ‚½B
+	* (recent-entries, recent-entries-following): å‹•ãã‚ˆã†ã«ã—ãŸã€‚
 
-	* V‹K“Še‚Ü‚í‚è‚ğ’Ç‰ÁB–¢ƒeƒXƒgB
+	* æ–°è¦æŠ•ç¨¿ã¾ã‚ã‚Šã‚’è¿½åŠ ã€‚æœªãƒ†ã‚¹ãƒˆã€‚
 
-	* - (entry-url): /entry ‚ğ’Ç‰Á
+	* - (entry-url): /entry ã‚’è¿½åŠ 
 	  - uri => url
 
-	* - recent-entries, recent-entries-following ‚ğ’Ç‰Á
-	  - ŠÖ”–¼‚ğ‚¢‚ë‚¢‚ë•ÏX
+	* - recent-entries, recent-entries-following ã‚’è¿½åŠ 
+	  - é–¢æ•°åã‚’ã„ã‚ã„ã‚å¤‰æ›´
 
 	* exports.
 	    - keyword-entries
@@ -988,34 +988,34 @@
 
 	* xxx-keywords => xxx-keyword-list.
 
-	* url ‚ğì‚éŠÖ”‚ğ endpoint.l ‚ÉˆÚ“®B
+	* url ã‚’ä½œã‚‹é–¢æ•°ã‚’ endpoint.l ã«ç§»å‹•ã€‚
 
-	* ƒ†[ƒUƒy[ƒWA‚¨‘èƒy[ƒW‚Ì scrape ‚ª‚Å‚«‚½
+	* ãƒ¦ãƒ¼ã‚¶ãƒšãƒ¼ã‚¸ã€ãŠé¡Œãƒšãƒ¼ã‚¸ã® scrape ãŒã§ããŸ
 
-	* (force): •]‰¿Œã‚ÌŒ‹‰Ê‚ğ closure ‚É•Â‚¶‚ß‚é‚æ‚¤‚É‚µ‚½B
+	* (force): è©•ä¾¡å¾Œã®çµæœã‚’ closure ã«é–‰ã˜è¾¼ã‚ã‚‹ã‚ˆã†ã«ã—ãŸã€‚
 
-	* (scrape-entries): url ‚Å‚Í‚È‚­“à—e‚ğˆø”‚Éæ‚é‚æ‚¤‚É‚µ‚½
+	* (scrape-entries): url ã§ã¯ãªãå†…å®¹ã‚’å¼•æ•°ã«å–ã‚‹ã‚ˆã†ã«ã—ãŸ
 
 	* (parse-entry): no need to delay.
 
-	* - (extract): open, end ‚ÉƒŠƒXƒg‚ğw’è‚Å‚«‚é‚æ‚¤‚É‚µ‚½B
-	  - (preprocess-regexp): •s³‚È keyword ‚Í type-errorB
+	* - (extract): open, end ã«ãƒªã‚¹ãƒˆã‚’æŒ‡å®šã§ãã‚‹ã‚ˆã†ã«ã—ãŸã€‚
+	  - (preprocess-regexp): ä¸æ­£ãª keyword ã¯ type-errorã€‚
 
-	* - (define-scraper): scrape ‚Ì³‹K•\Œ»‚ÉƒŠƒXƒg‚ğw’è‰Â”\‚É‚µ‚½B
-	  - (preprocess-regexp): ƒŠƒXƒg’†‚Ì :sp ‚ğ [ \t\r\f\n]+ ‚É’uŠ·‚·‚é‚æ‚¤‚É‚µ‚½B
+	* - (define-scraper): scrape ã®æ­£è¦è¡¨ç¾ã«ãƒªã‚¹ãƒˆã‚’æŒ‡å®šå¯èƒ½ã«ã—ãŸã€‚
+	  - (preprocess-regexp): ãƒªã‚¹ãƒˆä¸­ã® :sp ã‚’ [ \t\r\f\n]+ ã«ç½®æ›ã™ã‚‹ã‚ˆã†ã«ã—ãŸã€‚
 
-	* - keyword-entries ‚ğ entry.l ‚©‚ç keyword.l ‚ÉˆÚ“®B
-	  - entry.l ‚Í keywords.l, user.l ‚È‚Ç‚©‚çg‚í‚ê‚éƒ†[ƒeƒBƒŠƒeƒB
+	* - keyword-entries ã‚’ entry.l ã‹ã‚‰ keyword.l ã«ç§»å‹•ã€‚
+	  - entry.l ã¯ keywords.l, user.l ãªã©ã‹ã‚‰ä½¿ã‚ã‚Œã‚‹ãƒ¦ãƒ¼ãƒ†ã‚£ãƒªãƒ†ã‚£
 
-	* - url ‚ÍƒL[ƒ[ƒh‚©‚ç‹‚ß‚é‚±‚Æ‚ª‚Å‚«‚é‚Ì‚Å scrape ‚µ‚È‚¢‚æ‚¤‚É‚µ‚½B
+	* - url ã¯ã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰ã‹ã‚‰æ±‚ã‚ã‚‹ã“ã¨ãŒã§ãã‚‹ã®ã§ scrape ã—ãªã„ã‚ˆã†ã«ã—ãŸã€‚
 	  - remove debug code.
 
-	* (with-multiline-regexp-buffer-if): restore ˆø”‚ğ keyword ˆø”‚É‚µ‚½B
+	* (with-multiline-regexp-buffer-if): restore å¼•æ•°ã‚’ keyword å¼•æ•°ã«ã—ãŸã€‚
 
-	* main.l ‚ğ keywords.l, endpoint.l entry.l ‚É•ªŠ„
+	* main.l ã‚’ keywords.l, endpoint.l entry.l ã«åˆ†å‰²
 
-	* - array ‚ªˆÓ–¡‚ª‚È‚©‚Á‚½
-	  - hash-table ‚ğ‚â‚ß‚Ä alist ‚ğƒ}[ƒW‚·‚é‚æ‚¤‚É‚µ‚½
+	* - array ãŒæ„å‘³ãŒãªã‹ã£ãŸ
+	  - hash-table ã‚’ã‚„ã‚ã¦ alist ã‚’ãƒãƒ¼ã‚¸ã™ã‚‹ã‚ˆã†ã«ã—ãŸ
 
 	* exports.
 	    - with-gensyms
@@ -1025,32 +1025,32 @@
 	    - save-match-data
 	    - map-scan-buffer
 
-	* (with-multiline-regexp-buffer-if): í‚É multiline mode ‚É‚È‚Á‚Ä‚¢‚½ƒoƒO‚ğC³
+	* (with-multiline-regexp-buffer-if): å¸¸ã« multiline mode ã«ãªã£ã¦ã„ãŸãƒã‚°ã‚’ä¿®æ­£
 
 	* (force): should return forced enclosure.
 
 	* fixed wrong group index
 
-	* ³‹K•\Œ»‚â rule ‚ğ defparameter ‰»‚µ‚½
+	* æ­£è¦è¡¨ç¾ã‚„ rule ã‚’ defparameter åŒ–ã—ãŸ
 
-	* (scrape): ³‹K•\Œ»‚²‚Æ‚Éƒoƒbƒtƒ@‚Ìæ“ª‚ÉˆÚ“®‚·‚×‚«B
+	* (scrape): æ­£è¦è¡¨ç¾ã”ã¨ã«ãƒãƒƒãƒ•ã‚¡ã®å…ˆé ­ã«ç§»å‹•ã™ã¹ãã€‚
 
 2007-12-23  MIYAMUKO Katsuyuki
 
 	* hatena haiku frame
 
-	* - ƒAƒiƒtƒHƒŠƒbƒNƒ}ƒNƒ‚Ì it ‚Í export ‚µ‚È‚¢‚Æˆá‚¤ƒpƒbƒP[ƒW‚Åg‚¦‚È‚¢B
-	  - it ‚ğ _it_ ‚É‚µ‚½B
+	* - ã‚¢ãƒŠãƒ•ã‚©ãƒªãƒƒã‚¯ãƒã‚¯ãƒ­ã® it ã¯ export ã—ãªã„ã¨é•ã†ãƒ‘ãƒƒã‚±ãƒ¼ã‚¸ã§ä½¿ãˆãªã„ã€‚
+	  - it ã‚’ _it_ ã«ã—ãŸã€‚
 
-	* ƒAƒiƒtƒHƒŠƒbƒNƒ}ƒNƒ
+	* ã‚¢ãƒŠãƒ•ã‚©ãƒªãƒƒã‚¯ãƒã‚¯ãƒ­
 
-	* ƒpƒbƒP[ƒW–¼•ÏX: hatena-haiku-mode.* => hatena-haiku.*
+	* ãƒ‘ãƒƒã‚±ãƒ¼ã‚¸åå¤‰æ›´: hatena-haiku-mode.* => hatena-haiku.*
 
-	* ƒpƒbƒP[ƒW‚ğ•ªŠ„
+	* ãƒ‘ãƒƒã‚±ãƒ¼ã‚¸ã‚’åˆ†å‰²
 
 2007-12-22  MIYAMUKO Katsuyuki
 
-	* (define-scraper): scrape ƒ‹[ƒ‹‚ğ\‘¢‘Ì‚Æ DSL ‚Å’è‹`‚·‚é‚æ‚¤‚É‚µ‚½B
+	* (define-scraper): scrape ãƒ«ãƒ¼ãƒ«ã‚’æ§‹é€ ä½“ã¨ DSL ã§å®šç¾©ã™ã‚‹ã‚ˆã†ã«ã—ãŸã€‚
 
 	* (multiline-match-string): should save match data.
 	  (save-match-data): wrapper macro for match-data/store-match-data.
@@ -1063,7 +1063,7 @@
 
 2007-12-19  MIYAMUKO Katsuyuki
 
-	* ‚Æ‚è‚ ‚¦‚¸ scrape ‚·‚é‚Æ‚±‚¾‚¯B
+	* ã¨ã‚Šã‚ãˆãš scrape ã™ã‚‹ã¨ã“ã ã‘ã€‚
 
-	* hatena-haiku-mode ì¬ŠJn
+	* hatena-haiku-mode ä½œæˆé–‹å§‹
 

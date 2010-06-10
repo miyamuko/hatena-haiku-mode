@@ -2,251 +2,251 @@
 
 === 2009-04-09 / 0.3.2
 
-hatena-haiku-mode 0.3.2 �����[�X!
+hatena-haiku-mode 0.3.2 リリース!
 
-: �V�K�@�\
+: 新規機能
 
-    * recent �y�[�W�œ��e�o�b�t�@���J���Ƃ��̓J�[�\�����̃L�[���[�h��
-      �f�t�H���g�ŕ\������悤�ɂ���
+    * recent ページで投稿バッファを開くときはカーソル下のキーワードを
+      デフォルトで表示するようにした
 
-: ��݊����܂ޕύX�_
+: 非互換を含む変更点
 
-    * �Ȃ�
+    * なし
 
-: �o�O�C��
+: バグ修正
 
-    * keyword �� id:foo �̏ꍇ�A�^�C�g�������Ȃ������̂��C��
+    * keyword が id:foo の場合、タイトルが取れなかったのを修正
 
-    * id:xxx �n�܂�L�[���[�h�i�����ǂ͂Ă� ID �ł͂Ȃ��j�y�[�W��
-      ���������\���ł��Ă��Ȃ����������C��
+    * id:xxx 始まるキーワード（だけどはてな ID ではない）ページが
+      が正しく表示できていなかった問題を修正
 
-    * from ���Ȃ��ꍇ�� from nil �ƕ\�����Ă��܂������C��
+    * from がない場合に from nil と表示してしまう問題を修正
 
-    * 1 �y�[�W�ڂ� 2 �񃍁[�h���Ă����̂��C��
+    * 1 ページ目を 2 回ロードしていたのを修正
 
-: ���̑�
+: その他
 
-    * �Ȃ�
+    * なし
 
 
 === 2009-04-07 / 0.3.1
 
-hatena-haiku-mode 0.3.1 �����[�X!
+hatena-haiku-mode 0.3.1 リリース!
 
-: �V�K�@�\
+: 新規機能
 
-    * D �ŃJ�[�\�����̃G���g�����폜�ł���悤�ɂ���
-      (������񎩕��œ��e�����G���g���̂�)�B
+    * D でカーソル下のエントリを削除できるようにした
+      (もちろん自分で投稿したエントリのみ)。
 
-    * ���e���̃N���C�A���g�� (from ��) ��\������悤�ɂ����B
+    * 投稿時のクライアント名 (from 欄) を表示するようにした。
 
-    * ���e���̃N���C�A���g�� (from ��) ��ݒ�ł���悤�ɂ����B
-      * ((<*haiku-default-source*>)) �Őݒ�\ (�f�t�H���g�� hatena-haiku-mode)
-      * C-u C-c C-c �œ��e����Ƃ��̏�Ŏw��\
+    * 投稿時のクライアント名 (from 欄) を設定できるようにした。
+      * ((<*haiku-default-source*>)) で設定可能 (デフォルトは hatena-haiku-mode)
+      * C-u C-c C-c で投稿するとその場で指定可能
 
-    * ���e�o�b�t�@�̍����̔䗦 (0-1) ���w��ł���悤�ɂ����B
-      * ((<*haiku-post-buffer-height-ratio*>)) �Őݒ�\ (�f�t�H���g�� 0.3 = 30%)
+    * 投稿バッファの高さの比率 (0-1) を指定できるようにした。
+      * ((<*haiku-post-buffer-height-ratio*>)) で設定可能 (デフォルトは 0.3 = 30%)
 
-    * ���e��Ɏ����I�Ƀ����[�h����悤�ɂ����B
+    * 投稿後に自動的にリロードするようにした。
 
-: ��݊����܂ޕύX�_
+: 非互換を含む変更点
 
-    * �Ȃ�
+    * なし
 
-: �o�O�C��
+: バグ修正
 
-    * �G���g���{���̑O��̖��ʂȋ󔒂��폜����悤�ɂ����B
+    * エントリ本文の前後の無駄な空白を削除するようにした。
 
-    * �֘A�L�[���[�h���Ȃ��y�[�W���ƕ��ʂ̃L�[���[�h�ꗗ��ǂݍ���ł��܂��Ă���
-      �����C��
+    * 関連キーワードがないページだと普通のキーワード一覧を読み込んでしまっていた
+      問題を修正
 
-: ���̑�
+: その他
 
-    * �Ȃ�
+    * なし
 
 
 === 2008-07-12 / 0.2.3
 
-hatena-haiku-mode 0.2.3 �����[�X!
+hatena-haiku-mode 0.2.3 リリース!
 
-: �V�K�@�\
+: 新規機能
 
-    * �Ȃ�
+    * なし
 
-: ��݊����܂ޕύX�_
+: 非互換を含む変更点
 
-    * �Ȃ�
+    * なし
 
-: �o�O�C��
+: バグ修正
 
-    * �Ȃ�
+    * なし
 
-: ���̑�
+: その他
 
-    * ���C�Z���X�t�@�C���𓯍�
+    * ライセンスファイルを同梱
 
 
 === 2008-03-09 / 0.2.2
 
-hatena-haiku-mode 0.2.2 �����[�X!
+hatena-haiku-mode 0.2.2 リリース!
 
-: �V�K�@�\
+: 新規機能
 
-    * �Ȃ�
+    * なし
 
-: ��݊����܂ޕύX�_
+: 非互換を含む変更点
 
-    * hatena-haiku-mode-version �� hatena-haiku.ui �p�b�P�[�W����
-      hatena-haiku.api �p�b�P�[�W�Ɉړ�
+    * hatena-haiku-mode-version を hatena-haiku.ui パッケージから
+      hatena-haiku.api パッケージに移動
 
-: �o�O�C��
+: バグ修正
 
-    * YouTube �� HTML ���\������Ă��܂������C��
+    * YouTube の HTML が表示されてしまう問題を修正
 
-: ���̑�
+: その他
 
-    * �Ǝ��� User-Agent �𑗐M����悤�ɂ���
+    * 独自の User-Agent を送信するようにした
 
-    * ���̕`�����̃R�[�h���ꕔ hatena-star �Ɉړ�
-      * hatena-star 1.1.0 �ȏオ�K�v�ł��B
+    * ☆の描画周りのコードを一部 hatena-star に移動
+      * hatena-star 1.1.0 以上が必要です。
 
 
 === 2008-03-06 / 0.2.1
 
-hatena-haiku-mode 0.2.1 �����[�X!
+hatena-haiku-mode 0.2.1 リリース!
 
-: �V�K�@�\
+: 新規機能
 
-   * �j�R�j�R����� HTML �^�O�̏����ɑΉ�
+   * ニコニコ動画の HTML タグの除去に対応
      * ((<URL:http://d.hatena.ne.jp/hatenahaiku/20080305/1204713785>))
 
-   * Recent �y�[�W���� Following ���폜���ꂽ�̂őΉ�
+   * Recent ページから Following が削除されたので対応
      * ((<URL:http://d.hatena.ne.jp/hatenahaiku/20080304/1204619327>))
 
-   * �͂ĂȃX�^�[�̕`������S�ɔ񓯊��ɂ��đ҂����Ԃ��Ȃ������B
+   * はてなスターの描画を完全に非同期にして待ち時間をなくした。
 
-: ��݊����܂ޕύX�_
+: 非互換を含む変更点
 
-    * �Ȃ�
+    * なし
 
-: �o�O�C��
+: バグ修正
 
-    * ���s���܂܂Ȃ������G���g���̂��߂� C-n, C-p, C-a, C-e �� virtual line �n�ɂ���
+    * 改行を含まない長文エントリのために C-n, C-p, C-a, C-e を virtual line 系にした
 
-    * hot keyword �̎擾���� If-Modified-Since �����ĂȂ������̂��C��
+    * hot keyword の取得時に If-Modified-Since をつけてなかったのを修正
 
-    * �L�[���[�h�ꗗ�Ȃǂ� h d �������ăG���[�ɂȂ��Ă��܂��̂��C��
+    * キーワード一覧などで h d が動いてエラーになってしまうのを修正
 
 
-=== 2008-03-03 / 0.2.0 / �ЂȂ܂�
+=== 2008-03-03 / 0.2.0 / ひなまつり
 
-hatena-haiku-mode 0.2.0 �����[�X!
+hatena-haiku-mode 0.2.0 リリース!
 
-: �V�K�@�\
+: 新規機能
 
-    * H �Ńz�b�g�L�[���[�h��\��
+    * H でホットキーワードを表示
 
-    * h d �ŃJ�[�\�����̃��[�U�̂͂Ăȃ_�C�A�����J��
-      * h a �� �͂ĂȃA���e�i
-      * h b �� �͂Ăȃu�b�N�}�[�N
-      * h f �� �͂Ăȃt�H�g���C�t
-      * h g �� �͂ĂȃO���[�v
-      * h h �� �͂Ăȃn�C�N
-      * h i �� �͂ĂȃA�C�f�A
-      * h m �� �͂Ăȃ}�b�v
-      * h q �� �͂ĂȃN�G�X�`����
-      * h r �� �͂Ă� RSS
-      * h s �� �͂ĂȃX�^�[
-      * h w �� �͂Ăȃ��[���h
-      * h G �� �͂ĂȃO���t
+    * h d でカーソル下のユーザのはてなダイアリを開く
+      * h a → はてなアンテナ
+      * h b → はてなブックマーク
+      * h f → はてなフォトライフ
+      * h g → はてなグループ
+      * h h → はてなハイク
+      * h i → はてなアイデア
+      * h m → はてなマップ
+      * h q → はてなクエスチョン
+      * h r → はてな RSS
+      * h s → はてなスター
+      * h w → はてなワールド
+      * h G → はてなグラフ
 
-    * �F��ݒ�ł���悤�ɂ���
+    * 色を設定できるようにした
 
-    * �F���܂������g��Ȃ��悤�ɐݒ�ł���悤�ɂ���
-      (�h��ȉ�ʂ��ƂȂ����s���������l����)
+    * 色をまったく使わないように設定できるようにした
+      (派手な画面だとなぜか都合が悪い人向け)
 
-    * ���̃����_�����O�O�Ɉ�x�`�悵�đ̊����x������B
-      ���̓s���ŃJ�[�\���̉�����������
-      (�Ƃ��ǂ��J�[�\�����W�����v����̂ŉ���������ƋC�ɂȂ�j
+    * ☆のレンダリング前に一度描画して体感速度を向上。
+      その都合でカーソルの下線を消した
+      (ときどきカーソルがジャンプするので下線があると気になる）
 
-    * �L�[���[�h�ꗗ�ł̎��y�[�W���[�h�̃^�C�~���O��ύX
+    * キーワード一覧での次ページロードのタイミングを変更
 
-: ��݊����܂ޕύX�_
+: 非互換を含む変更点
 
-    * �Ȃ�
+    * なし
 
-: �o�O�C��
+: バグ修正
 
-    * �L�[���[�h�ꗗ�Ŏ��̃y�[�W���Ȃ��ꍇ�ł����[�h���J��Ԃ��Ă��܂������C���B
+    * キーワード一覧で次のページがない場合でもロードを繰り返してしまう問題を修正。
 
 
 === 2008-02-24 / 0.1.0
 
-hatena-haiku-mode 0.1.0 �����[�X!
+hatena-haiku-mode 0.1.0 リリース!
 
-: �V�K�@�\
+: 新規機能
 
-    * S �ł͂ĂȃX�^�[���G���g���ɕt����
+    * S ではてなスターをエントリに付ける
 
-    * z �Ńn�C�N�o�b�t�@���ꎞ�I�ɔ�\���ɂ��� (�{�X���������[�h)
-      * M-x haiku-show �ŕ��A�ł��܂��B
+    * z でハイクバッファを一時的に非表示にする (ボスが来たモード)
+      * M-x haiku-show で復帰できます。
 
-: ��݊����܂ޕύX�_
+: 非互換を含む変更点
 
-    * �Ȃ�
+    * なし
 
-: �o�O�C��
+: バグ修正
 
-    * �L�[���[�h���X�g�ŃG���g�������\������Ă��Ȃ��L�[���[�h���擾�ł���
-      ���Ȃ������̂��C��
+    * キーワードリストでエントリ数が表示されていないキーワードを取得できて
+      いなかったのを修正
 
-    * �V�K���e�ƕԐM�������Ȃ��Ȃ��Ă����̂��C��
+    * 新規投稿と返信が動かなくなっていたのを修正
 
 
 === 2008-01-22 / 0.0.3
 
-hatena-haiku-mode 0.0.3 �����[�X!
+hatena-haiku-mode 0.0.3 リリース!
 
-: �V�K�@�\
+: 新規機能
 
-    * �֘A�L�[���[�h�@�\�ɑΉ��B
+    * 関連キーワード機能に対応。
       http://d.hatena.ne.jp/hatenahaiku/20080120/1200796608
 
-: ��݊����܂ޕύX�_
+: 非互換を含む変更点
 
-    * �Ȃ�
+    * なし
 
-: �o�O�C��
+: バグ修正
 
-    * �Ȃ�
+    * なし
 
 
 === 2008-01-21 / 0.0.2
 
-hatena-haiku-mode 0.0.2 �����[�X!
+hatena-haiku-mode 0.0.2 リリース!
 
-: �V�K�@�\
+: 新規機能
 
-    * M �Ŏ����� following ��\���B
-    * / �ł̃L�[���[�h�����͑S�o�b�t�@�Ŏ��s�ł���悤�ɂ����B
-    * �q�X�g���̈ړ����̓L���b�V�����g���悤�ɂ����B
-    * C-n, C-v �ł̎������[�h�̃^�C�~���O��ύX�B
-      �ړ�������Ƀy�[�W�̍Ōオ�����Ă���Ώ���Ƀ��[�h����B
-    * j, k �ňړ�����Ƃ��Ɍ��݂̃J�[�\���s�͈ړ����Ȃ��悤�ɂ����B
-
-
-: ��݊����܂ޕύX�_
-
-    * �Ȃ�
-
-: �o�O�C��
-
-    * �G���g�����Ȃ��y�[�W�Ń^�C�g�����\������Ȃ������C���B
-    * ���[�U�� profile �y�[�W�Ȃ� subtitle ���Ȃ��ꍇ�Ƀ^�C�g�����\������Ȃ������C���B
+    * M で自分の following を表示。
+    * / でのキーワード検索は全バッファで実行できるようにした。
+    * ヒストリの移動時はキャッシュを使うようにした。
+    * C-n, C-v での自動ロードのタイミングを変更。
+      移動した後にページの最後が見えていれば勝手にロードする。
+    * j, k で移動するときに現在のカーソル行は移動しないようにした。
 
 
-=== 2008-01-14 / 0.0.1 / ���l�̓�
+: 非互換を含む変更点
 
-hatena-haiku-mode 0.0.1 �����[�X!
+    * なし
+
+: バグ修正
+
+    * エントリがないページでタイトルが表示されない問題を修正。
+    * ユーザの profile ページなど subtitle がない場合にタイトルが表示されない問題を修正。
+
+
+=== 2008-01-14 / 0.0.1 / 成人の日
+
+hatena-haiku-mode 0.0.1 リリース!
 
 =end
