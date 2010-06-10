@@ -143,6 +143,8 @@
   ('(#\h #\w) 'open-hatena-world-by-browser)
   ('(#\h #\h) 'open-hatena-haiku-by-browser)
   ('(#\h #\G) 'open-hatena-graph-by-browser)
+
+  (#\MouseMove 'hatena-star-mouse-lookup)
   )
 
 (define-keymap *haiku-keyword-entry-map* (copy-keymap *haiku-entry-base-map*)
