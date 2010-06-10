@@ -27,5 +27,4 @@ files:
     - site-lisp/hatena-haiku-mode/docs/**/*
     - site-lisp/hatena-haiku-mode/src/**/*.*
   exclude:
-    - site-lisp/hatena-haiku-mode-scratch.l
     - site-lisp/hatena-haiku-mode/tests/*.*
