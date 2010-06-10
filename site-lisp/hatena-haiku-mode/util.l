@@ -15,6 +15,7 @@
 (eval-when (:compile-toplevel :load-toplevel :execute)
   (require "hatena-haiku-mode/util/whitespace")
   (require "hatena-haiku-mode/util/sequence")
+  (require "hatena-haiku-mode/util/function")
   (require "hatena-haiku-mode/util/string")
   (require "hatena-haiku-mode/util/encode")
   (require "hatena-haiku-mode/util/html")

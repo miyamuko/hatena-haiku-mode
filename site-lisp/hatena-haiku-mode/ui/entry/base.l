@@ -228,8 +228,8 @@
   (when stars
     (goto-eol)
     (set-stream-point)
-    (render " ~A" (hatena-star-stars-to-string stars)
-            `(:star ,stars) *haiku-star-color*)
+    (render " ")
+    (hatena-star-stars-write stars :tag `(:star ,stars))
     ))
 
 (defun parse-body (body)
@@ -251,14 +251,26 @@
   (with-multiline-regexp-string (str)
     (reduce #'(lambda (str pair)
                 (substitute-string str (car pair) (cadr pair)))
-            '(("<a [^<>]+><img src=\"\\(.+?\\)\"[^<>]*?/?></a>" "\\1")
+            '(;; fotolife の画像を直接リンクして張り付けた場合
+              ;; 直リンはブラウザで開けないので書き換える
+              ("<a href=\"http://\\(?:img.\\)f.hatena.ne.jp/images/fotolife/[^/]+/\\([^/]+\\)/[^/]+/\\([^./]+\\).*?\"><img.*?</a>"
+               "http://f.hatena.ne.jp/\\1/\\2")
+              ;; f:id 記法で埋め込み
+              ("<a href=\"\\(http://f.hatena.ne.jp/.+?\\)\"><img.*?</a>" "\\1")
+              ;; fotolife 以外の画像
+              ("<a [^<>]+><img src=\"\\(.+?\\)\"[^<>]*?/?></a>" "\\1")
+              ;; 普通のリンク
               ("<a href=\"\\(.*?\\)\"[^<>]*>\\(.*?\\)</a>" "\\2")
+              ;; youtube
               ("<div class=\"video-body\">.*?<embed src=\"\\(.*?\\)\".*?</div>" "\\1")
               ("http://www.youtube.com/v/\\([a-zA-Z0-9]+\\)" "http://www.youtube.com/watch?v=\\1")
-              ("<div id=\"nicovideo-.*?\"></div>" "")
-              ("<script type=\"text/javascript\" src=\"http://www.nicovideo.jp/thumb_watch/\\(.*?\\)\".*?</script>"
+              ;; ニコニコ動画
+              ("<div id=\"nicovideo.*?\"></div>" "")
+              ("<script type=\"text/javascript\" src=\"http://www.nicovideo.jp/thumb_watch/\\([^?]+\\).*?</script>"
                "http://www.nicovideo.jp/watch/\\1")
               ("<script type=\"text/javascript\">.*?</script>" "")
+              ;; 音声埋め込み
+              ("<span style=\"vertical-align:middle;\">.*?\"mp3Url=\\(.*?\\)\".*?</span>" "\\1")
               )
             :initial-value str)))
 
@@ -337,7 +349,6 @@
           (quote (or (current-entry-selection-string)
                      (current-entry-region-string))))
       (flet ((starbacks (r)
-               (haiku-star-done)
                (cond ((null r)
                       (message "スター失敗!"))
                      ((null quote)

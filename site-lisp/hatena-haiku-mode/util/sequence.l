@@ -4,7 +4,7 @@
 ;;;;
 ;;;; License:
 ;;;;
-;;;;   Copyright (c) 2008 MIYAMUKO Katsuyuki.
+;;;;   Copyright (c) 2008-2009 MIYAMUKO Katsuyuki.
 ;;;;
 ;;;;   hatena-haiku-mode is released under an MIT license.
 ;;;;   See hatena-haiku-mode/docs/MIT-LICENSE for full license.
@@ -17,6 +17,7 @@
 (in-package :hatena-haiku.util)
 
 (export '(append1
+          last1
           compact
           subseq-if
           subseq-before
@@ -31,6 +32,9 @@
   (if item
       (append lst (list item))
     lst))
+
+(defun last1 (lst)
+  (car (last lst)))
 
 (defun compact (lst)
   (remove-if #'null lst))
@@ -69,7 +73,6 @@
 
 (defun mapalist (fn alist)
   (mapcar #'(lambda (pair)
-              (msgbox "~S" pair)
               (funcall fn (car pair) (cdr pair)))
           alist))
 

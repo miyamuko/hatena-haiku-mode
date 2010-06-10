@@ -1,3 +1,39 @@
+2009-07-02  MIYAMUKO Katsuyuki
+
+	* http://img.f.hatena.ne.jp/images/fotolife/x/xxx という URL に対応
+
+2009-04-23  MIYAMUKO Katsuyuki
+
+	* カラースターに対応。
+	  ★のレンダリングを hatena-star.ui を使って行うようにした。
+	  hatena-star 1.2.0 以上が必要。
+
+	* (mapalist): remove debug code
+
+2009-04-20  MIYAMUKO Katsuyuki
+
+	* fotolife の画像を直リンしないようにした。
+
+	* ニコニコ動画の埋め込み HTML が表示されていたのを修正
+
+	* 音声の埋め込み HTML が表示されていたのを修正
+
+2009-04-14  MIYAMUKO Katsuyuki
+
+	* (haiku-star-done): haiku-star-add-star の callback にはスターが指定されるので引数を追加
+
+2009-04-12  MIYAMUKO Katsuyuki
+
+	* (haiku-add-star-entry): compose を使うようにした。
+	  スター中にもう一度 S を押すと、進捗メッセージを表示するようにした
+
+	* (last1, compose): on lisp からユーティリティを追加
+
+2009-04-10  MIYAMUKO Katsuyuki
+
+	* haiku! を直接使った場合でも source が未設定の場合は
+	  "hatena-haiku-mode" を設定するようにした。
+
 2009-04-09  MIYAMUKO Katsuyuki
 
 	* hatena-haiku-mode 0.3.2 released!

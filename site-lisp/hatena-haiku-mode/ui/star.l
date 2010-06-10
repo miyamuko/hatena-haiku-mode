@@ -54,10 +54,11 @@
 (defun haiku-star-start ()
   (incf *haiku-star-working-count*))
 
-(defun haiku-star-done ()
+(defun haiku-star-done (r)
   (decf *haiku-star-working-count*)
   (when (minusp *haiku-star-working-count*)
-    (setf *haiku-star-working-count* 0)))
+    (setf *haiku-star-working-count* 0))
+  r)
 
 (defun haiku-star-entries-future (&optional permalinks)
   (with-if-modified-since-unix-epoch
@@ -71,7 +72,7 @@
       (when rks (store-rks rks))
       (mapcar #'(lambda (entry)
                   (cons (url-path (hatena-star-entry-uri entry))
-                        (hatena-star-entry-stars entry)))
+                        entry))
               entries))))
 
 (defun haiku-add-star-entry (permalink title quote &optional callback)
@@ -84,7 +85,7 @@
                                 :title title
                                 :quote quote
                                 :nomsg t
-                                :callback callback)
+                                :callback (compose callback 'haiku-star-done))
            ))
     (case *haiku-star-mode*
       (:exceed
@@ -94,8 +95,9 @@
            (msgbox "☆の付けすぎです。自重してください。")
          (star-later!)))
       (t
-       (when (<= *haiku-star-working-count* 0)
-         (star-later!)))
+       (if (<= *haiku-star-working-count* 0)
+           (star-later!)
+         (haiku-star-progress-message)))
       )))
 
 

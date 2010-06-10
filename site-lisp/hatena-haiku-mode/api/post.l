@@ -31,14 +31,14 @@
   (haiku-http-post (new-entry-url)
                    `(:word ,word :body ,body
                      :rkm ,(or rkm (hatena-rkm))
-                     :source ,source
+                     :source ,(or source (hatena-haiku-mode-name))
                      )))
 
 (defun haiku-reply! (reply-to body &key rkm source)
   (haiku-http-post (new-entry-url)
                    `(:reply_to ,reply-to :body ,body
                      :rkm ,(or rkm (hatena-rkm))
-                     :source ,source
+                     :source ,(or source (hatena-haiku-mode-name))
                      )))
 
 (defun haiku-delete! (entry-id &key rks)
